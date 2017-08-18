@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Higher Logic Pattern Portfolio - Accessibility and the Development Process</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+<!--script src="js/less-1.3.3.min.js"></script-->
+<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+</head>
+<body>
+<div class="container HLdocs-container">
+<br>
+<h1>Higher Logic Pattern Portfolio</h1>
+<ol class="breadcrumb">
+  <li><a href="index_patternPortfolio.html">Home</a></li>
+  <li class="active">Accessibility & the Development Process</li>
+</ol>
+<div class="row">
+  <div class="col-md-12">
+    <h2> Accessibility & the Development Process </h2>
+    <p>To ensure we're developing with accessibility in mind, each of us should understand the WCAG guidelines and techniques for conformance. For each project, validate your code and make changes accordingly so when it's sent to QA it's pre-verified as compliant.  QA, as part of their process, will also validate it and if it doesn't pass, it goes back for revision.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h3> 1. Familiarize yourself with the conformance guidelines in WCAG 2.0</h3>
+    <div class="indent1">
+      <p>Below is the list of guidelines and deep links into the WCAG 2.0 documentation. The initial link is to each sections overview summary for context and from there you can dig as deep as needed to understand how to conform to the guideline.</p>
+      <ul class="no-bullets">
+        <li>
+          <h4>1.1 Text alternative for non-text content</h4>
+          <ul>
+            <li>The intent of this Success Criterion is to make information conveyed by non-text content accessible through the use of a text alternative. Text alternatives are a primary way for making information accessible because they can be rendered through any sensory modality (for example, visual, auditory or tactile) to match the needs of the user. Providing text alternatives allows the information to be rendered in a variety of ways by a variety of user agents. For example, a person who cannot see a picture can have the text alternative read aloud using synthesized speech. A person who cannot hear an audio file can have the text alternative displayed so that he or she can read it. In the future, text alternatives will also allow information to be more easily translated into sign language or into a simpler form of the same language. <br>
+              <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </ul>
+        </li>
+        <li>
+          <h4>1.2 Time-based media alternatives</h4>
+          <ul>
+            <li>The purpose of this guideline is to ensure that all information is available in a form that can be perceived by all users, for example, spoken aloud, or presented in a simpler visual layout. If all of the information is available in a form that can be determined by software, then it can be presented to users in different ways (visually, audibly, tactilely etc.). If information is embedded in a particular presentation in such a way that the structure and information cannot be programmatically determined by the assistive technology, then it cannot be rendered in other formats as needed by the user. <br>
+              <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </ul>
+        </li>
+        <li>
+          <h4>1.3 Adaptable display to accommodate alternate awareness when visual context is not available</h4>
+          <ul>
+            <li>The purpose of this guideline is to ensure that all information is available in a form that can be perceived by all users, for example, spoken aloud, or presented in a simpler visual layout. If all of the information is available in a form that can be determined by software, then it can be presented to users in different ways (visually, audibly, tactilely etc.). If information is embedded in a particular presentation in such a way that the structure and information cannot be programmatically determined by the assistive technology, then it cannot be rendered in other formats as needed by the user. <br>
+              <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </ul>
+        </li>
+        <li>
+          <h4>1.4 Distinguishable so content and design aren’t confused by lack of contrast</h4>
+          <ul>
+            <li>While some guidelines are focused on making information available in a form that can be presented in alternate formats, this guideline is concerned with making the default presentation as easy to perceive as possible to people with disabilities. The primary focus is on making it easier for users to separate foreground information from the background. For visual presentations this involves making sure that information presented on top of a background contrasts sufficiently with the background. For audio presentations this involves making sure that foreground sounds are sufficiently louder than the background sounds. Individuals with visual and hearing disabilities have much greater difficulty separating foreground and background information.<br>
+              <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </ul>
+        </li>
+        <li>
+        <h4>2.1 Keyboard accessible content, all content must be accessible via a keyboard</h4>
+        <ul>
+          <li>If all functionality can be achieved using the keyboard, it can be accomplished by keyboard users, by speech input (which creates keyboard input), by mouse (using on-screen keyboards), and by a wide variety of assistive technologies that create simulated keystrokes as their output. No other input form has this flexibility or is universally supported and operable by people with different disabilities, as long as the keyboard input is not time-dependent. <br>
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+        <li>
+        <h4>2.2 Enough time to complete tasks and user control over turning time limits off</h4>
+        <ul>
+          <li>Many users who have disabilities need more time to complete tasks than the majority of users: they may take longer to physically respond, they may take longer to read things, they may have low vision and take longer to find things or to read them, or they may be accessing content through an assistive technology that requires more time. This guideline focuses on ensuring that users are able to complete the tasks required by the content with their own individual response times. The primary approaches deal with eliminating time constraints or providing users enough additional time to allow them to complete their tasks. Exceptions are provided for those cases where this is not possible.<br>
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+        <li>
+        <h4>2.3 Seizures can be caused by flashing content, no flashing content</h4>
+        <ul>
+          <li>Some people with seizure disorders can have a seizure triggered by flashing visual content. Most people are unaware that they have this disorder until it strikes. In 1997, a cartoon on television in Japan sent over 700 children to the hospital, including about 500 who had seizures. Warnings do not work well because they are often missed, especially by children who may in fact not be able to read them.<br>
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+        <li>
+        <h4>2.4 Navigable site and page structure</h4>
+        <ul>
+          <li>The intent of this guideline is to help users find the content they need and allow them to keep track of their location. These tasks are often more difficult for people with disabilities. For finding, navigation, and orientation, it is important that the user can find out what the current location is. For navigation, information about the possible destinations needs to be available. Screen readers convert content to synthetic speech which, because it is audio, must be presented in linear order. Some Success Criteria in this guideline explain what provisions need to be taken to ensure that screen reader users can successfully navigate the content. Others allow users to more easily recognize navigation bars and page headers and to bypass this repeated content. Unusual user interface features or behaviors may confuse people with cognitive disabilities. <br>
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+        <li>
+        <h4>3.1 Readable labels and text </h4>
+        <ul>
+          <li>The intent of this guideline is to allow text content to be read by users and by assistive technology, and to ensure that information necessary for understanding it is available. <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+        <li>
+        <h4>3.2 Predictable order and focus states through consistent navigation and identification</h4>
+        <ul>
+          <li>The intent of this Guideline is to help users with disabilities by presenting content in a predictable order from Web page to Web page and by making the behavior of functional and interactive components predictable. It is difficult for some users to form an overview of the Web page: screen readers present content as a one-dimensional stream of synthetic speech that makes it difficult to understand spatial relationships. Users with cognitive limitations may become confused if components appear in different places on different pages.<br>
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+        <li>
+        <h4>3.3 Input assistance using labels, error indication and suggestions, help text</h4>
+        <ul>
+          <li>Everyone makes mistakes. However, people with some disabilities have more difficulty creating error-free input. In addition, it may be harder for them to detect that they have made an error. Typical error indication methods may not be obvious to them because of a limited field of view, limited color perception, or use of assistive technology. This guideline seeks to reduce the number of serious or irreversible errors that are made, increase the likelihood that all errors will be noticed by the user, and help users understand what they should do to correct an error.<br>
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+        <li>
+        <h4>4.1 Compatible for future digestion by avoiding unsupported tech</h4>
+        <ul>
+          <li>The purpose of this guideline is to support compatibility with current and future user agents, especially assistive technologies (AT). This is done both by 1) ensuring that authors do not do things that would break AT (e.g., poorly formed markup) or circumvent AT (e.g., by using unconventional markup or code) and 2) exposing information in the content in standard ways that assistive technologies can recognize and interact with. Since technologies change quickly, and AT developers have much trouble keeping up with rapidly changing technologies, it is important that content follow conventions and be compatible with APIs so that AT can more easily work with new technologies as they evolve.<br>
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat.html" title="WCAG guidelines">Read More </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+          </li>
+        </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h3> 2. Check your work using a validation tool</h3>
+    <div class="indent1">
+      <p>There are a variety of tools and websites available to validate code and check for conformance. Most offer valuable feedback about what and why something failed as well as in-context techniques for fixing the issue. </p>
+      <p><strong>Validation Sites and Tools</strong></p>
+      <ul>
+        <li>Accessibility Checker <a href="http://atutor.ca/achecker " title="external accessibility site">http://atutor.ca/achecker </a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+        <li>Validator (create a free account) <a href="http://fae20.cita.illinois.edu/" title="external accessibility site">http://fae20.cita.illinois.edu/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+        <li>Accessibility FF add-on, validator <a href="http://users.skynet.be/mgueury/mozilla/" title="external accessibility site">http://users.skynet.be/mgueury/mozilla/</a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Accessibility FF add-on, validator <a href="https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/" title="external accessibility site">https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/</a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Accessibility FF add-on, AInspector <a href="https://addons.mozilla.org/en-US/firefox/addon/ainspector-sidebar/" title="external accessibility site">https://addons.mozilla.org/en-US/firefox/addon/ainspector-sidebar/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+        <li>Accessibility FF add-on, screen reader <a href="https://addons.mozilla.org/en-us/firefox/addon/fangs-screen-reader-emulator/" title="external accessibility site">https://addons.mozilla.org/en-us/firefox/addon/fangs-screen-reader-emulator/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+        <li>Accessibility Chrome extention <a href="http://wave.webaim.org/extension/" title="external accessibility site">http://wave.webaim.org/extension/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+      </ul>
+      <p><strong>Checklists and other sites.</strong></p>
+      <ul>
+        <li>Accessibility and Boostratp helper classes <a href="http://getbootstrap.com/css/#helper-classes-screen-readers" title="external accessibility site">http://getbootstrap.com/css/#helper-classes-screen-readers</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+        <li>Accessibility, WCAG 2.0 Quick Reference <a href="https://www.w3.org/WAI/WCAG20/quickref" title="external accessibility site">https://www.w3.org/WAI/WCAG20/quickref </a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Accessibility, bookmarklets for showing blocks <a href="http://accessibility-bookmarklets.org/install.html" title="external accessibility site">http://accessibility-bookmarklets.org/install.html</a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Accessibility Checklist <a href="http://romeo.elsevier.com/accessibility_checklist/" title="external accessibility site">http://romeo.elsevier.com/accessibility_checklist/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+        <li>Accessibility Principles <a href="https://www.w3.org/WAI/intro/people-use-web/principles" title="external accessibility site">https://www.w3.org/WAI/intro/people-use-web/principles</a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Accessibility Tools List <a href="https://www.w3.org/WAI/ER/tools/" title="external accessibility site">https://www.w3.org/WAI/ER/tools/</a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Accessibility Tools List <a href="http://accessibility.umn.edu/plug-ins-and-extensions.html" title="external accessibility site">http://accessibility.umn.edu/plug-ins-and-extensions.html</a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Accessibility Features in FF <a href="https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we" title="external accessibility site">https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we</a> <i class="glyphicon glyphicon-new-window small"></i></li>
+        <li>Contrast checker <a href="http://webaim.org/resources/contrastchecker/" title="external accessibility site">http://webaim.org/resources/contrastchecker/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+        <li>FF feature enbling keyboard navigation - <a href="ttps://www.paciellogroup.com/blog/2013/07/enabling-landmark-based-keyboard-navigation-in-firefox/" title="external accessibility site">https://www.paciellogroup.com/blog/2013/07/enabling-landmark-based-keyboard-navigation-in-firefox/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h3> More Documentation</h3>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Web_Accessibility_Initiative">WIA wiki</a></li>
+      <li><a href="https://www.w3.org/2004/04/wcag-charter">WCAG Charter</a></li>
+      <li><a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0</a></li>
+    </ul>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>

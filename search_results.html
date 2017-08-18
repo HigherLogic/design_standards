@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Higher Logic Pattern Portfolio - Buttons</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+<!--script src="js/less-1.3.3.min.js"></script-->
+<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+<div class="container HLdocs-container">
+<br>
+<h1>Higher Logic Pattern Portfolio</h1>
+<ol class="breadcrumb">
+  <li><a href="index_patternPortfolio.html">Home</a></li>
+  <li class="active">Search Results</li>
+</ol>
+<style type="text/css">
+  
+.fs-result-row h4{
+	margin-bottom:5px;
+}
+.fs-result-row .meta-content-date {
+    color: #666666;
+    font-size: 12px;
+	margin: 7px 0 3px; 
+}
+.fs-result-row .meta-block{
+	border-left: 1px solid #ebebeb;
+	padding-left: 15px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.fs-result-row .meta-block a{
+	color: #666;
+}
+.fs-result-row .meta-content{
+	margin: 3px 0;
+}
+.fs-result-row .img-circle {
+    border-radius: 50%;
+	width: 40px;
+}
+.fs-result-row .owner-image {
+	width: 50px;
+	float: left;
+}
+.fs-result-row .owner-name {
+    color: #666666;
+    font-size: 12px;
+	width: 130px;
+}
+.fs-result-row .content-type {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #006621;
+	font-size: 12px;
+	font-weight: bold;
+}
+.fs-result-row .content-tags {
+	margin-bottom: 5px;	
+	margin-top: 10px;
+}
+.fs-result-row .content-tags a{
+	margin-bottom: 10px;	
+}
+.fs-result-row .content-tags a {
+	display:inline-block;
+}
+.fs-result-row .match-block {
+	color: #808080;
+}
+.fs-result-row .result-indent {
+	padding-left: 15px;
+}
+.fs-result-row p.result-indent-event {
+	padding-left: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #333333;
+}
+.fs-result-row .label-search-tag {
+    background-color: #fff;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	margin-bottom: 4px;
+	color: #333;
+	font-weight:normal;
+}
+.fs-result-row .label-search-tag:hover {
+    background-color: #ebebeb;
+	border: 1px solid #ccc;
+	margin-bottom: 4px;
+	color: #333;
+	font-weight:normal;
+	text-decoration: none;
+}
+.fs-results .search-divider hr{
+	width:100%;
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+.fs-results .row.search-divider {
+	margin-left: 0;
+	margin-right: 0;
+}
+.fs-results .hl-type .label {
+    background-color: #f2f2f2;
+    border: 1px solid #ebebeb;
+    color: #888;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.fs-results .hl-type {
+	padding-bottom: 0px;
+	padding-left: 8px;
+	margin-top: -5px;
+}
+.fs-result-row a {
+    text-decoration: underline;
+}
+.fs-result-row a.focus-search {
+    font-weight: normal;
+    text-decoration: underline;
+}
+.fs-result-row a.focus-search:hover {
+    font-weight: normal;
+    text-decoration: none;
+}
+.fs-result-row .focus-search {
+    color: #666;
+}
+ /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		.fs-result-row {
+			padding-left: 15px; 
+			padding-right: 15px;
+			}
+		.fs-result-row .meta-block{
+			border-left: none;
+			padding-left: 0;
+			margin-top: 5px;
+		}
+		.fs-result-row .meta-content {
+			display: inline-block;
+			padding-right: 10px;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		.fs-result-row {
+			padding-left: 15px; 
+			padding-right: 15px;
+			}
+		.fs-result-row .meta-block{
+			border-left: none;
+			padding-left: 0;
+			margin-top: 5px;
+		}
+		.fs-result-row .meta-content {
+			display: inline-block;
+			padding-right: 10px;
+		}
+		.fs-results .pull-right.hl-type {
+			float: none !important;
+			margin-top: 0;
+			padding-bottom: 15px;
+			padding-left: 0;
+			text-align: left;
+		}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+  </style>
+<div class="row">
+<div class="col-md-12">
+  <h2>Search Results</h2>
+  <div class="row">
+    <div class="col-md-12">
+      <h3> Elements</h3>
+      <ul>
+        <li>each type of result has it's own set of data</li>
+        <li>each row is broken into two sections: the detail block (left) and the meta block (right)</li>
+        <li> detail block contains the content title, term-match block, children information and tags </li>
+        <li> meta block contains information about author/creator, creation date and parent/child containers</li>
+        <li> <a href="docs/Visio-SERPsearchResultsContentRows-V3.pdf">download PDF that explains in more detail</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3> Code Examples</h3>
+      <div class="indent1 fs-results">
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Blog</div>
+                  </div>
+                  <a href="#">Title of the Blog <strong>Title</strong> of the Blog Titlel of the Blog Titlel of the Blog Titlel of the Blog</a></h4>
+                <p class="match-block"> <strong>Title</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>Title</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Bhaumik <br>
+                      Patela Bhau</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Published</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater... ignore everything above this line.-->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Glossary</div>
+                  </div>
+                  <a href="#">This will be the <strong>glossary</strong> term</a></h4>
+                <p class="match-block"> <strong>glossary</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>glossary</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Message Post</div>
+                  </div>
+                  <a href="#">Title of a message post</a></h4>
+                <p class="match-block"> <strong>Lorem ipsum </strong>dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>Lorem ipsum</strong> dolor sit amet, id nec. </p>
+                <!--<p class="result-indent"><i class="glyphicon glyphicon-paperclip small text-muted"></i> &nbsp;<a href="#">Filename.ext</a></p>-->
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Thread</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Message Reply</div>
+                  </div>
+                  <a href="#">RE: Title of the post reply</a></h4>
+                <p class="match-block"> <strong>Lorem ipsum </strong>dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>Lorem ipsum</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-paperclip small text-muted"></i> &nbsp;<a href="#">Filename.jpg</a></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Thread</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Message Reply</div>
+                  </div>
+                  <a href="#">RE: Title of the post reply</a></h4>
+                <p class="match-block"> <strong>Lorem ipsum </strong>dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>Lorem ipsum</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-paperclip small text-muted"></i> 5 attachments</p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Thread</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Message Reply</div>
+                  </div>
+                  <a href="#">RE: fTitle of the post reply</a></h4>
+                <p class="match-block"> <strong>Lorem ipsum </strong>dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>Lorem ipsum</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-paperclip small text-muted"></i> 5 attachments</p>
+                <p class="result-indent"><i class="glyphicon glyphicon-eye-open text-muted"></i> <a href="#" class="focus-search">Focus Search</a> <span class="text-muted">- search term matched 2 of the attached files</span></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Thread</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Message Thread <span style="background-color:#fff;padding-left:3px; padding-right: 3px; font-weight:bold;">3</span> </div>
+                  </div>
+                  <a href="#">Title of the thread, first post</a></h4>
+                <p class="match-block"> <strong>Lorem ipsum </strong>dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>Lorem ipsum</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-eye-open text-muted"></i> <a href="#" class="focus-search">Focus Search</a> <span class="text-muted">- search term matched 2 messages in this thread</span></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Thread</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater... -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Message Thread <span style="background-color:#fff;padding-left:3px; padding-right: 3px; font-weight:bold;">3</span> </div>
+                  </div>
+                  <a href="#">Title of the thread with a <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Bhaumik <br>
+                      Patela Bhau</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Event</div>
+                  </div>
+                  <a href="#">Title of the Event <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent-event"><i class="glyphicon glyphicon-calendar text-muted small"></i> &nbsp;December 12, 2015 <span class="text-muted"> &nbsp;<span class="text-muted">|</span>&nbsp; </span> 4:30pm EST<br />
+                  <i class="glyphicon glyphicon-globe text-muted small"></i> &nbsp;New York, NY</p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Events Calendar</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Event</div>
+                  </div>
+                  <a href="#">Title of the Event <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-calendar text-muted small"></i> &nbsp;December 12, 2015 <span class="text-muted"> &nbsp;<span class="text-muted">|</span>&nbsp; </span> 4:30pm EST<br />
+                  <i class="glyphicon glyphicon-globe text-muted small"></i> &nbsp;New York, NY</p>
+                <p class="text-muted">This event has 4 sessions </p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Events Calendar</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Event</div>
+                  </div>
+                  <a href="#">Title of the Event <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-calendar text-muted small"></i> &nbsp;December 12, 2015 <span class="text-muted"> &nbsp;|&nbsp; </span> 4:30pm EST<br />
+                  <i class="glyphicon glyphicon-globe text-muted small"></i> &nbsp;New York, NY</p>
+                <p class="result-indent"><i class="glyphicon glyphicon-eye-open text-muted"></i> <a href="#" class="focus-search">Focus Search</a><span class="text-muted">- search term matched 1 session in this event</span></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Events Calendar</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Event Session</div>
+                  </div>
+                  <a href="#">Title of the Event Session</a></h4>
+                <p class="match-block"> <strong>Lorem ipsum </strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>Lorem ipsum</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent-event"> <i class="glyphicon glyphicon-calendar text-muted small"></i> &nbsp;December 12, 2015 <span class="text-muted"> &nbsp;|&nbsp; </span> 4:30pm EST<br />
+                  <i class="glyphicon glyphicon-globe text-muted small"></i> &nbsp;New York, NY</p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Event</a> </div>
+                  <div class="meta-content"> <a href="#">View Events Calendar</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library</div>
+                  </div>
+                  <a href="#">Title of the library <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Updated</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library</div>
+                  </div>
+                  <a href="#">Title of the library <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-eye-open text-muted"></i> <a href="#" class="focus-search">Focus Search</a> <span class="text-muted">- search term matched 2 of the entries or files in entry</span></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Updated</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library Entry</div>
+                  </div>
+                  <a href="#">Title of the library entry <strong>match</strong> with 1 file</a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-paperclip small text-muted"></i> &nbsp;<a href="#">Filename.jpg</a></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Library</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library Entry</div>
+                  </div>
+                  <a href="#">Title of the library entry<strong> match </strong>with 8 files</a></h4>
+                <p class="match-block"> <strong> match </strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong> match </strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-paperclip small text-muted"></i> 8 attachments</p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Library</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library Entry</div>
+                  </div>
+                  <a href="#">Title of the library entry <strong>match</strong> with 8 files</a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-paperclip small text-muted"></i> 8 attachments</p>
+                <p class="result-indent"><i class="glyphicon glyphicon-eye-open text-muted"></i> <a href="#" class="focus-search">Focus Search</a> <span class="text-muted">- search term matched - <strong>match.jpg</strong>... <strong>match2.jpg</strong></span></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Library</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library Entry - File</div>
+                  </div>
+                  <a href="#">Filename_<strong>match</strong>.jpg</a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Entry</a> </div>
+                  <div class="meta-content"> <a href="#">View Library</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library Entry - File</div>
+                  </div>
+                  <a href="#">File title has been applied is present and has a <strong>match</strong> in title</a></h4>
+                <p class="match-block">The file also has a bried description. </p>
+                <p class="result-indent">(filename_notmatched.jpg)</p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="owner-block">
+                    <div class="owner-image"><img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                  </div>
+                  <div class="owner-block">
+                    <div class="owner-name"><a href="#">Ross <br>
+                      Santos</a></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                  <div class="meta-content-date"> <span>Added</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View Entry</a> </div>
+                  <div class="meta-content"> <a href="#">View Library</a> </div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Library Entry - Webinar</div>
+                  </div>
+                  <a href="#">Title of the page <strong>match</strong> content</a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-link small text-muted"></i> &nbsp;<a href="#">Webinar Name/Title</a></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Created</span> 14 days ago</div>
+                  <div class="meta-content-date"> <span>Updated</span> 4 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Page Content</div>
+                  </div>
+                  <a href="#">Title of the page <strong>match</strong> content</a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-link small text-muted"></i> &nbsp;<a href="#">link to the microsite</a></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Created</span> 14 days ago</div>
+                  <div class="meta-content-date"> <span>Updated</span> 4 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Volunteer Opportunity</div>
+                  </div>
+                  <a href="#">Title of the page <strong>match</strong> content</a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent-event"> <i class="glyphicon glyphicon-calendar text-muted small"></i> &nbsp;December 12, 2015
+                  <!--<span class="text-muted">(start date)</span>-->
+                  <span class="text-muted"> &nbsp;|&nbsp; </span> 1 day time committment<br />
+                  <i class="glyphicon glyphicon-globe text-muted small"></i> &nbsp;New York, NY</p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Created</span> 14 days ago</div>
+                  <div class="meta-content"> <a href="#">View Community</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Community</div>
+                  </div>
+                  <a href="#">Community name goes here <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Created</span> 14 days ago</div>
+                  <div class="meta-content-date"> <span>Updated</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View All Communities</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row search-divider">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- end of row repeater -->
+        <!-- begin row repeater -->
+        <div class="row fs-result-row">
+          <div class="col-md-12">
+            <div class="row vertical-align">
+              <div class="col-md-9 col-sm-8">
+                <h4>
+                  <div class="pull-right hl-type">
+                    <div class="label label-default text-muted">Community</div>
+                  </div>
+                  <a href="#">Community name goes here <strong>match</strong></a></h4>
+                <p class="match-block"> <strong>match</strong> dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. <strong>match</strong> dolor sit amet, id nec.... This is the description part appearing if no match occurs and item has description. </p>
+                <p class="result-indent"><i class="glyphicon glyphicon-eye-open text-muted"></i> <a href="#" class="focus-search">Focus Search</a> <span class="text-muted">- search term matched - <strong>discussions (12)</strong>... <strong>library entries (4)</strong></span></p>
+                <div class="row hidden-xs">
+                  <div class="col-md-12">
+                    <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="meta-block">
+                  <div class="meta-content-date"> <span>Created</span> 14 days ago</div>
+                  <div class="meta-content-date"> <span>Updated</span> 4 days ago</div>
+                  <div class="meta-content"> <a href="#">View All Communities</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-md-12">
+                <div class="content-tags"><span class="text-muted"><i class="glyphicon glyphicon-tags small"></i></span>&nbsp; <a href="#" class="label label-search-tag">Snip</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> <a href="#" class="label label-search-tag">Bootstrap</a> <a href="#" class="label label-search-tag">UI</a> <a href="#" class="label label-search-tag">growth</a> <a href="#" class="label label-search-tag">Snipp</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>

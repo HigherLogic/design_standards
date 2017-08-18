@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Higher Logic Pattern Portfolio - CSS Formatting and Targeting</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+<!--script src="js/less-1.3.3.min.js"></script-->
+<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+<div class="container HLdocs-container"> <br>
+  <h1>Higher Logic Pattern Portfolio</h1>
+  <ol class="breadcrumb">
+    <li><a href="index_patternPortfolio.html">Home</a></li>
+    <li class="active">CSS Formatting and Targeting</li>
+  </ol>
+  <div class="row">
+    <div class="col-md-12">
+      <h2> CSS Formatting and Targeting</h2>
+      <p>There are a number of ways to format and target CSS. Higher Logic's CSS is formatted in an indented, multi-line format. There are a number of ways to target CSS and it's up to each developer to determine which works best in any given situation. The goals here are to write CSS that does what it is intended to do accross all supported browsers and it does so without unintentially impacting other content. </p><br>
+      <h3>Formatting</h3>
+      <p>There are many ways to <a href="https://css-tricks.com/different-ways-to-format-css/" title="css formatting link">format CSS</a> <i class="glyphicon glyphicon-new-window small"></i> but we're using the multi-line format with indenting option shown below.</p> 
+      <p>
+      <blockquote><strong>Multi-line indented format</strong> <br>
+        <textarea class="highlight docBox-half">#HEADER, #MPOuter, #FOOTER, #MPFooterLinkContent, #MPButtonBar {
+    margin: 0 auto;
+    max-width: 1200px;
+    }</textarea>
+      </blockquote>
+      </p>
+      <p>For cross browser compatibility, make sure all hex colors are fully defined - no abbreviations. Use #333333 instead of #333. </p>
+      <p>
+      <blockquote><strong>Multi-line indented format</strong> <br>
+        <textarea class="highlight docBox-half">.MPContentArea > div.color-block {
+    background-color: #333333;
+    color: #256342;
+    }</textarea>
+      </blockquote>
+      </p>
+      <br>
+      <h3>Targeting</h3>
+		<p>Understanding how to target your CSS so that it applies only where intended is critical for proper UI display. Avoid broadly defined CSS unless you're certain it is the proper solution. The links below explain CSS targeting and how specificty is calculated.</p>
+          <ul>
+            <li> Specificity explained- <a href="https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/" title="specificity link">https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know</a> <i class="glyphicon glyphicon-new-window small"></i> <br>
+              and <a href="https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/#how-to-measure-specificity" title="specificity link">https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/#how-to-measure-specificity</a> <i class="glyphicn glyphicon-new-window small"></i> </li>
+            <li>Specificity explained again - <a href="https://css-tricks.com/specifics-on-css-specificity" title="specificty explained again">https://css-tricks.com/specifics-on-css-specificity/</a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+            <li>Specificity calculator - <a href="https://specificity.keegan.st/ " title="specificty calculator">https://specificity.keegan.st/ </a> <i class="glyphicon glyphicon-new-window small"></i> </li>
+          </ul>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>

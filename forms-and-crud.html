@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Higher Logic Pattern Portfolio - Forms and CRUD</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+<!--script src="js/less-1.3.3.min.js"></script-->
+<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+</head>
+<body>
+<div class="container HLdocs-container"> <br>
+  <h1>Higher Logic Pattern Portfolio</h1>
+  <ol class="breadcrumb">
+    <li><a href="index_patternPortfolio.html">Home</a></li>
+    <li class="active">Forms and CRUD</li>
+  </ol>
+  <div class="row">
+    <div class="col-md-12">
+      <h2> CRUD Buttons (create, read, updated and delete)</h2>
+      <p> Consistent actions and feedback on forms and form actions are essential to maintain the application's usability. When users perform CRUD actions, they should understand what is happening and anticipate change resulting from thier action. For all each of the states below, please follow instructions and design information in the task definition for more granular instructions.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Single Action Button States</h3>
+      <ul>
+        <li><strong>Create </strong>: button (create, add, etc.) that either flips a div, navigates to a form page or spawns a modal - depends on the use case. 
+        <ul class="extra-space">
+            <li>Use bootstrap class="btn btn-success" for create actions.   </li>
+            <li>Example:  <a href="javascript:(void);" class="btn btn-success">Add</a></li>
+          </ul>
+        </li>
+        <li><strong>Save </strong>: button should be present a disabled state (add "disabled" class to anchor) until required form fields have been populated with data.  This keeps the user from submitting an incomplete form.  
+        <ul class="extra-space">
+            <li>Use bootstrap class="btn btn-primary" for Save actions.   </li>
+            <li>Example, live button:  <a href="javascript:(void);" class="btn btn-primary">Save</a></li>
+            <li>Example, disabled button:  <a href="javascript:(void);" class="btn btn-primary disabled">Save</a></li>
+          </ul>
+        </li>
+        <li><strong>Edit </strong>: button (edit, change, icon, etc.) that either flips a div, navigates to the form page or spawns a modal.
+          <ul class="extra-space">
+            <li>Example: <a href="javascript:(void);" class="btn btn-primary">Edit</a>  </li>
+           
+          </ul>
+        </li>
+        <li><strong>Delete</strong>: button (delete, remove, icon, etc.) that deletes an item from the system (a least from the user’s perspective).  There are two delete interactions possible:
+          <ul class="extra-space">
+          <li>Example: <a href="javascript:(void);" class="btn btn-danger">Delete</a> </li>
+            <li><u>Non-prompted, unconfirmed delete</u> – where clicking button instantaneously removes the content. This type of delete interaction is best for “low cost” items – content that is easily replicated by the user.
+              <ul class="extra-space">
+                <li>Examples: demographics, comments, tags, announcements, etc. </li>
+              </ul>
+            </li>
+            <li><u>Prompted delete confirmation</u> – where an alert is thrown to confirm this action is what was intended. A delete confirmation should be used for “high cost” item – content that is more difficult to replicate.
+              <ul class="extra-space">
+                <li>Examples: admin configuration pages, events, volunteer opportunities, communities, libraries, blogs, etc. </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+         <li><strong>Cancel</strong>: button is used for all process forms and modals.   There are two delete interactions possible:
+          <ul class="extra-space">
+          <li>Example: <a href="javascript:(void);" class="btn btn-default">Cancel</a> </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Multi-Action Buttons</h3>
+      <p> Multi-action buttons are used to conserve space while presenting a range of available actions. These consist of a primary action button and a dropdown with secondary actions. The user can click the primary action or explore and select other options from the dropdown.</p>
+      <ul class="extra-space">
+        <li>Example:  <div class="btn-group">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" data-toggle="dropdown" aria-expanded="false" class="btn btn-primary dropdown-toggle"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
+              <ul role="menu" class="dropdown-menu">
+                <li> <a href="#">Secondary Action</a> </li>
+                <li> <a href="#">Tertiary Action</a> </li>
+              </ul>
+            </div></li>
+        </li>
+        <li>The primary action button SHOULD NEVER be disabled. If the primary action is no longer an options, remove it and elevate a secondary action (the most logical primary action) and make it the primary action.</li>
+        <li>See <a href="buttons.html">Buttons</a> for more details about button options.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.js"></script>
+<title>Hihger Logic Developer Style Guide</title>
+</head>
+<body>
+<style type="text/css">
+.bg-primary {
+    background-color: #ffffff;
+}
+.bg-success {
+    background-color: #dff0d8;
+}
+.bg-info {
+    background-color: #d9edf7;
+}
+.bg-warning {
+  background-color: #fcf8e3;
+}
+.bg-danger {
+    background-color: #f2dede;
+}
+.aaa.bg-primary {
+    background-color: #ffffff;
+    color: #000000;
+}
+.aaa.bg-success {
+    background-color: #dff0d8;
+}
+.aaa.bg-info {
+    background-color: #d9edf7;
+}
+.aaa.bg-warning {
+    background-color: #fcf8e3;
+}
+.aaa.bg-danger {
+    background-color: #f2dede;
+}
+.aaa.text-primary {
+    color: #265986;
+}
+.aaa.text-success {
+    color: #3c763d;
+}
+.aaa.text-info {
+    color: #295e79;
+}
+.aaa.text-warning {
+   color: #5f4b29;
+}
+.aaa.text-danger {
+    color: #923a39;
+}
+.aaa.text-muted {
+    color: #4c4c4c;
+}
+.aaa.alert-primary {
+    color: #265986;
+}
+.aaa.alert-success {
+    color: #274d28;
+}
+.aaa.alert-info {
+    color: #214c62;
+}
+.aaa.alert-warning {
+   color: #5f4b29;
+}
+.aaa.alert-danger {
+    color: #662928;
+}
+.aaa.btn-primary {
+    color: #ffffff;
+	background-color:#275c8a;
+	border-color: #275c8a;
+}
+.aaa.btn-success {
+    color: #ffffff;
+	background-color: #2e692e;
+	border-color: #2e692e;
+}
+.aaa.btn-info {
+    color: #ffffff;
+	background-color: #275c8a;
+	border-color: #275c8a;
+}
+.aaa.btn-warning {
+   color: #ffffff;
+   	background-color: #965e0e;
+	border-color: #965e0e;
+}
+.aaa.btn-danger {
+    color: #ffffff;
+	background-color: #a62924;
+	border-color: #a62924;
+}
+.aaa.btn-link {
+    color: #265986;
+}
+</style>
+<div class="container">
+<br>
+<div class="row">
+  <div class="col-md-6">
+  <h2>Non-AAA Compliant Colors</h2>
+    <h3>bg-x classes</h3>
+    <p class="bg-primary">Here is the primary color</p>
+    <p class="bg-success">Here is the success color</p>
+    <p class="bg-info">Here is the info color</p>
+    <p class="bg-warning">Here is the warning color </p>
+    <p class="bg-danger">Here is the danger color</p>
+    <h3>text-x classes</h3>
+    <p class="text-primary">Here is the primary color</p>
+    <p class="text-success">Here is the success color</p>
+    <p class="text-info">Here is the info color</p>
+    <p class="text-warning">Here is the warning color</p>
+    <p class="text-danger">Here is the danger color</p>
+    <p class="text-muted">Here is the muted color</p>
+    <h3>alert-x classes</h3>
+    <p class="alert-primary">Here is the primary color</p>
+    <p class="alert-success">Here is the success color </p>
+    <p class="alert-info">Here is the info color </p>
+    <p class="alert-warning">Here is the warning color </p>
+    <p class="alert-danger">Here is the danger color </p>
+    <h3>alert alert-x classes</h3>
+    <p class="alert alert-primary">Here is the primary color</p>
+    <p class="alert alert-success">Here is the success color</p>
+    <p class="alert alert-info">Here is the info color</p>
+    <p class="alert alert-warning">Here is the warning color</p>
+    <p class="alert alert-danger">Here is the danger color</p>
+    <h3>btn-x classes</h3>
+    <!-- Standard button -->
+    <a type="button" class="btn btn-default">Default</a><br>
+    <br>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a type="button" class="btn btn-primary">Primary</a><br>
+    <br>
+    <!-- Indicates a successful or positive action -->
+    <a type="button" class="btn btn-success">Success</a><br>
+    <br>
+    <!-- Contextual button for informational alert messages -->
+    <a type="button" class="btn btn-info">Info</a><br>
+    <br>
+    <!-- Indicates caution should be taken with this action -->
+    <a type="button" class="btn btn-warning">Warning</a><br>
+    <br>
+    <!-- Indicates a dangerous or potentially negative action -->
+    <a type="button" class="btn btn-danger">Danger</a><br>
+    <br>
+    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+    <a type="button" class="btn btn-link">Link</a><br>
+    <br>
+    <br>
+  </div>
+  <div class="col-md-6">
+  <h2>AAA Compliant Colors</h2>
+    <h3>bg-x classes</h3>
+    <p class="aaa bg-primary">Here is the primary color</p>
+    <p class="aaa bg-success">Here is the success color</p>
+    <p class="aaa bg-info">Here is the info color</p>
+    <p class="aaa bg-warning">Here is the warning color </p>
+    <p class="aaa bg-danger">Here is the danger color</p>
+    <h3>text-x classes</h3>
+    <p class="aaa text-primary">Here is the primary color</p>
+    <p class="aaa text-success">Here is the success color</p>
+    <p class="aaa text-info">Here is the info color</p>
+    <p class="aaa text-warning">Here is the warning color</p>
+    <p class="aaa text-danger">Here is the danger color</p>
+    <p class="aaa text-muted">Here is the muted color</p>
+    <h3>alert-x classes</h3>
+    <p class="aaa alert-primary">Here is the primary color</p>
+    <p class="aaa alert-success">Here is the success color </p>
+    <p class="aaa alert-info">Here is the info color </p>
+    <p class="aaa alert-warning">Here is the warning color </p>
+    <p class="aaa alert-danger">Here is the danger color </p>
+    <h3>alert alert-x classes</h3>
+    <p class="alert aaa alert-primary">Here is the primary color</p>
+    <p class="alert aaa alert-success">Here is the success color</p>
+    <p class="alert aaa alert-info">Here is the info color</p>
+    <p class="alert aaa alert-warning">Here is the warning color</p>
+    <p class="alert aaa alert-danger">Here is the danger color</p>
+    <h3>btn-x classes</h3>
+    <!-- Standard button -->
+    <a type="button" class="btn aaa btn-default">Default</a><br>
+    <br>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a type="button" class="btn aaa btn-primary">Primary</a><br>
+    <br>
+    <!-- Indicates a successful or positive action -->
+    <a type="button" class="btn aaa btn-success">Success</a><br>
+    <br>
+    <!-- Contextual button for informational alert messages -->
+    <a type="button" class="btn aaa btn-info">Info</a><br>
+    <br>
+    <!-- Indicates caution should be taken with this action -->
+    <a type="button" class="btn aaa btn-warning">Warning</a><br>
+    <br>
+    <!-- Indicates a dangerous or potentially negative action -->
+    <a type="button" class="btn aaa btn-danger">Danger</a><br>
+    <br>
+    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+    <a type="button" class="btn aaa btn-link">Link</a><br>
+    <br>
+    <br>
+  </div>
+</div>
+</body>
+</html>

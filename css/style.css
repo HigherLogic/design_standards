@@ -1,0 +1,198 @@
+.HLdocs-container > h1{
+	color:#F60;
+}
+.HLdocs-container h3.black {
+	color: #333333;
+}
+.HLdocs-container .no-bullets, .no-bullets ul {
+	list-style:none;
+}
+ul.extra-space li {
+	margin-bottom: 15px;
+}
+.HLdocs-container h3, .HLdocs-container h4 {
+    color: #06C;
+    }
+    .docBox {
+    width:100%;
+    height:200px;
+    overflow: visible;
+    }
+    .docBox-half {
+    width:50%;
+    height:120px;
+    overflow: visible;
+    }
+    .docBox-half-tall {
+    width:50%;
+    height:250px;
+    overflow: visible;
+    }
+    .docBox-empty {
+    width:100%;
+    height:50px;
+    overflow: hidden;
+    }
+    textarea {
+    margin-top:10px;
+    }
+    .highlight {
+    background-color: #FFC;
+    border: 1px solid #E1E1E8;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 9px 14px;
+    }
+    .doc-image{
+    margin:10px 10px 20px;
+    list-style:none;
+    }
+.indent1 {
+   	padding:10px 40px;
+}
+.indent2 {
+   	padding: 10px 80px;
+}
+.indent3 {
+   	padding:10px 120px;
+}
+.indent-no-top {
+   	padding: 0px 40px;
+}
+.text-muted-orange{
+   	color:#F60;
+}
+.HLdocs-container .indent1 h3, .HLdocs-container .indent1 h4{
+	color: black;
+}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    pointer-events: none;
+}
+.btn-default-override {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #333;
+}
+.disabled-demographic {
+    opacity: 1 !important;
+}
+.margin-bottom-medium {
+    margin-bottom: 10px;
+}
+.margin-top-medium {
+	margin-top: 10px;
+}
+
+/* add these as base overrides to get the stuff to work.*/
+.form-inline .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+ul.nav-wizard {
+    background-color: #f9f9f9;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+ul.nav-wizard::before {
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    content: " ";
+    display: block;
+    height: 47px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 46px;
+    z-index: 11;
+}
+ul.nav-wizard::after {
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    content: " ";
+    display: block;
+    height: 47px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 138px;
+    z-index: 11;
+}
+ul.nav-wizard li {
+    color: #008000;
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+    height: 46px;
+    line-height: 46px;
+    margin: 0;
+    padding: 0 10px 0 30px;
+    position: relative;
+}
+ul.nav-wizard li::before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent -moz-use-text-color transparent #d4d4d4;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 24px 0 24px 16px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: -16px;
+    top: -1px;
+    z-index: 10;
+}
+ul.nav-wizard li::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent -moz-use-text-color transparent #f9f9f9;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 24px 0 24px 16px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: -15px;
+    top: -1px;
+    z-index: 10;
+}
+ul.nav-wizard li.active {
+    background: #d9edf7 none repeat scroll 0 0;
+    color: #3a87ad;
+}
+ul.nav-wizard li.active::after {
+    border-left: 16px solid #d9edf7;
+}
+ul.nav-wizard .active ~ li {
+    background: #ededed none repeat scroll 0 0;
+    color: #999999;
+}
+ul.nav-wizard .active ~ li::after {
+    border-left: 16px solid #ededed;
+}
+ul.nav-wizard.nav-wizard-backnav li:hover {
+    background: #f6fbfd none repeat scroll 0 0;
+    color: #468847;
+}
+ul.nav-wizard.nav-wizard-backnav li:hover::after {
+    border-left: 16px solid #f6fbfd;
+}
+ul.nav-wizard.nav-wizard-backnav .active ~ li {
+    background: #ededed none repeat scroll 0 0;
+    color: #999999;
+}
+ul.nav-wizard.nav-wizard-backnav .active ~ li::after {
+    border-left: 16px solid #ededed;
+}
+
+

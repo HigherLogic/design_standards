@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Higher Logic Pattern Portfolio - Forms and CRUD</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+<!--script src="js/less-1.3.3.min.js"></script-->
+<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+</head>
+<body>
+<div class="container HLdocs-container"> <br>
+  <h1>Higher Logic Pattern Portfolio</h1>
+  <ol class="breadcrumb">
+    <li><a href="index_patternPortfolio.html">Home</a></li>
+    <li class="active">Forms and CRUD</li>
+  </ol>
+  <div class="row">
+    <div class="col-md-12">
+      <h2> Forms and CRUD</h2>
+      <p> Consistent actions and feedback on forms and form actions are essential to maintain the application's usability. When users perform CRUD actions, they should understand what is happening and anticipate change resulting from thier action. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Action States</h3>
+      <ul>
+        <li><strong>Create case</strong>: it is a button (create, add, etc.) that either flips a div, navigates to a form page or spawns a modal.</li>
+        <li><strong>Edit case</strong>: it is a button (edit, change, icon, etc.) that either flips a div, navigates to the form page or spawns a modal.
+          <ul>
+            <li>If required fields exist then the “save” button should be disabled until they have been populated. Once the user has populated required input, the button is active. </li>
+            <li>If no required fields exist, “save” button can be active on initial load. </li>
+          </ul>
+        </li>
+        <li><strong>Delete case</strong>: it is a button (delete, remove, icon, etc.) that deletes an item from the system (a least from the user’s perspective).  There are two delete interactions possible:
+          <ul>
+            <li><u>Non-prompted, unconfirmed delete</u> – where clicking button instantaneously removes the content. This type of delete interaction is best for “low cost” items – content that is easily replicated by the user.
+              <ul>
+                <li>Examples: demographics, comments, tags, announcements, etc. </li>
+              </ul>
+            </li>
+            <li><u>Prompted delete confirmation</u> – where an alert is thrown to confirm this action is what was intended. A delete confirmation should be used for “high cost” item – content that is more difficult to replicate.
+              <ul>
+                <li>Examples: admin configuration pages, events, volunteer opportunities, communities, libraries, blogs, etc. </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>

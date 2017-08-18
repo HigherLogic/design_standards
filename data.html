@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Higher Logic Pattern Portfolio - Buttons</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+<!--script src="js/less-1.3.3.min.js"></script-->
+<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+<div class="container HLdocs-container"> <br>
+  <h1>Higher Logic Pattern Portfolio</h1>
+  <ol class="breadcrumb">
+    <li><a href="index_patternPortfolio.html">Home</a></li>
+    <li class="active">Data</li>
+  </ol>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Data</h2>
+      <p>Data tables can be represented in two ways - as a table or as a structured bootstrap grid (a.k.a aggregate table data).</p>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Data Table Elements</h3>
+          <ul>
+            <li>data tables are for tabular data</li>
+            <li>count / sort / filter / actions above the header</li>
+            <li>header bar
+              <ul>
+                <li>column headings</li>
+                <li>action column (as is needed to enable functionality)</li>
+                <li>shows actions based on relationship state, access and permissions</li>
+              </ul>
+            </li>
+            <li>data in rows</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3> Visual Bootstrap Example</h3>
+          <div class="indent1">
+            <table class="table">
+              <caption>
+              Optional table caption.
+              </caption>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+.volunteer-row-pad {
+	padding:10px 0 5px;
+}
+.volunteer-list-header {
+	background-color:#ebebeb;
+	font-weight:bold;
+	padding:3px;
+	margin-left:0;
+	margin-right:0
+}
+.volunteer-list-row {
+	border-bottom:1px solid #ebebeb;
+	padding:10px 0;
+	vertical-align:middle;
+	margin-left:0;
+	margin-right:0
+}
+.vol-notice {
+	font-size: 12px; 
+	vertical-align:baseline; 
+	padding-top: 10px; 
+	padding-bottom: 0px;
+	display:inline-block;
+	font-weight:normal;
+}
+.vol-notice a {
+	text-decoration: underline;
+}
+.vol-notice a:hover {
+	text-decoration: none;
+}
+.vol-notice .alert-success, .vol-notice .alert-warning {
+	padding: 2px 3px;
+}
+.vol-detail-header > div > span {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-left: 5px;
+}
+.volunteer-opportunity-link h4 {
+	padding-left: 0px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.volunteer-list-row .volunteer-opportunity-link a:link{
+	text-decoration: underline;
+}
+.volunteer-list-row .volunteer-opportunity-link a:hover{
+	text-decoration: none;
+} 
+.volunteer-list-row .divider-faded {
+	color:#ccc;
+	padding: 0 3px;
+}
+.volunteer-list-row img {
+	max-height: 65px;
+	max-width: 65px;
+}
+/* add these two styles to the 990px media query CSS*/
+@media(max-width:990px){
+	.volunteer-list-row img {
+		max-height: 75px;
+		max-width: 75px;
+	}
+	.volunteer-opportunity-link h4 {
+		padding-left: 0;
+		margin-top: 10px;
+	}
+}
+</style>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Data Grid Elements</h3>
+      <p>Data grids are responsive and typically have aggregate or summary data in a given row. Unlike the data tables, data grids designed to present a context for more complex information.</p>
+      <ul>
+        <li>bootstrap grid filter row</li>
+        <li>count - is always on the left in this format: Showing X to X of X </li>
+        <li>sort / filter / actions are to the right</li>
+        <li>bootstrap header bar
+          <ul>
+            <li>column headings</li>
+            <li>action column (as is needed to enable functionality)</li>
+            <li>shows actions based on relationship state, access and permissions</li>
+          </ul>
+        </li>
+        <li>data elements aggregated into logical groupings in rows and columns</li>
+      </ul>
+      <div class="row">
+        <div class="col-md-12">
+          <h3> Example Data Grid  - Volunteer Opportunities List</h3>
+          <br>
+          <br>
+          <div role="main">
+            <div class="row vertical-align">
+              <div class="col-md-2 text-muted">Showing 1 to 15 of 176 </div>
+              <div class="col-md-10">
+                <div class="" style="display: inline-block; float: right; margin:0 10px 10px 0;"> <a class="btn btn-success" href="#">Create Opportunity</a> </div>
+                <div class="" style="display: inline-block; float: right; margin:0 10px 10px 0;">
+                  <select id="volunteer-opportunities-itemscount" class="form-control volunteer-opportunities-itemscount" aria-label="page count dropdown">
+                    <option link="" value="10">10 per page</option>
+                    <option link="" value="20">20 per page</option>
+                    <option link="" value="50" selected="">50 per page</option>
+                  </select>
+                </div>
+                <div style="display: inline-block; float: right; margin:0 10px 10px 0;">
+                  <select id="volunteer-sorty-by" class="form-control volunteer-sorty-by" aria-label="sort dropdown">
+                    <option value="StartDateLeastRecent" selected="" link=""> Start Date - Earliest to Latest </option>
+                    <option value="StartDateDateMostRecent" link=""> Start Date - Latest to Earliest </option>
+                    <option value="TitleAtoZ" link=""> Name - A to Z </option>
+                    <option value="TitleZtoA" link=""> Name - Z to A </option>
+                  </select>
+                </div>
+                <div style="display: inline-block; float: right; margin:0 10px 10px 0;">
+                  <select id="volunteer-opportunities-itemscount" class="form-control volunteer-opportunities-itemscount" aria-label="statuse dropdown">
+                    <option link="" value="Show All" selected>Show All</option>
+                    <option link="" value="My Opportunities">My Opportunities</option>
+                    <option link="" value="Open">Open</option>
+                    <option link="" value="Closed">Closed</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-header">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12"> Details </div>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-row">
+              <div class="col-md-12">
+                <div class="row vertical-align">
+                  <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                  <div class="col-md-5">
+                    <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This is an open opportunity accepting applicaitons.</a> </div>
+                  </div>
+                  <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment <br>
+                    Online opportunity <br>
+                    <span class="vol-notice text-success">Apply Today!</span> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-row">
+              <div class="col-md-12">
+                <div class="row vertical-align">
+                  <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                  <div class="col-md-5">
+                    <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This is an open opportunity accepting volunteer sign-ups. </a> </div>
+                  </div>
+                  <div class="col-md-6"> September 21 thru October 5, 2016 <span class="divider-faded" aria-hidden="true">|</span> 25 day time commitment <br>
+                    2112 F Street, Washington, DC <br>
+                    <span class="vol-notice text-success">Sign-up Today!</span> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-row">
+              <div class="col-md-12">
+                <div class="row vertical-align">
+                  <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                  <div class="col-md-5">
+                    <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This is closed because the sign-up date has passed.</a> </div>
+                  </div>
+                  <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment <br>
+                    Online opportunity <br>
+                    <span class="vol-notice text-warning">Not accepting volunteers.</span> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-row">
+              <div class="col-md-12">
+                <div class="row vertical-align">
+                  <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                  <div class="col-md-5">
+                    <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This is closed because the sign-up date has passed.</a> </div>
+                  </div>
+                  <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment <br>
+                    Online opportunity <br>
+                    <span class="vol-notice text-warning">Limited to people in the community.</span> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-row">
+              <div class="col-md-12">
+                <div class="row vertical-align">
+                  <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                  <div class="col-md-5">
+                    <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This is closed because the start date has passed.</a> </div>
+                  </div>
+                  <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment <br>
+                    Online opportunity <br>
+                    <span class="vol-notice text-warning">Not accepting volunteers.</span> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-row">
+              <div class="col-md-12">
+                <div class="row vertical-align">
+                  <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                  <div class="col-md-5">
+                    <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is closed because the start date has passed</a> </div>
+                  </div>
+                  <div class="col-md-6"> Open-ended commitment <br>
+                    Online opportunity. <br>
+                    <span class="vol-notice text-success">Apply Today!</span> </div>
+                </div>
+              </div>
+            </div>
+            <div class="row volunteer-list-row">
+              <div class="col-md-12">
+                <div class="row vertical-align">
+                  <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                  <div class="col-md-5">
+                    <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is open and you've been invited.</a> </div>
+                  </div>
+                  <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment<br>
+                    Online opportunity <br>
+                    <span class="vol-notice text-success">Apply Today - You've been invited to volunteer.</span></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="row volunteer-list-row">
+                <div class="col-md-12">
+                  <div class="row vertical-align">
+                    <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                    <div class="col-md-5">
+                      <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is open and you've been nominated.</a> </div>
+                    </div>
+                    <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment<br>
+                      Washington DC <br>
+                      <span class="vol-notice text-success">Sign-up Today - <a href="#">Ben Goodkind</a> nominated you to volunteer.</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row volunteer-list-row">
+                <div class="col-md-12">
+                  <div class="row vertical-align">
+                    <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                    <div class="col-md-5">
+                      <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is open and you've been nominated.</a> </div>
+                    </div>
+                    <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment<br>
+                      Washington DC <br>
+                      <span class="vol-notice text-success">Apply Today - <a href="#">3 people</a> nominated you to volunteer.</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row volunteer-list-row">
+                <div class="col-md-12">
+                  <div class="row vertical-align">
+                    <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"> </div>
+                    <div class="col-md-5">
+                      <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is open and you've applied.</a> </div>
+                    </div>
+                    <div class="col-md-6"><span class="text-muted"> September 21, 2015 </span><span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment<br>
+                      Washington DC <br>
+                      <span class="vol-notice text-warning">You applied 2 days ago, approval pending.</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row volunteer-list-row">
+                <div class="col-md-12">
+                  <div class="row vertical-align">
+                    <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"></div>
+                    <div class="col-md-5">
+                      <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is open and you've been accepted as a volunteer.</a> </div>
+                    </div>
+                    <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment<br>
+                      Washington, DC <br>
+                      <span class="vol-notice text-success">Your application was approved 2 days ago.</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row volunteer-list-row">
+                <div class="col-md-12">
+                  <div class="row vertical-align">
+                    <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"></div>
+                    <div class="col-md-5">
+                      <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is open and you've been accepted as a volunteer.</a> </div>
+                    </div>
+                    <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment<br>
+                      Washington, DC <br>
+                      <span class="vol-notice text-success">You are a confirmed volunteer.</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row volunteer-list-row">
+                <div class="col-md-12">
+                  <div class="row vertical-align">
+                    <div class="col-md-1"> <img src="img/detailPagePlaceholder.png" alt="volunteer opportunity image"></div>
+                    <div class="col-md-5">
+                      <div class="volunteer-opportunity-link"> <a href="volunteer-detail-page-BF-V2.html">This opportunity is dead to you as you were rejected.</a> </div>
+                    </div>
+                    <div class="col-md-6"> September 21, 2015 <span class="divider-faded" aria-hidden="true">|</span> 1 day time commitment<br>
+                      Washington, DC <br>
+                      <span class="vol-notice text-warning">Your application was not approved.</span> </div>
+                  </div>
+                </div>
+              </div>
+              <nav>
+                <ul class="pagination" aria-label="list pagination">
+                  <li class="disabled"><a aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
+                  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3> More Data Table and Grid Examples</h3>
+           <ul>
+            <li><a href="docs/event-enhncmnts-Roster-v8b.zip">Events Roster</a> - full responsive data grid </li>
+            <li><a href="docs/15619-code-ccadmin.zip">CCAdmin Event Types Management Page</a> - administration page with modal</li>
+            <li><a href="docs/myRegistrations-code-v1b.zip">My Event Registrations List</a> </li>
+          </ul>
+          </div></div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>

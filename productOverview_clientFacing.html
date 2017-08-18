@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.js"></script>
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<div class="container HLdocs-container">
+<br>
+  <h1>Higher Logic Pattern Portfolio</h1>
+  <ol class="breadcrumb">
+    <li><a href="index_patternPortfolio.html">Home</a></li>
+    <li class="active">Overview</li>
+  </ol>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h2>Site Page Structure</h2>
+<h3>Higher Logic Masterpage</h3>
+<p>Higher Logic's implementation of the Bootstrap 3 scaffolding (grid) accommodates proper rendering of our modules and controls. Understanding this structure is essential to those applying custom designs to their microsites. Inspect the HTML using <a href="http://getfirebug.com/" target="_blank">Firebug</a> or other HTML plugins or right-clicking - <b>View Source</b> to explore the scaffolding as well.</p>
+<p>
+</p>
+<ul>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/HLmasterpageStructure.jpg" class="img-responsive"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12">
+<h2>Site Content Frame Size</h2>
+<h3>Narrow - 984px wide</h3>
+<p>This is the same default content frame width as pre-Bootstrap sites.</p>
+<p>
+</p>
+<ul>
+    <li>go to <b>Site Setup / Layout</b> in the site admin and select <b>Narrow</b> from the dropdown.</li>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/siteFrame_narrow.jpg" class="img-responsive"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12">
+<h3>Wide - 1200px wide</h3>
+<p>Bootstrap 3 content frame default width.</p>
+<p>
+</p>
+<ul>
+    <li>go to <b>Site Setup / Layout</b> in the site admin and select <strong>Wide</strong> from the dropdown.</li>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/siteFrame_wide.jpg" class="img-responsive"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12">
+<h3>Full Frame - 100% of the browser window</h3>
+<p>This configuration setting accommodates site designs with site background colors and/or images stretching the entire width of the browser frame. See <a href="#full-frame-design">"Full-frame site design". </a></p>
+<p>
+</p>
+<ul>
+    <li>go to <b>Site Setup / Layout</b> in the site admin and select <strong>Full</strong> from the dropdown.</li>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/siteFrame_100percent.jpg" class="img-responsive"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h2>Site Design </h2>
+<h3>Full-Frame Site Design</h3>
+<p>Designs where the site content stays centered and has a fixed width but the design stretches across the full browser frame, do the following:</p>
+<p>
+</p>
+<ul>
+    <li>go to <b>Site Setup / Layout</b> in the site admin and select <b>Full</b> from the dropdown.</li>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/siteFrame_100percent.jpg" class="img-responsive"> </li>
+    <li> Add this class to the theme's <strong>Override CSS </strong>and set <em>max-width</em> to the desired width of the site's content.</li>
+    <li> The <em>margin:0 auto; </em>definition centers the site frame in the browser window.</li>
+    <blockquote><strong>CSS Code:</strong> <br>
+    <textarea class="highlight docBox-half">#HEADER, #MPOuter, #FOOTER, #MPFooterLinkContent, #MPButtonBar {
+    margin: 0 auto;
+    max-width: 1200px;
+    }       </textarea>
+    </blockquote>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Custom Fonts </h3>
+<p>Branding requirements might require a custom font for the site. There are two ways to integrate custom fonts:</p>
+<p>
+</p>
+<ol>
+    <li>Enter the link to an externally hosted custom font using the CCAdmin page.
+    <ul>
+        <li>go to <b>CCAdmin / Tools / Custom CSS/JS Meta </b> page and read the instructions.</li>
+        <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/customFontsandScriptInjectedInHeader.jpg" class="img-responsive"> </li>
+    </ul>
+    </li>
+    <li>
+    Add an <b>@import</b> reference to the <b>Override CSS</b>.
+    <ul>
+        <li> This is an example. Add the full link to the externally hosted font where the "http://...." is below and paste this at the top of the <strong>Override CSS</strong>.</li>
+        <blockquote><strong>CSS Code:</strong> <br>
+        <textarea class="highlight docBox-half">@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+        </textarea>
+        </blockquote>
+        <li>
+        Refer to the imported font in the theme's CSS.
+        <ul>
+            <li> Edit the <b>Override CSS</b> and add the font name to the desired classes.</li>
+            <blockquote><strong>CSS Code:</strong> <br>
+            <textarea class="highlight docBox-half">H1, H2, H3 {
+            font-family: 'Open+Sans'
+            }
+            </textarea>
+            </blockquote>
+        </ul>
+        </li>
+    </ul>
+    </li>
+</ol>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Imported Theme CSS</h3>
+<p>A Bootstrap 3.0.1 theme stylying Bootstrap 3.0.1 elements and components can be associated with a Higher Logic theme using this functionality. </p>
+<p><strong>NOTE:</strong> - this CSS loads first so any duplicate classes in the Color Picker and/or Override CSS will override classes defined here.</p>
+<p>
+</p>
+<ul>
+    <li>This site has <a href="http://bootswatch.com/">Bootstrap 3 themes</a> that style only elements and components.</li>
+    <li><em>Templates </em>(containing HTML, CSS, graphics and custom scripts) cannot be uploaded directly, only CSS is accepted.</li>
+    <li>The <strong>Include Override CSS on page load </strong>option allows the admin to turn the color choices <strong>Off</strong> and <strong>On</strong> for testing purposes. When it's set to <strong>Off</strong>, none of the color choices will render on the site when it's refershed.</li>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/themeImportedTheme.jpg" class="img-responsive"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Color Picker</h3>
+<p>A theme's <strong>Color Picker</strong> enables Administrators to choose theme colors without any specialized knowledge of CSS.</p>
+<p><strong>NOTE:</strong> - this CSS loads after the Imported Theme CSS and classes defined here take precedence. </p>
+<p>
+</p>
+<ul>
+    <li>All the colors on the <strong>Main Colors</strong> tab must be set to completely define a base theme.</li>
+    <li>More granular color definitions are available in the tabs to the right, but these are optional.</li>
+    <li>The <strong>Include Color Picker on page load </strong>option allows the admin to turn the color choices <strong>Off</strong> and <strong>On</strong> for testing purposes. When it's set to <strong>Off</strong>, none of the color choices will render on the site when it's refershed.</li>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/ThemeColorPicker.jpg" class="img-responsive"> </li>
+    <li> An example may be changing the colors of the buttons. They can be changed using the Color Picker or by customizing the CSS below.<br>
+    <blockquote><strong>CSS Code:</strong> <br>
+    <textarea class="highlight docBox-half-tall">.btn-default {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    color: #333333;
+    }
+    .btn-primary {
+    background-color: #428BCA;
+    border-color: #357EBD;
+    color: #FFFFFF;
+    }
+    .btn-success {
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+    color: #FFFFFF;
+    }
+    .btn-info {
+    background-color: #5BC0DE;
+    border-color: #46B8DA;
+    color: #FFFFFF;
+    }
+    .btn-warning {
+    background-color: #F0AD4E;
+    border-color: #EEA236;
+    color: #FFFFFF;
+    }
+    .btn-danger {
+    background-color: #D9534F;
+    border-color: #D43F3A;
+    color: #FFFFFF;
+    }
+    </textarea>
+    </blockquote>
+    </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Override CSS</h3>
+<p>A theme's <strong>Override CSS</strong> facilitates custom CSS addition to the theme.</p>
+<p><strong>NOTE:</strong> - this CSS loads last and classes defined here take precedence over duplicate class definitions in both the Color Picker and Imported Theme CSS. </p>
+<p>
+</p>
+<ul>
+    <li>CSS in the <strong>Override CSS</strong> always loads last and overwrites any redundant CSS from the <strong>Imported Theme CSS</strong> and the <strong>Color Picker</strong>.</li>
+    <li>The <strong>Show Theme CSS</strong> button presents the <strong>Imported Theme CSS </strong>in a reference window if it exists in the theme.</li>
+    <li>The <strong>Include Override CSS on page load </strong>option allows the admin to turn the color choices <strong>Off</strong> and <strong>On</strong> for testing purposes. When it's set to <strong>Off</strong>, none of the color choices will render on the site when it's refershed.</li>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/themeOverrideCSS.jpg" class="img-responsive"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Site Logo</h3>
+<p>The site logo is uploaded on the <strong>Site Setup / Images </strong>page. The size of the logo is completely subjective. A ballpark size may be anywhere from 250px width by 100px height to 300px wide by 80px height. Below are considerations for proper logo treatment.</p>
+<p>
+</p>
+<ul>
+    <li>The <strong>logo creates physical space </strong>within the header so the height and width of the logo has a direct impact on the height of the header.</li>
+    <li class="doc-image">Smaller Logo <br>
+    <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/hugLittleLogo.jpg" class="img-responsive"> </li>
+    <li class="doc-image">Larger Logo <br>
+    <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/hugBigLogo.jpg" class="img-responsive"> </li>
+    <li>For optimal responsive display, it's best to keep <strong>logo width under 320px</strong>.</li>
+    <li>Logo images must be separate from header background images to ensure proper responsiveness and display on all devices. We no longer support integrated header background and logo images in a single graphic.
+    <ul>
+        <li>Upload the site logo by going to the <strong>Site Setup / Images </strong> and choosing <strong>Logo</strong>.  </li>
+        <li>If your design requires a header background image, upload it on the <strong>Site Setup / Images </strong>page using <strong>Header Background </strong> choice.</li>
+        <li>NOTE: A single header background image should be sized to fit the <strong>Site Frame</strong> setting - <strong>Narrow 894px</strong>, <strong>Wide 1200px </strong>and <strong>Full (custom size)</strong>.</li>
+    </ul>
+    </li>
+    <li class="doc-image"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Top Auxillary Menu Colors</h3>
+<p>Colors and additional styling can be applied to this menu using the a theme's<strong> Color Picker / Sub-Menus </strong>tab or by adding the CSS below to the <strong>Override CSS </strong>.</p>
+<p>
+</p>
+<ul>
+    <li> Graphic of the auxillary menu located in the top right of the site. It contains the Login/Logout access point. </li>
+    <li class="doc-image"><img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/topAuxMenu.jpg" class="img-responsive"> </li>
+    <li> Here are the base styles for the top auxillary menu.<br>
+    <blockquote><strong>CSS Code:</strong> <br>
+    <textarea class="highlight docBox-half-tall">#MPAuxNav ul.level1 li a {
+    color: #F68026;
+    }
+    #MPAuxNav ul.level1 li a {
+    border-right: 1px solid #CCCCCC;
+    margin-right: 6px;
+    margin-top: 6px;
+    padding-right: 6px;
+    text-decoration: underline;
+    }
+    #AuxMenu a.static {
+    border-style: none;
+    padding-left: 0.15em;
+    padding-right: 0.15em;
+    text-decoration: none;
+    }
+    </textarea>
+    </blockquote>
+    </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Main Menu Options</h3>
+<p>Bootstrap 3 menus are <em>touch friendly</em> so there are no hover states. A tap is required to open the dropdown menu options.  There are two types of menus available: Traditional Menu and Super Mega Menu for use. Menu configuration can be found in the <strong>Site Setup / Layout tab</strong>. Although both types support tertiary items it's best to keep the site structure as flat as possible to facilitate a more friendly small device experience.</p>
+<p>
+</p>
+<ul>
+    <li> <strong>Traditional Menu </strong>- dropdown sub-menu options under the node.
+    <ul>
+        <li>Use the theme's <strong>Color Picker </strong>for applying the appropriate colors - the same color choices apply to both types of menus.</li>
+        <li>Customize the menu further by adding custom CSS to the <strong>Override CSS</strong>.</li>
+        <li>Below are the base classes for reference. (More detail about the <a href="http://getbootstrap.com/components/#navbar" target="_blank">Bootstrap navbar</a>.)<br>
+        <blockquote><strong>CSS Code:</strong> <br>
+        <textarea class="highlight docBox-half-tall">.navbar-default {
+        border-color: #F68026;
+        }
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #E6E6E6;
+        }
+        .navbar-default .navbar-nav &gt; li &gt; a {
+        color: #FFFFFF;
+        }
+        .navbar-default .navbar-nav &gt; .open &gt; a, .navbar-default .navbar-nav &gt; .open &gt; a:hover, .navbar-default .navbar-nav &gt; .open &gt; a:focus {
+        background-color: #F68026;
+        color: #FFFFFF;
+        }
+        .navbar-default .navbar-nav &gt; .dropdown &gt; a .caret {
+        border-bottom-color: inherit;
+        border-top-color: inherit;
+        }
+        #MPButtonBar .dropdown-menu {
+        background-color: #9A9B9C;
+        list-style:non outside none;
+        }
+        #MPButtonBar .dropdown-menu &gt; li &gt; a {
+        padding: 3px 20px;
+        }
+        </textarea>
+        </blockquote>
+        </li>
+    </ul>
+    </li>
+    <li> <strong>Super Mega Menu </strong>- full-width view of all sub-menu options.
+    <ul>
+        <li>Use the theme's <strong>Color Picker </strong>for applying the appropriate colors - the same color choices apply to both types of menus.</li>
+        <li>Customize the menu further by adding custom CSS to the <strong>Override CSS</strong>.</li>
+        <li>Below are the base classes for reference. (More detail about the <a href="http://getbootstrap.com/components/#navbar" target="_blank">Bootstrap navbar</a>.)<br>
+        <blockquote><strong>CSS Code:</strong> <br>
+        <textarea class="highlight docBox-half-tall">.navbar-default {
+        border-color: #F68026;
+        }
+        .navbar-default .navbar-nav &gt; li &gt; a {
+        color: #777777;
+        }
+        .navbar-default .navbar-nav &gt; .open &gt; a, .navbar-default .navbar-nav &gt; .open &gt; a:hover, .navbar-default .navbar-nav &gt; .open &gt; a:focus {
+        background-color: #F68026;
+        color: #FFFFFF;
+        }
+        .navbar-default .navbar-nav &gt; .dropdown &gt; a .caret {
+        border-bottom-color: inherit;
+        border-top-color: inherit;
+        }
+        .megamenu &gt; li &gt; ul &gt; li {
+        list-style: none outside none;
+        }
+        .megamenu &gt; li &gt; ul &gt; li &gt; a {
+        color: #333333;
+        padding: 3px 20px;
+        }
+        </textarea>
+        </blockquote>
+        </li>
+    </ul>
+    </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Breadcrumb Menu</h3>
+<p>The breadcrumb is a contextual menu appearing at the top of all pages when enabled in the site admin -<strong> Site Setup / Layout</strong> tab or by modifying and adding the CSS below to a theme's <strong>Override CSS</strong>. </p>
+<p>
+</p>
+<ul>
+    <li class="doc-image"> <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/breadcrumb.jpg" class="img-responsive"> </li>
+    <li> Here are the base styles for the breadcrumb menu<br>
+    <blockquote><strong>CSS Code:</strong> <br>
+    <textarea class="highlight docBox-half-tall">.breadcrumb {
+    background-color: #F5F5F5;
+    }
+    .breadcrumb {
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    list-style: none outside none;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    }
+    </textarea>
+    </blockquote>
+    </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12"><a name="full-frame-design"></a>
+<h3>Slidedeck Images</h3>
+<p>Images loaded into the Slidedeck control should match the setting for the site frame to display properly. </p>
+<p>
+</p>
+<ul>
+    <li> If the site frame is <strong>Narrow</strong>, images should be no greater than <strong>984px wide</strong></li>
+    <li> If the site frame is <strong>Wide</strong>, images should be no greater thatn <strong>1200px wide</strong></li>
+    <li> Custom size for site frame requires custom sizes for the images.</li>
+    <li> NOTE: use <strong>UseResponsive="true"</strong> to make Slidedeck images responsive to smaller devices</li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12">
+<h2>Responsiveness</h2>
+<h3>Media Queries</h3>
+<p><strong>Media queries</strong> are part of the default Bootstrap 3 CSS and define core responsive behaviors of the framework. Clients are free to create overrides or define their own based on their user's needs. For reference, below are Higher Logic's media queries - these can be seen at the bottom of our base CSS.  </p>
+<p>
+</p>
+<ul>
+    <li> Higher Logic's Media Queries<br>
+    <blockquote><strong>CSS Code:</strong> <br>
+    <textarea class="highlight docBox-half-tall">/* Custom, iPhone Retina */
+    @media only screen and (min-width : 300px) {
+    /* put styles for this size here */
+    }
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+    /* put styles for this size here */
+    }
+    /* Portrait Tablets */
+    @media (max-width: 767px) {
+    /* put styles for this size here */
+    }
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    /* put styles for this size here */
+    }
+    /* Max Tablets */
+    @media (max-width: 991px) {
+    /* put styles for this size here */
+    }
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    /* put styles for this size here */
+    }
+    </textarea>
+    </blockquote>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p>There is a great wealth of information available on the web regarding media queries. Try Google - "bootstrap 3 media queries" or "media queries". Below are a couple links we found helpful.</p>
+<p>
+</p>
+<ul>
+    <li> Good explanation of media queries - <a href="http://stackoverflow.com/questions/8549529/what-is-the-difference-between-screen-and-only-screen-in-media-queries media types" target="_blank"> http://stackoverflow.com/questions/8549529/what-is-the-difference-between-screen-and-only-screen-in-media-queries media types </a>.</li>
+    <li> The WC3 reference for media queries - <a href="http://www.w3.org/TR/css3-mediaqueries/ http://webdesign.about.com/od/css3/a/css3-media-queries.htm" target="_blank"> http://www.w3.org/TR/css3-mediaqueries/ http://webdesign.about.com/od/css3/a/css3-media-queries.htm </a>.</li>
+    <li class="doc-image"></li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12">
+<h2>Integrating Bootstrap 3.0.1 Themes and Templates</h2>
+<h3>Templates</h3>
+<p>There are two ways to add a Bootstrap 3.0.1 theme: cut and paste the theme's CSS into a new or existing theme; or upload a CSS file into a new or existing. It's important to note the difference between a<strong> Theme</strong> and a <strong>Template</strong> because often both words are used to mean the same thing when in fact, they are quite different.</p>
+<p>
+</p>
+<ul>
+    <li>A <strong>Template</strong>, purchased and/or downloaded from sites like <a href="https://wrapbootstrap.com/" target="_blank">Wrapbootstrap.com</a> and others typically contains <em><u>structure</u></em>(XHTML), <em><u>interaction scripts</u></em>(Javascript) and <em><u>design</u></em>(CSS and graphics). Most are created for use in open CMS systems like <a href="https://wordpress.com/" target="_blank">Word Press.com</a> or <a href="http://www.joomla.org/" target="_blank">Joomla.org</a>, systems with very little to no inherent structure - they are a "blank slate" - and are designed to accept most any template design. </li>
+    <li class="doc-image">A typical Bootstrap template <br>
+    <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/Difference_siteTemplate.jpg"> </li>
+    <li>Importing a <strong>Template</strong> into a Higher Logic theme requires specialized knowledge of HTML and CSS and a firm understanding of both the Bootstrap 3.0.1 grid and Higher Logic's implementation of the grid (see <a href="#full-frame-design">Site Structure</a>). A template's custom structural elements must be translated into Higher Logic's custom structure as well as any other custom interaction scripts or widgets associated with before a template is functionally integrated.</li>
+    <li class="doc-image">A typical Bootstrap template <br>
+    <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/bootstrapTemplatesAndHLCMS.jpg"> </li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h3>Themes</h3>
+<ul>
+    <li>A <strong>Theme</strong>, as Higher Logic refers to them, is comprised of CSS defining a site's look and feel. Themes that define <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> elements and components work very well with Higher Logic's content management system (CMS) since it contains a custom theme structure to accommodate our social tools and functionality. <a href="http://bootswatch.com/" target="_blank">Bootswatch.com</a> is a recommended site with free themes.</li>
+    <li class="doc-image">A typical Bootstrap theme<br>
+    <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/Difference_siteTheme.jpg"> </li>
+    <li>A <strong>Theme</strong> holds the color and spatial definitions required to meet design specifications. It can be a combination of CSS.</li>
+    <li class="doc-image">A typical Bootstrap theme<br>
+    <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/bootstrapThemeAndHLCMS.jpg"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12">
+<h2>Higher Logic Ad Space and Configuration</h2>
+<h3>Ad Placement</h3>
+<p><strong>Site Ads</strong> and <strong>Cross-site Ads </strong>can be configured on the <strong>Site Setup / Ads</strong> page in the site Admin. </p>
+<p>
+</p>
+<ul>
+    <li>Ads can be positioned in the spaces presented below. Please note that the spaces indicate a Maximum-size of a give space so all ads will fit as long as their diminsions do not exceed the maximum size of the space.</li>
+    <li>NOTE: If the site frame is set to <strong>Narrow</strong>, <u>right-side ads are not recommended</u> due to content spatial needs and responsiveness. <strong>Wide </strong>and <strong>Full</strong> site frame settings accommodate ads without crowding.</li>
+</ul>
+<ul>
+    <li class="doc-image"><img style="" src="https://higherlogicdownload.s3.amazonaws.com/HUG/6ab9a070-fc6c-4010-a591-23cccea8d851/UploadedImages/HL_AdSizesAndPlacement4.jpg"></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h3>Ad Sizes</h3>
+<ul>
+    <li>Ads can be any size that does not exceed the maximum size limits of the ad space. Below is a screenshot of the <strong>Site Setup / Ads / Create an Ad</strong> dialog showing ad placements and size options.</li>
+    <li class="doc-image">List of Ad locations and max-sizes.<br>
+    <img src="https://higherlogicdownload.s3.amazonaws.com/QA/2fc3c797-2198-4599-a12d-160eb5b721ff/UploadedImages/HL_adSizes.jpg"> </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+<div class="col-md-12">
+<h2>Additional Resources</h2>
+<h3>Useful Links for Bootstrap</h3>
+<p>Here is a list of resources that might be helpful for site development and theme/template application.</p>
+<p>
+</p>
+<ul>
+    <li> <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a> - Bootstrap 3 homepage </li>
+    <li> <a href="http://bootswatch.com/" target="_blank">http://bootswatch.com/</a>   - Bootstrap 3 theme roller (recommended) </li>
+    <li> <a href="http://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29" target="_blank">http://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29</a>   - wiki about Bootstrap </li>
+    <li> <a href="https://www.ostraining.com/blog/coding/bootstrap/" target="_blank">https://www.ostraining.com/blog/coding/bootstrap/</a>   - good article </li>
+    <li> <a href="http://startbootstrap.com/bootstrap-resources/" target="_blank">http://startbootstrap.com/bootstrap-resources/</a>  - great list of resources for Bootstrap 3</li>
+    <li> <a href="http://www.layoutit.com/build" target="_blank">http://www.layoutit.com/build</a> - great tool to rapidly build Bootstrap 3 structures.  </li>
+    <li> <a href="http://bootsnipp.com/" target="_blank">http://bootsnipp.com/</a> - pre-made Bootstrap structure and components.  </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+</body>
+</html>

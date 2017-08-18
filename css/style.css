@@ -92,6 +92,9 @@ ul.extra-space li {
     vertical-align: middle;
     width: auto;
 }
+.form-group.required.has-error > div > span.help-block {
+    margin-bottom: 0;
+}
 ul.nav-wizard {
     background-color: #f9f9f9;
     border: 1px solid #d4d4d4;

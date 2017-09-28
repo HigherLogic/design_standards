@@ -62,6 +62,15 @@ ul.extra-space li {
 .text-muted-orange{
    	color:#F60;
 }
+.text-ex{
+	text-transform: uppercase;
+   	color:#666;
+	font-weight: bold;
+}
+.text-ex-l{
+   	color:#666;
+	font-weight: bold;
+}
 .HLdocs-container .indent1 h3, .HLdocs-container .indent1 h4{
 	color: black;
 }
@@ -76,6 +85,52 @@ ul.extra-space li {
     border-color: #ccc;
     color: #333;
 }
+.btn-copy { 
+  color: #FF6600; 
+  background-color: #FFFFFF; 
+  border-color: #F60; 
+} 
+ 
+.btn-copy:hover, 
+.btn-copy:focus, 
+.btn-copy:active, 
+.btn-copy.active, 
+.open .dropdown-toggle.btn-copy { 
+  color: #FF6600; 
+  background-color: #FCE7D8; 
+  border-color: #F60; 
+} 
+ 
+.btn-copy:active, 
+.btn-copy.active, 
+.open .dropdown-toggle.btn-copy { 
+  background-image: none; 
+} 
+ 
+.btn-copy.disabled, 
+.btn-copy[disabled], 
+fieldset[disabled] .btn-copy, 
+.btn-copy.disabled:hover, 
+.btn-copy[disabled]:hover, 
+fieldset[disabled] .btn-copy:hover, 
+.btn-copy.disabled:focus, 
+.btn-copy[disabled]:focus, 
+fieldset[disabled] .btn-copy:focus, 
+.btn-copy.disabled:active, 
+.btn-copy[disabled]:active, 
+fieldset[disabled] .btn-copy:active, 
+.btn-copy.disabled.active, 
+.btn-copy[disabled].active, 
+fieldset[disabled] .btn-copy.active { 
+  background-color: #FFFFFF; 
+  border-color: #F60; 
+} 
+ 
+.btn-copy .badge { 
+  color: #FFFFFF; 
+  background-color: #FF6600; 
+}
+
 .disabled-demographic {
     opacity: 1 !important;
 }
@@ -91,9 +146,6 @@ ul.extra-space li {
     display: inline-block;
     vertical-align: middle;
     width: auto;
-}
-.form-group.required.has-error > div > span.help-block {
-    margin-bottom: 0;
 }
 ul.nav-wizard {
     background-color: #f9f9f9;
@@ -197,5 +249,15 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li {
 ul.nav-wizard.nav-wizard-backnav .active ~ li::after {
     border-left: 16px solid #ededed;
 }
-
-
+.right-sidebar{
+	background-color: #FFF;
+	border: 1px solid #E6E8EB;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #06C;
+	border-top: 4px solid #0070E0;
+	border-radius: 4px;
+}
+.right-sidebar a{
+	color:#666;
+}

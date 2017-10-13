@@ -1,166 +1,264 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Higher Logic Pattern Portfolio - Help and Assistive Text</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-<!--script src="js/less-1.3.3.min.js"></script-->
-<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="img/favicon.png">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript">
-$( document ).ready(function () { // this has to be done after the document has been rendered
-    $("[data-toggle='tooltip']").tooltip({html: true}); // enable bootstrap 3 tooltips
-    $('[data-toggle="popover"]').popover({
-    });
-});
-</script>
-</head>
-<body>
-<div class="container HLdocs-container">
+   <head>
+      <title>Higher Logic Pattern Portfolio - Help and Assistive Text</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+      <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+      <!--script src="js/less-1.3.3.min.js"></script-->
+      <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="img/favicon.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript">
+         $( document ).ready(function () { // this has to be done after the document has been rendered
+             $("[data-toggle='tooltip']").tooltip({html: true}); // enable bootstrap 3 tooltips
+             $('[data-toggle="popover"]').popover({
+             });
+         });
+      </script>
+   </head>
+   <body>
+      <div class="container HLdocs-container">
+         <br>
+         <h1>Higher Logic Pattern Portfolio</h1>
+         <ol class="breadcrumb">
+            <li><a href="index_patternPortfolio.html">Home</a></li>
+            <li class="active">Help and Assistive </li>
+         </ol>
+         <h2> Help and Assistive Text </h2>
+         <div class="row">
+            <div class="col-md-9">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Description</h3>
+                     <p>The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element.</p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Rules &amp; Guidelines</h3>
+                     <ul>
+                        <li><strong>Modal</strong> - when more space is needed to convey the point.</li>
+                        <li><strong>Popover via an icon </strong>- when less space is needed to convey the point.</li>
+                        <li><strong>Title attribute added to links</strong> - inside all anchors to help screen readers.</li>
+                        <li><strong>Tooltip </strong>- when very concise tips can be conveyed in a small amount of space.</li>
+                        <li><strong>Help-block</strong> </li>
+                        <li><strong>Help-block with "NOTE:"</strong></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Live Examples</h3>
+                     <p class="lead">Modal</p>
+                     <hr />
+                     <div class="panel-body">
+                        This is complicated so there is a help icon to click on get more detailed information <a id="modal-login-1" href="#modal-help" role="button" data-toggle="modal" title="help for X"> <i class="glyphicon glyphicon-question-sign"></i></a>.
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;a id=&quot;modal-login-1&quot; href=&quot;#modal-help&quot; role=&quot;button&quot; data-toggle=&quot;modal&quot; title=&quot;help for X&quot;&gt; &lt;i class=&quot;glyphicon glyphicon-question-sign&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>
 <br>
-<h1>Higher Logic Pattern Portfolio</h1>
-<ol class="breadcrumb">
-  <li><a href="index_patternPortfolio.html">Home</a></li>
-  <li class="active">Help and Assistive </li>
-</ol>
-<div class="row">
-  <div class="col-md-12">
-    <h2> Help and Assistive Text </h2>
-    <div class="row">
-      <div class="col-md-12">
-        <h3> Types</h3>
-        <ul>
-          <li><strong>Modal</strong> - when more space is needed to convey the point.</li>
-          <li><strong>Popover via an icon </strong>- when less space is needed to convey the point.</li>
-          <li><strong>Title attribute added to links</strong> - inside all anchors to help screen readers.</li>
-          <li><strong>Tooltip </strong>- when very concise tips can be conveyed in a small amount of space.</li>
-          <li><strong>Help-block</strong> </li>
-          <li><strong>Help-block with "NOTE:"</strong></li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h3> Examples</h3>
-        <ol>
-          <li><strong>Modal</strong> - This is complicated so there is a help icon to click on get more detailed information <a id="modal-login-1" href="#modal-help" role="button" data-toggle="modal" title="help for X"> <i class="glyphicon glyphicon-question-sign"></i></a>.
-           <div class="indent1">
-           <blockquote>
-           <strong>Code</strong><br>
-            <textarea class="highlight docBox-half"><a id="modal-login-1" href="#modal-help" role="button" data-toggle="modal" title="help for X"> <i class="glyphicon glyphicon-question-sign"></i></a>
-            </textarea>
-          </blockquote</div><br>
-          </li>
-          <li><strong>Popover</strong> - This is less complicated so the help pops over in context - good for brief help <a href="javascript:void()" data-toggle="popover" tabindex="2" data-trigger="focus" title="Popover Help" data-content="Good for cases where a little more information or instruction may be needed."><i class="glyphicon glyphicon-question-sign"></i></a>.
-          <div class="indent1">
-          <blockquote>
-          <strong>Code</strong><br>
-            <textarea class="highlight docBox-half"><a href="javascript:void()" data-toggle="popover" tabindex="2" data-trigger="focus" title="Popover Help" data-content="Good for cases where a little more information or instruction may be needed."><i class="glyphicon glyphicon-question-sign"></i></a>
-            </textarea>
-          </blockquote>
-          </div>
-          <p>Link to Bootstrap documentation - <a href="http://getbootstrap.com/javascript/#popovers">http://getbootstrap.com/javascript/#popovers</a></p><br>
-          </li>
-          </li>
-          <li><strong>Tooltip</strong> - This is a hover-activated tooltip.
-            <a type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</a>
-             <div class="indent1">
-             <blockquote>
-             <strong>Code</strong><br>
-            <textarea class="highlight docBox-half"><a type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</a>
-            </textarea>
-          </blockquote>
-          </div>
-             <p>Link to Bootstrap documentation - <a href="http://getbootstrap.com/javascript/#tooltips">http://getbootstrap.com/javascript/#tooltips</a></p><br>
-          </li>
-          
-          <li> <strong>Help Block</strong>  - persistent help block added below the form element.  <br><br>
-          <div class="form-horizontal">
-            <div class="form-group">
-              <label class="col-sm-1 control-label" for="inputPassword3">Choose</label>
-              <div class="col-sm-6">
-                <select class="form-control">
-                 <option>1</option>
-                </select>
-<div class="help-block">Example of instructional text to be put here if needed.</div>
-              </div>
+
+                        &lt;!-- Modal --&gt;<br>
+&lt;div class=&quot;modal fade&quot; id=&quot;modal-help&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot;&gt;<br>
+&lt;div class=&quot;modal-dialog&quot;&gt;<br>
+&lt;div class=&quot;modal-content&quot;&gt;<br>
+&lt;div class=&quot;modal-header&quot;&gt;<br>
+&lt;a type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;×&lt;/a&gt;<br>
+&lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt; Descriptive Title&lt;/h4&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;modal-body&quot;&gt;<br>
+&lt;p&gt;Put your explanatory and help text in here. Be as consise and clear as possilbe.&lt;/p&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;modal-footer&quot;&gt;<br>
+&lt;div class=&quot;text-left&quot;&gt; &lt;a type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;OK&lt;/a&gt; &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;
+                        </samp>
+                     </div>
+                     <br>
+                     <br>
+                     <br>
+                     <p class="lead">Popover</p>
+                     <hr />
+                     <div class="panel-body">
+                        This is less complicated so the help pops over in context - good for brief help <a href="javascript:void()" data-toggle="popover" tabindex="2" data-trigger="focus" title="Popover Help" data-content="Good for cases where a little more information or instruction may be needed."><i class="glyphicon glyphicon-question-sign"></i></a>.
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;a href=&quot;javascript:void()&quot; data-toggle=&quot;popover&quot; tabindex=&quot;2&quot; data-trigger=&quot;focus&quot; title=&quot;Popover Help&quot; data-content=&quot;Good for cases where a little more information or instruction may be needed.&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-question-sign&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                        </samp>
+                     </div>
+                     <br>
+                     <br>
+                     <br>
+                     <p class="lead">Tooltip</p>
+                     <p>This is a hover-activated tooltip.</p>
+                     <hr />
+                     <div class="panel-body">
+                        <a type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</a>
+                        <br>
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;a type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;right&quot; title=&quot;Tooltip on right&quot;&gt;Tooltip on right&lt;/a&gt;
+                        </samp>
+                     </div>
+                     <br>
+                     <br>
+                     <br>
+                     <p class="lead">Help Block</p>
+                     <p>Persistent help block added below the form element.  </p>
+                     <hr />
+                     <br><br>
+                     <div class="form-horizontal">
+                        <div class="form-group">
+                           <label class="col-sm-1 control-label" for="inputPassword3">Choose</label>
+                           <div class="col-sm-6">
+                              <select class="form-control">
+                                 <option>1</option>
+                              </select>
+                              <div class="help-block">Example of instructional text to be put here if needed.</div>
+                           </div>
+                        </div>
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;div class=&quot;form-horizontal&quot;&gt;<br>
+                        &lt;div class=&quot;form-group&quot;&gt;<br>
+                        &lt;label class=&quot;col-sm-1 control-label&quot; for=&quot;inputPassword3&quot;&gt;Choose&lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-6&quot;&gt;<br>
+                        &lt;select class=&quot;form-control&quot;&gt;<br>
+                        &lt;option&gt;1&lt;/option&gt;<br>
+                        &lt;/select&gt;<br>
+                        &lt;div class=&quot;help-block&quot;&gt;Example of instructional text to be put here if needed.&lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;
+                        </samp>
+                     </div>
+                     <br>
+                     <br>
+                     <br>
+                     <p class="lead">Help Block with Alert</p>
+                     <hr />
+                     <div class="form-horizontal">
+                        <div class="form-group">
+                           <label class="col-sm-1 control-label" for="inputPassword3">Choose</label>
+                           <div class="col-sm-6">
+                              <select class="form-control">
+                                 <option>1</option>
+                              </select>
+                              <div class="help-block"><span class="alert-info note-alert">Note:</span>&nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.</div>
+                           </div>
+                        </div>
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;div class=&quot;form-horizontal&quot;&gt;<br>
+                        &lt;div class=&quot;form-group&quot;&gt;<br>
+                        &lt;label class=&quot;col-sm-1 control-label&quot; for=&quot;inputPassword3&quot;&gt;Choose&lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-6&quot;&gt;<br>
+                        &lt;select class=&quot;form-control&quot;&gt;<br>
+                        &lt;option&gt;1&lt;/option&gt;<br>
+                        &lt;/select&gt;<br>
+                        &lt;div class=&quot;help-block&quot;&gt;&lt;span class=&quot;alert-info note-alert&quot;&gt;Note:&lt;/span&gt;&amp;nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.&lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;
+                        </samp>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Visual Examples</h3>
+                     <div>
+                        <p class="text-ex-l">Community notifications:</p>
+                        <img src="img/CommunityNotifications.jpg" class="img-responsive img-thumbnail">
+                        <p class="text-muted">https://hug.higherlogic.com/network/members/profile/myaccount/my-settings?section=subscriptions</p>
+                        <br><br>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="indent1">
-           <blockquote>
-           <strong>Code</strong><br>
-            <textarea class="highlight docBox-half"><select class="form-control">
-   <option>1</option>
-</select>
-<div class="help-block">Instructional text to be put here if needed.</div>
-            </textarea>
-          </blockquote>
-          </div>
-          <br>
-           <div class="form-horizontal">
-            <div class="form-group">
-              <label class="col-sm-1 control-label" for="inputPassword3">Choose</label>
-              <div class="col-sm-6">
-                <select class="form-control">
-                 <option>1</option>
-                </select>
-<div class="help-block"><span class="alert-info note-alert">Note:</span>&nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.</div>
-              </div>
+            <div class="col-md-3">
+               <div data-spy="affix">
+                  <div class="right-sidebar">
+                     <div class="panel-body">
+                        <h4>Code Bundle</h4>
+                        <p><a href="#" class="btn btn-default btn-sm btn-block">Download Zip</a></p>
+                        <br>
+                        <h4>Product Locations</h4>
+                        <ul>
+                           <li><a href="https://hug.higherlogic.com/network/members/profile/myaccount/my-settings?section=subscriptions" target="_blank">Community notifications</a></li>
+                        </ul>
+                        <br>
+                        <h4>Resources</h4>
+                        <p>Popovers: <a href="http://getbootstrap.com/javascript/#popovers">getbootstrap.com</a></p>
+                        <p>Tooltips: <a href="http://getbootstrap.com/javascript/#tooltips">getbootstrap.com</a></p>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="indent1">
-           <blockquote>
-           <strong>Code</strong><br>
-            <textarea class="highlight docBox-half"><select class="form-control">
-   <option>1</option>
-</select>
-<div class="help-block"><span class="alert-info note-alert">Note:</span>&nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.</div>
-            </textarea>
-          </blockquote>
-          </div>
-          
-          </li>
-          </ol>
+         </div>
+         <br>
+         <br>
       </div>
-    </div>
-  </div>
-</div>
-<br>
-<br>
-<!-- Login Modal -->
-<div class="modal fade" id="modal-help" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
-        <h4 class="modal-title" id="myModalLabel"> Descriptive Title</h4>
+      <!-- Login Modal -->
+      <div class="modal fade" id="modal-help" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                  <h4 class="modal-title" id="myModalLabel"> Descriptive Title</h4>
+               </div>
+               <div class="modal-body">
+                  <p>Put your explanatory and help text in here. Be as consise and clear as possilbe.</p>
+               </div>
+               <div class="modal-footer">
+                  <div class="text-left"> <a type="button" class="btn btn-default" data-dismiss="modal">OK</a> </div>
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="modal-body">
-        <p>Put your explanatory and help text in here. Be as consise and clear as possilbe.</p>
-      </div>
-      <div class="modal-footer">
-        <div class="text-left"> <a type="button" class="btn btn-default" data-dismiss="modal">OK</a> </div>
-      </div>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-</body>
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/scripts.js"></script>
+   </body>
 </html>
+

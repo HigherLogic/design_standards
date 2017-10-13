@@ -1,96 +1,175 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Higher Logic Pattern Portfolio - Modals</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-<!--script src="js/less-1.3.3.min.js"></script-->
-<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="img/favicon.png">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-</head>
-<body>
-<div class="container HLdocs-container"> <br>
-  <h1>Higher Logic Pattern Portfolio</h1>
-  <ol class="breadcrumb">
-    <li><a href="index_patternPortfolio.html">Home</a></li>
-    <li class="active">Modals</li>
-  </ol>
-  <div class="row">
-    <div class="col-md-12">
-      <h2> Modals</h2>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Elements</h3>
-          	<ul>
-          		<li>modal title</li>
-                <li>"close" X</li>
-                <li>form label</li>
-                <li>form input field</li>
-                <li>actions buttons</li>
-                 <li><a href="http://getbootstrap.com/javascript/#modals">http://getbootstrap.com/javascript/#modals</a></li>
-            </ul>
-          </div>
-        </div>
+   <head>
+      <title>Higher Logic Pattern Portfolio - Modals</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+      <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+      <!--script src="js/less-1.3.3.min.js"></script-->
+      <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="img/favicon.png">
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/scripts.js"></script>
+   </head>
+   <body>
+      <div class="container HLdocs-container">
+         <br>
+         <h1>Higher Logic Pattern Portfolio</h1>
+         <ol class="breadcrumb">
+            <li><a href="index_patternPortfolio.html">Home</a></li>
+            <li class="active">Modals</li>
+         </ol>
+         <h2> Modals</h2>
          <div class="row">
-        <div class="col-md-12">
-          <h3> Visual Example</h3>
-          	<div class="indent1">
-            <a id="modal-login-1" href="#modal-authenticate" role="button" data-toggle="modal" class="btn btn-sm btn-primary"> This is a modal</a>
+            <div class="col-md-9">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Description</h3>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Rules &amp; Guidelines</h3>
+                     <ul>
+                        <li>modal title</li>
+                        <li>"close" X</li>
+                        <li>form label</li>
+                        <li>form input field</li>
+                        <li>actions buttons</li>
+                     
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Live Example</h3>
+                     <hr />
+                     <div class="panel-body">
+                        <a id="modal-login-1" href="#modal-authenticate" role="button" data-toggle="modal" class="btn btn-sm btn-primary"> This is a modal</a>
+                     </div>
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;a id=&quot;modal-login-1&quot; href=&quot;#modal-authenticate&quot; role=&quot;button&quot; data-toggle=&quot;modal&quot; class=&quot;btn btn-sm btn-primary&quot;&gt; This is a modal&lt;/a&gt;
+                        <br>
+                        <br>
+                        &lt;!-- Modal --&gt;<br>
+                        &lt;div class=&quot;modal fade&quot; id=&quot;modal-authenticate&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot;&gt;<br>
+                        &lt;div class=&quot;modal-dialog&quot;&gt;<br>
+                        &lt;div class=&quot;modal-content&quot;&gt;<br>
+                        &lt;div class=&quot;modal-header&quot;&gt; &lt;a type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;×&lt;/a&gt;<br>
+                        &lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt; Login&lt;/h4&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;div class=&quot;modal-body&quot;&gt;<br>
+                        &lt;div class=&quot;form-horizontal&quot; role=&quot;form&quot;&gt; &lt;br&gt;<br>
+                        &lt;div class=&quot;form-group row&quot;&gt;<br>
+                        &lt;label for=&quot;putIDhere&quot; class=&quot;col-sm-3 control-label&quot;&gt;Email Address&lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-6&quot;&gt;<br>
+                        &lt;input class=&quot;form-control&quot; id=&quot;putIDhere&quot;&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;div class=&quot;form-group row&quot;&gt;<br>
+                        &lt;label for=&quot;putIDhere&quot; class=&quot;col-sm-3 control-label&quot;&gt;Password&lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-6&quot;&gt;<br>
+                        &lt;input class=&quot;form-control&quot; id=&quot;putIDhere&quot; type=&quot;password&quot;&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;div class=&quot;modal-footer&quot;&gt;<br>
+                        &lt;div class=&quot;text-left&quot;&gt; &lt;a type=&quot;button&quot; class=&quot;btn btn-primary&quot; href=&quot;event-registration-authenticated.html&quot;&gt;Login&lt;/a&gt; &lt;a type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Cancel&lt;/a&gt; &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;
+                        </samp>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Visual Examples</h3>
+                     <div>
+                        <p class="text-ex-l">Community landing page:</p>
+                        <img src="img/communityLandingTabs.jpg" class="img-responsive img-thumbnail">
+                        <p class="text-muted">https://hug.higherlogic.com/communities/community-home?CommunityKey=a58a6a03-a539-4419-9a59-05265afa3651</p>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<br>
-<br>
-<!-- Login Modal -->
-<div class="modal fade" id="modal-authenticate" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
-        <h4 class="modal-title" id="myModalLabel"> Login</h4>
-      </div>
-      <div class="modal-body">
-        <div class="form-horizontal" role="form"> <br>
-          <div class="form-group row">
-            <label for="putIDhere" class="col-sm-3 control-label">Email Address</label>
-            <div class="col-sm-6">
-              <input class="form-control" id="putIDhere">
+            <div class="col-md-3">
+               <div data-spy="affix">
+                  <div class="right-sidebar">
+                     <div class="panel-body">
+                        <h4>Code Bundle</h4>
+                        <p><a href="#" class="btn btn-default btn-sm btn-block">Download Zip</a></p>
+                        <br>
+                        <h4>Product Locations</h4>
+                        <ul>
+                           <li><a href="https://hug.higherlogic.com/communities/community-home?CommunityKey=a58a6a03-a539-4419-9a59-05265afa3651" target="_blank">Community landing page</a></li>
+                           <li><a href="https://hug.higherlogic.com/network/members/profile" target="_blank">Profile page</a></li>
+                           <li><a href="https://hug.higherlogic.com/network/members" target="_blank">Member Directory page</a></li>
+                        </ul>
+                        <br>
+                        <h4>Resources</h4>
+                        <p><a href="http://getbootstrap.com/javascript/#modals">getbootstrap.com</a></p>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="putIDhere" class="col-sm-3 control-label">Password</label>
-            <div class="col-sm-6">
-              <input class="form-control" id="putIDhere" type="password">
+         </div>
+         <br>
+         <br>
+         <!-- Login Modal -->
+         <div class="modal fade" id="modal-authenticate" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                     <h4 class="modal-title" id="myModalLabel"> Login</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="form-horizontal" role="form">
+                        <br>
+                        <div class="form-group row">
+                           <label for="putIDhere" class="col-sm-3 control-label">Email Address</label>
+                           <div class="col-sm-6">
+                              <input class="form-control" id="putIDhere">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="putIDhere" class="col-sm-3 control-label">Password</label>
+                           <div class="col-sm-6">
+                              <input class="form-control" id="putIDhere" type="password">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                     <div class="text-left"> <a type="button" class="btn btn-primary" href="event-registration-authenticated.html">Login</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          
-        </div>
+         </div>
       </div>
-      <div class="modal-footer">
-        <div class="text-left"> <a type="button" class="btn btn-primary" href="event-registration-authenticated.html">Login</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
+   </body>
 </html>
+

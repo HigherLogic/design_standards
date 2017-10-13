@@ -1,200 +1,381 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Higher Logic Pattern Portfolio - Forms</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-<!--script src="js/less-1.3.3.min.js"></script-->
-<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/bootstrap-switch.min.css" rel="stylesheet">
-<link href="css/bootstrap-select.min.css" rel="stylesheet">
-<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="img/favicon.png">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-</head>
-<body>
-<div class="container HLdocs-container"> <br>
-  <h1>Higher Logic Pattern Portfolio</h1>
-  <ol class="breadcrumb">
-    <li><a href="index_patternPortfolio.html">Home</a></li>
-    <li class="active">Forms</li>
-  </ol>
-  <div class="row">
-    <div class="col-md-12">
-      <h2> Forms </h2>
-      <p>Form control must have labels and they can be layed out one of three ways: horizontally, vertically and vertically centered inline.</p>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Documentation</h3>
-          <ul>
-            <li><a href="http://getbootstrap.com/components/">http://getbootstrap.com/components/</a></li>
-            <li><a href="http://getbootstrap.com/css/#forms">http://getbootstrap.com/css/#forms</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Vertical Example</h3>
-          <div class="indent1">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputFile">File input</label>
-                <input type="file" id="exampleInputFile">
-                <p class="help-block">Example of help text.</p>
-              </div>
-            </form>
-          </div>
-        </div>
+   <head>
+      <title>Higher Logic Pattern Portfolio - Forms</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+      <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+      <!--script src="js/less-1.3.3.min.js"></script-->
+      <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/bootstrap-switch.min.css" rel="stylesheet">
+      <link href="css/bootstrap-select.min.css" rel="stylesheet">
+      <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="img/favicon.png">
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/scripts.js"></script>
+      <script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+   </head>
+   <body>
+      <div class="container HLdocs-container">
+         <br>
+         <h1>Higher Logic Pattern Portfolio</h1>
+         <ol class="breadcrumb">
+            <li><a href="index_patternPortfolio.html">Home</a></li>
+            <li class="active">Forms</li>
+         </ol>
+         <h2> Form Layout </h2>
+         <div class="row">
+            <div class="col-md-9">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Description</h3>
+                     <p>Form control must have labels and they can be layed out one of three ways: horizontally, vertically and vertically centered inline.</p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Rules &amp; Guidelines</h3>
+                     <ul>
+                        <li>Always add labels. Screen readers will have trouble with your forms if you don't include a label for every input. For these input groups, ensure that any additional label or functionality is conveyed to assistive technologies.</li>
+                        <li>Do not mix form groups or grid column classes directly with input groups. Instead, nest the input group inside of the form group or grid-related element.</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Live Examples</h3><br>
+
+					  <p class="lead"> Vertical Example</p>
+                     <div class="indent1">
+                        <form>
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                           </div>
+                           <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                           </div>
+                           <div class="form-group">
+                              <label for="exampleInputFile">File input</label>
+                              <input type="file" id="exampleInputFile">
+                              <p class="help-block">Example of help text.</p>
+                           </div>
+                        </form>
+                     </div>
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        
+&lt;form&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label for=&quot;exampleInputEmail1&quot;&gt;Email address&lt;/label&gt;<br>
+&lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;exampleInputEmail1&quot; placeholder=&quot;Email&quot;&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label for=&quot;exampleInputPassword1&quot;&gt;Password&lt;/label&gt;<br>
+&lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleInputPassword1&quot; placeholder=&quot;Password&quot;&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label for=&quot;exampleInputFile&quot;&gt;File input&lt;/label&gt;<br>
+&lt;input type=&quot;file&quot; id=&quot;exampleInputFile&quot;&gt;<br>
+&lt;p class=&quot;help-block&quot;&gt;Example of help text.&lt;/p&gt;<br>
+&lt;/div&gt;<br>
+&lt;/form&gt;
+                        </samp>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="row">
+                  <div class="col-md-12">
+					  <p class="lead"> Vertically Centered Inline Example</p>
+                     <p>See the "note" help block formatting below. Notes can be added where needed to help the user understand proper input and use.</p>
+                     <hr />
+                     <div class="indent1">
+                        <form class="form-horizontal">
+                           <div class="form-group">
+                              <label for="putIDhere" class="col-sm-2 control-label">Qualifications</label>
+                              <div class="col-sm-10">
+                                 <select class="selectpicker" multiple data-max-options="6" data-live-search="true" width="auto" data-width="auto" title="Choose applicable qualities ... ">
+                                    <optgroup label="Education" data-max-options="3">
+                                       <option>High School</option>
+                                       <option>College</option>
+                                       <option>Graducate School</option>
+                                    </optgroup>
+                                    <optgroup label="Security" data-max-options="3">
+                                       <option>Classified</option>
+                                       <option>Secret</option>
+                                       <option>Top Secret</option>
+                                    </optgroup>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-sm-2 control-label" for="inputPassword3">Posted</label>
+                              <div class="col-sm-10">
+                                 <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                 </select>
+                                 <div class="help-block">Instructional text to be put here if needed.</div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-sm-2 control-label" for="dropdownMenu1">Invitation</label>
+                              <div class="col-sm-10">
+                                 <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                 </select>
+                                 <div class="help-block"><span class="alert-info note-alert">Note:</span>&nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.</div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-sm-2 control-label" for="dropdownMenu1">Opportunity Type</label>
+                              <div class="col-sm-10">
+                                 <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-sm-2 control-label" for="putIDhere">Switch Label</label>
+                              <div class="col-sm-10">
+                                 <div class="bootstrap-switch-container">
+                                    <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-sm-2 control-label" for="start">Start Date</label>
+                              <div class="col-md-3">
+                                 <div class="input-group date" id="start">
+                                    <input type='text' class="form-control" />
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span> </span> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-sm-2 control-label" for="stop">End Date</label>
+                              <div class="col-md-3">
+                                 <div class='input-group date' id='stop'>
+                                    <input type='text' class="form-control" />
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span> </span> 
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        
+&lt;form class=&quot;form-horizontal&quot;&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label for=&quot;putIDhere&quot; class=&quot;col-sm-2 control-label&quot;&gt;Qualifications&lt;/label&gt;<br>
+&lt;div class=&quot;col-sm-10&quot;&gt;<br>
+&lt;select class=&quot;selectpicker&quot; multiple data-max-options=&quot;6&quot; data-live-search=&quot;true&quot; width=&quot;auto&quot; data-width=&quot;auto&quot; title=&quot;Choose applicable qualities ... &quot;&gt;<br>
+&lt;optgroup label=&quot;Education&quot; data-max-options=&quot;3&quot;&gt;<br>
+&lt;option&gt;High School&lt;/option&gt;<br>
+&lt;option&gt;College&lt;/option&gt;<br>
+&lt;option&gt;Graducate School&lt;/option&gt;<br>
+&lt;/optgroup&gt;<br>
+&lt;optgroup label=&quot;Security&quot; data-max-options=&quot;3&quot;&gt;<br>
+&lt;option&gt;Classified&lt;/option&gt;<br>
+&lt;option&gt;Secret&lt;/option&gt;<br>
+&lt;option&gt;Top Secret&lt;/option&gt;<br>
+&lt;/optgroup&gt;<br>
+&lt;/select&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;inputPassword3&quot;&gt;Posted&lt;/label&gt;<br>
+&lt;div class=&quot;col-sm-10&quot;&gt;<br>
+&lt;select class=&quot;form-control&quot;&gt;<br>
+&lt;option&gt;1&lt;/option&gt;<br>
+&lt;option&gt;2&lt;/option&gt;<br>
+&lt;option&gt;3&lt;/option&gt;<br>
+&lt;option&gt;4&lt;/option&gt;<br>
+&lt;option&gt;5&lt;/option&gt;<br>
+&lt;/select&gt;<br>
+&lt;div class=&quot;help-block&quot;&gt;Instructional text to be put here if needed.&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;dropdownMenu1&quot;&gt;Invitation&lt;/label&gt;<br>
+&lt;div class=&quot;col-sm-10&quot;&gt;<br>
+&lt;select class=&quot;form-control&quot;&gt;<br>
+&lt;option&gt;1&lt;/option&gt;<br>
+&lt;option&gt;2&lt;/option&gt;<br>
+&lt;option&gt;3&lt;/option&gt;<br>
+&lt;option&gt;4&lt;/option&gt;<br>
+&lt;option&gt;5&lt;/option&gt;<br>
+&lt;/select&gt;<br>
+&lt;div class=&quot;help-block&quot;&gt;&lt;span class=&quot;alert-info note-alert&quot;&gt;Note:&lt;/span&gt;&amp;nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;dropdownMenu1&quot;&gt;Opportunity Type&lt;/label&gt;<br>
+&lt;div class=&quot;col-sm-10&quot;&gt;<br>
+&lt;select class=&quot;form-control&quot;&gt;<br>
+&lt;option&gt;1&lt;/option&gt;<br>
+&lt;option&gt;2&lt;/option&gt;<br>
+&lt;option&gt;3&lt;/option&gt;<br>
+&lt;option&gt;4&lt;/option&gt;<br>
+&lt;option&gt;5&lt;/option&gt;<br>
+&lt;/select&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;putIDhere&quot;&gt;Switch Label&lt;/label&gt;<br>
+&lt;div class=&quot;col-sm-10&quot;&gt;<br>
+&lt;div class=&quot;bootstrap-switch-container&quot;&gt;<br>
+&lt;input type=&quot;checkbox&quot; data-size=&quot;small&quot; data-off-text=&quot;No&quot; data-on-text=&quot;Yes&quot; data-off-color=&quot;warning&quot; id=&quot;switch-offColor&quot;&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;start&quot;&gt;Start Date&lt;/label&gt;<br>
+&lt;div class=&quot;col-md-3&quot;&gt;<br>
+&lt;div class=&quot;input-group date&quot; id=&quot;start&quot;&gt;<br>
+&lt;input type='text' class=&quot;form-control&quot; /&gt;<br>
+&lt;span class=&quot;input-group-addon&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-calendar&quot;&gt;&lt;/span&gt; &lt;/span&gt; <br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;stop&quot;&gt;End Date&lt;/label&gt;<br>
+&lt;div class=&quot;col-md-3&quot;&gt;<br>
+&lt;div class='input-group date' id='stop'&gt;<br>
+&lt;input type='text' class=&quot;form-control&quot; /&gt;<br>
+&lt;span class=&quot;input-group-addon&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-calendar&quot;&gt;&lt;/span&gt; &lt;/span&gt; <br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/form&gt;
+                        </samp>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+					  <p class="lead"> Horizontal / Inline Example</p>
+                    
+                     <hr />
+                     <div class="indent1">
+                        <form class="form-inline">
+                           <div class="form-group">
+                              <label for="exampleInputName2">Name</label>
+                              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                           </div>
+                           <div class="form-group">
+                              <label for="exampleInput2">Email</label>
+                              <input type="email" class="form-control" id="exampleInput2" placeholder="jane.doe@example.com">
+                           </div>
+                           <button type="submit" class="btn btn-default">Send invitation</button>
+                        </form>
+                     </div>
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        
+&lt;form class=&quot;form-inline&quot;&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label for=&quot;exampleInputName2&quot;&gt;Name&lt;/label&gt;<br>
+&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;exampleInputName2&quot; placeholder=&quot;Jane Doe&quot;&gt;<br>
+&lt;/div&gt;<br>
+&lt;div class=&quot;form-group&quot;&gt;<br>
+&lt;label for=&quot;exampleInput2&quot;&gt;Email&lt;/label&gt;<br>
+&lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;exampleInput2&quot; placeholder=&quot;jane.doe@example.com&quot;&gt;<br>
+&lt;/div&gt;<br>
+&lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Send invitation&lt;/button&gt;<br>
+&lt;/form&gt;
+                        </samp>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Visual Examples</h3>
+                     <div>
+                        <p class="text-ex-l">Community member search:</p>
+                        <img src="img/communitysearch.jpg" class="img-responsive img-thumbnail">
+                        <p class="text-muted">https://hug.higherlogic.com/communities/community-home/community-members?communitykey=972157f0-c221-414c-872c-87565aaf5bf4&tab=communitymembersdashboard&Execute=1</p>
+                        <br><br>
+                        <p class="text-ex-l">Member directory page:</p>
+                        <img src="img/directory_filterNoResults.jpg" class="img-responsive img-thumbnail">
+                        <p class="text-muted">https://hug.higherlogic.com/network/members</p>
+                        <br><br>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div data-spy="affix">
+                  <div class="right-sidebar">
+                     <div class="panel-body">
+                        <h4>Code Bundle</h4>
+                        <p><a href="#" class="btn btn-default btn-sm btn-block">Download Zip</a></p>
+                        <br>
+                        <h4>Product Locations</h4>
+                        <ul>
+                           <li><a href="https://hug.higherlogic.com/communities/community-home/community-members?communitykey=972157f0-c221-414c-872c-87565aaf5bf4&tab=communitymembersdashboard&Execute=1" target="_blank">Community member search</a></li>
+                           <li><a href="https://hug.higherlogic.com/network/members" target="_blank">Member directory page</a></li>
+                           <li><a href="https://hug.higherlogic.com/participate/share-file" target="_blank">Share a resource</a></li>
+                        </ul>
+                        <br>
+                        <h4>Resources</h4>
+                        <p>Input groups: <a href="https://getbootstrap.com/docs/3.3/components/#input-groups">getbootstrap.com</a></p>
+                        <p>Forms: <a href="http://getbootstrap.com/javascript/#forms">getbootstrap.com</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <br>
+         </div>
       </div>
       <br>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Vertically Centered Inline Example</h3>
-          <p>See the "note" help block formatting below. Notes can be added where needed to help the user understand proper input and use.</p>
-          <div class="indent1">
-          <form class="form-horizontal">
-            <div class="form-group">
-              <label for="putIDhere" class="col-sm-2 control-label">Qualifications</label>
-              <div class="col-sm-10">
-                <select class="selectpicker" multiple data-max-options="6" data-live-search="true" width="auto" data-width="auto" title="Choose applicable qualities ... ">
-                  <optgroup label="Education" data-max-options="3">
-                  <option>High School</option>
-                  <option>College</option>
-                  <option>Graducate School</option>
-                  </optgroup>
-                  <optgroup label="Security" data-max-options="3">
-                  <option>Classified</option>
-                  <option>Secret</option>
-                  <option>Top Secret</option>
-                  </optgroup>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-sm-2 control-label" for="inputPassword3">Posted</label>
-              <div class="col-sm-10">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-                <div class="help-block">Instructional text to be put here if needed.</div>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-sm-2 control-label" for="dropdownMenu1">Invitation</label>
-              <div class="col-sm-10">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-                <div class="help-block"><span class="alert-info note-alert">Note:</span>&nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.</div>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-sm-2 control-label" for="dropdownMenu1">Opportunity Type</label>
-              <div class="col-sm-10">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-sm-2 control-label" for="putIDhere">Switch Label</label>
-              <div class="col-sm-10">
-                <div class="bootstrap-switch-container">
-                  <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor">
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-sm-2 control-label" for="start">Start Date</label>
-              <div class="col-md-3">
-                <div class="input-group date" id="start">
-                  <input type='text' class="form-control" />
-                  <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span> </span> </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-sm-2 control-label" for="stop">End Date</label>
-              <div class="col-md-3">
-                <div class='input-group date' id='stop'>
-                  <input type='text' class="form-control" />
-                  <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span> </span> </div>
-              </div>
-            </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h3> Horizontal / Inline Example</h3>
-        <div class="indent1">
-          <form class="form-inline">
-            <div class="form-group">
-              <label for="exampleInputName2">Name</label>
-              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-            </div>
-            <div class="form-group">
-              <label for="exampleInput2">Email</label>
-              <input type="email" class="form-control" id="exampleInput2" placeholder="jane.doe@example.com">
-            </div>
-            <button type="submit" class="btn btn-default">Send invitation</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <br>
-  </div>
-</div>
-</div>
-<br>
-<br>
-<script src="js/moment.js"></script>
-<script src="js/bootstrap-datetimepicker.min.js"></script>
-<script type="text/javascript">
-				$(function () {
-						$('#start').datetimepicker();
-						$('#stop').datetimepicker();
-				});
-		</script>
-</body>
+      <br>
+      <script src="js/moment.js"></script>
+      <script src="js/bootstrap-datetimepicker.min.js"></script>
+      <script type="text/javascript">
+         $(function () {
+         		$('#start').datetimepicker();
+         		$('#stop').datetimepicker();
+         });
+      </script>
+   </body>
 </html>
+

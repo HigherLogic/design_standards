@@ -1,69 +1,194 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Higher Logic Pattern Portfolio - Buttons</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-<!--script src="js/less-1.3.3.min.js"></script-->
-<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="img/favicon.png">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-</head>
-<body>
-<div class="container HLdocs-container"> <br>
-  <h1>Higher Logic Pattern Portfolio</h1>
-  <ol class="breadcrumb">
-    <li><a href="index_patternPortfolio.html">Home</a></li>
-    <li class="active">Filtration Options</li>
-  </ol>
-  <div class="row">
-    <div class="col-md-12">
-      <h2> Filtration Options</h2>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Elements</h3>
-          	<ul>
-          		<li>reside at the top of lists</li>
-                <li>options dropdown represent sortable columns on the page</li>
-                <li>if data does not exist, sort option should not show in the list</li>
-                <li>on refresh, the chosen sort options should be visible in the dropdown to inform user of list sort</li>
-            </ul>
-          </div>
-        </div>
+   <head>
+      <title>Higher Logic Pattern Portfolio - Buttons</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+      <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+      <!--script src="js/less-1.3.3.min.js"></script-->
+      <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="img/favicon.png">
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/scripts.js"></script>
+   </head>
+   <body>
+      <div class="container HLdocs-container">
+         <br>
+         <h1>Higher Logic Pattern Portfolio</h1>
+         <ol class="breadcrumb">
+            <li><a href="index_patternPortfolio.html">Home</a></li>
+            <li class="active">Filtration Options</li>
+         </ol>
+         <h2> Filtration Options</h2>
          <div class="row">
-        <div class="col-md-12">
-          <h3> Visual Example</h3>
-          	<div class="indent1">
-            <span class="text-muted-orange">simple example:</span>
-				<img src="img/filterSortOptionsExample.jpg" class="img-responsive"><br><br>
-                <span class="text-muted-orange">header search example:</span>
-				<img src="img/search_main_closed.jpg" class="img-responsive"><br><img src="img/search_main_open.jpg" class="img-responsive"><br><br>
-                 <span class="text-muted-orange">directory search example:</span>
-				<img src="img/directory_filterNoResults.jpg" class="img-responsive"><br><br>
+            <div class="col-md-9">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Description</h3>
+                     <p>Use any button to trigger a dropdown menu by placing it within a .btn-group and providing the proper menu markup. Buttons in input groups are a bit different and require one extra level of nesting.</p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Rules &amp; Guidelines</h3>
+                     <ul>
+                        <li>reside at the top of lists</li>
+                        <li>options dropdown represent sortable columns on the page</li>
+                        <li>if data does not exist, sort option should not show in the list</li>
+                        <li>on refresh, the chosen sort options should be visible in the dropdown to inform user of list sort</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Live Example</h3>
+                     <p class="lead">Button Group</p>
+                     <hr />
+                     <div class="panel-body">
+                        <div class="row">
+                           <div class="btn-group">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Action <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">
+                                 <li><a href="#">Action</a></li>
+                                 <li><a href="#">Another action</a></li>
+                                 <li><a href="#">Something else here</a></li>
+                                 <li role="separator" class="divider"></li>
+                                 <li><a href="#">Separated link</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;div class=&quot;btn-group&quot;&gt;<br>
+                        &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;<br>
+                        Action &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;<br>
+                        &lt;/button&gt;<br>
+                        &lt;ul class=&quot;dropdown-menu&quot;&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;/ul&gt;<br>
+                        &lt;/div&gt;
+                        </samp>
+                     </div>
+                     <br>
+                     <br>
+                     <br>
+                     <p class="lead">Input Group</p>
+                     <hr />
+                     <div class="panel-body">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="input-group">
+                                 <input type="text" class="form-control" aria-label="...">
+                                 <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                       <li><a href="#">Action</a></li>
+                                       <li><a href="#">Another action</a></li>
+                                       <li><a href="#">Something else here</a></li>
+                                       <li role="separator" class="divider"></li>
+                                       <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;div class=&quot;input-group&quot;&gt;<br>
+                        &lt;input type=&quot;text&quot; class=&quot;form-control&quot; aria-label=&quot;...&quot;&gt;<br>
+                        &lt;div class=&quot;input-group-btn&quot;&gt;<br>
+                        &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Action &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;<br>
+                        &lt;ul class=&quot;dropdown-menu dropdown-menu-right&quot;&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;<br>
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;/ul&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;
+                        </samp>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <br>
+               <br>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Visual Examples</h3>
+                     <div>
+                        <p class="text-ex-l">Browse:</p>
+                        <img src="img/filterSortOptionsExample.jpg" class="img-responsive img-thumbnail">
+                        <p class="text-muted">https://hug.higherlogic.com/browse/allrecentposts</p>
+                        <br><br>
+                        <p class="text-ex-l">Header search:</p>
+                        <img src="img/search_main_closed.jpg" class="img-responsive img-thumbnail">
+                        <p class="text-muted">https://hug.higherlogic.com/search</p>
+                        <br><br>
+                        <p class="text-ex-l">Results filters:</p>
+                        <img src="img/ResultsFilters.jpg" class="img-responsive img-thumbnail">
+                        <p class="text-muted">https://hug.higherlogic.com/network/members</p>
+                        <br><br>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
+            <div class="col-md-3">
+               <div data-spy="affix">
+                  <div class="right-sidebar">
+                     <div class="panel-body">
+                        <h4>Code Bundle</h4>
+                        <p><a href="#" class="btn btn-default btn-sm btn-block">Download Zip</a></p>
+                        <br>
+                        <h4>Product Locations</h4>
+                        <ul>
+                           <li><a href="https://hug.higherlogic.com/browse/allrecentposts" target="_blank">Browse discussions</a></li>
+                           <li><a href="https://hug.higherlogic.com/search" target="_blank">Search</a></li>
+                           <li><a href="https://hug.higherlogic.com/network/members" target="_blank">Result filters</a></li>
+                        </ul>
+                        <br>
+                        <h4>Resources</h4>
+                        <p><a href="https://getbootstrap.com/docs/3.3/components/#input-groups-buttons-dropdowns">getbootstrap.com</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
-<br>
-<br>
-</body>
+      <br>
+      <br>
+   </body>
 </html>
+

@@ -1,270 +1,371 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Higher Logic Pattern Portfolio - Expand and Collapse</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-<!--script src="js/less-1.3.3.min.js"></script-->
-<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/bootstrap-switch.min.css" rel="stylesheet">
-<link href="css/bootstrap-select.min.css" rel="stylesheet">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="img/favicon.png">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-</head>
-<body>
-<div class="container HLdocs-container"> <br>
-  <h1>Higher Logic Pattern Portfolio</h1>
-  <ol class="breadcrumb">
-    <li><a href="index_patternPortfolio.html">Home</a></li>
-    <li class="active">Expand and Collapse</li>
-  </ol>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Expand and Collapse</h2>
-      <p>There are many options with this widget and it's advisable to read the documentation. </p>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Documentation</h3>
-          	<ul>
-                <li><a href="http://getbootstrap.com/javascript/#collapse">http://getbootstrap.com/javascript/#collapse</a></li>
-            </ul>
-          </div>
-        </div>
+   <head>
+      <title>Higher Logic Pattern Portfolio - Expand and Collapse</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+      <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+      <!--script src="js/less-1.3.3.min.js"></script-->
+      <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/bootstrap-switch.min.css" rel="stylesheet">
+      <link href="css/bootstrap-select.min.css" rel="stylesheet">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="img/favicon.png">
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/scripts.js"></script>
+      <script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+   </head>
+   <body>
+      <div class="container HLdocs-container">
+         <br>
+         <h1>Higher Logic Pattern Portfolio</h1>
+         <ol class="breadcrumb">
+            <li><a href="index_patternPortfolio.html">Home</a></li>
+            <li class="active">Expand and Collapse</li>
+         </ol>
+         <h2>Expand and Collapse</h2>
          <div class="row">
-        <div class="col-md-12">
-          <h3> Code Example</h3>
-          	<div class="indent1">
-            <div class="row">
-      <div class="col-sm-12">
-      <!-- CSS needed for the chevrons to work. Should already be in the base CSS.-->
-      <style type="text/css">
-	  .panel-heading a:after {
-			font-family:'Glyphicons Halflings';
-			content:"\e114";
-			float: right;
-			color: grey;
-		}
-		.panel-heading a.collapsed:after {
-			content:"\e080";
-		}
-	  </style>
-        <div class="panel-group" id="accordion">
-          <div class="panel panel-default" id="panel1">
-            <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseOne" href="#collapseOne"> Display</a> </h4>
+            <div class="col-md-9">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Description</h3>
+                     <p>Flexible plugin that utilizes a handful of classes for easy toggle behavior. There are many options with this widget and it's advisable to read the documentation. </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Rules &amp; Guidelines</h3>
+                     <ul>
+                        <li>bootstrap collapse</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <h3>Live Example</h3>
+                     <hr />
+                     <div class="panel-body">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <!-- CSS needed for the chevrons to work. Should already be in the base CSS.-->
+                              <style type="text/css">
+                                 .panel-heading a:after {
+                                 font-family:'Glyphicons Halflings';
+                                 content:"\e114";
+                                 float: right;
+                                 color: grey;
+                                 }
+                                 .panel-heading a.collapsed:after {
+                                 content:"\e080";
+                                 }
+                              </style>
+                              <div class="panel-group" id="accordion">
+                                 <div class="panel panel-default" id="panel1">
+                                    <div class="panel-heading">
+                                       <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseOne" href="#collapseOne"> Display</a> </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in">
+                                       <div class="panel-body">
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control small" id="" type="">
+                                                <div class="text-muted description">Description here that may be longer than the one above. </div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control medium" id="" type="">
+                                                <div class="text-muted description">Descirption of how to use this thing.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control large" id="" type="">
+                                                <div class="text-muted description">Description here that may be longer than the one above. In fact, it could even this long and it still looks alright and wraps a line.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control extra-large" id="" type="">
+                                                <div class="text-muted description">Description here that may be longer than the one above. </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="panel panel-default" id="panel2">
+                                    <div class="panel-heading">
+                                       <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseTwo" 
+                                          href="#collapseTwo" class="collapsed"> Filters </a> </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                       <div class="panel-body">
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control small" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control medium" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control extra-large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="panel panel-default" id="panel3">
+                                    <div class="panel-heading">
+                                       <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseThree"
+                                          href="#collapseThree" class="collapsed"> Content Inclusion</a> </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                       <div class="panel-body">
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control small" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control medium" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control extra-large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="panel panel-default" id="panel4">
+                                    <div class="panel-heading">
+                                       <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseFour"
+                                          href="#collapseFour" class="collapsed"> Element On/Off</a> </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse">
+                                       <div class="panel-body">
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control small" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control medium" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control extra-large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="panel panel-default" id="panel5">
+                                    <div class="panel-heading">
+                                       <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseFive"
+                                          href="#collapseFive" class="collapsed"> Experience States</a> </h4>
+                                    </div>
+                                    <div id="collapseFive" class="panel-collapse collapse">
+                                       <div class="panel-body">
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control small" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control medium" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                          <div class="row form-group">
+                                             <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
+                                             <div class="col-sm-9 col-xs-7">
+                                                <input class="form-control extra-large" id="" type="">
+                                                <div class="text-muted description">Used in these cases always.</div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <br >
+                     <hr />
+                     <p class="text-ex">HTML</p>
+                     <div class="well"><span class="pull-right" style="padding-top:5px; margin:0 0 10px 10px;"><a href="#" class="btn btn-copy btn-sm">Copy</a></span>
+                        <samp>
+                        &lt;a class=&quot;btn btn-sm btn-default-override disabled disabled-demographic&quot; type=&quot;button&quot; title=&quot;demographic&quot;&gt;2. Large (50k to 99k)&lt;/a&gt;
+                        &lt;style type=&quot;text/css&quot;&gt;<br>
+                        .panel-heading a:after {<br>
+                        font-family:'Glyphicons Halflings';<br>
+                        content:&quot;\e114&quot;;<br>
+                        float: right;<br>
+                        color: grey;<br>
+                        }<br>
+                        .panel-heading a.collapsed:after {<br>
+                        content:&quot;\e080&quot;;<br>
+                        }<br>
+                        &lt;/style&gt;<br>
+                        &lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;<br>
+                        &lt;div class=&quot;panel panel-default&quot; id=&quot;panel1&quot;&gt;<br>
+                        &lt;div class=&quot;panel-heading&quot;&gt;<br>
+                        &lt;h4 class=&quot;panel-title&quot;&gt; &lt;a data-toggle=&quot;collapse&quot; data-target=&quot;#collapseOne&quot; href=&quot;#collapseOne&quot;&gt; Display&lt;/a&gt; &lt;/h4&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;div id=&quot;collapseOne&quot; class=&quot;panel-collapse collapse in&quot;&gt;<br>
+                        &lt;div class=&quot;panel-body&quot;&gt;<br>
+                        &lt;div class=&quot;row form-group&quot;&gt;<br>
+                        &lt;label class=&quot;control-label col-sm-3 col-xs-5&quot; for=&quot;&quot;&gt; More Button: Page to Open &lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-9 col-xs-7&quot;&gt;<br>
+                        &lt;input class=&quot;form-control small&quot; id=&quot;&quot; type=&quot;&quot;&gt;<br>
+                        &lt;div class=&quot;text-muted description&quot;&gt;Description here that may be longer than the one above. &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;div class=&quot;row form-group&quot;&gt;<br>
+                        &lt;label class=&quot;control-label col-sm-3 col-xs-5&quot; for=&quot;&quot;&gt; Poster Label &lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-9 col-xs-7&quot;&gt;<br>
+                        &lt;input class=&quot;form-control medium&quot; id=&quot;&quot; type=&quot;&quot;&gt;<br>
+                        &lt;div class=&quot;text-muted description&quot;&gt;Descirption of how to use this thing.&lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;div class=&quot;row form-group&quot;&gt;<br>
+                        &lt;label class=&quot;control-label col-sm-3 col-xs-5&quot; for=&quot;&quot;&gt; More Button: Page to Open &lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-9 col-xs-7&quot;&gt;<br>
+                        &lt;input class=&quot;form-control large&quot; id=&quot;&quot; type=&quot;&quot;&gt;<br>
+                        &lt;div class=&quot;text-muted description&quot;&gt;Description here that may be longer than the one above. In fact, it could even this long and it still looks alright and wraps a line.&lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;div class=&quot;row form-group&quot;&gt;<br>
+                        &lt;label class=&quot;control-label col-sm-3 col-xs-5&quot; for=&quot;&quot;&gt; Poster Label &lt;/label&gt;<br>
+                        &lt;div class=&quot;col-sm-9 col-xs-7&quot;&gt;<br>
+                        &lt;input class=&quot;form-control extra-large&quot; id=&quot;&quot; type=&quot;&quot;&gt;<br>
+                        &lt;div class=&quot;text-muted description&quot;&gt;Description here that may be longer than the one above. &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;
+                        </samp>
+                     </div>
+                  </div>
+               </div>
+               <!--
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h3>Visual Examples</h3>
+                        <div>
+                           <p class="text-ex-l">Community landing page:</p>
+                           <img src="img/communityLandingTabs.jpg" class="img-responsive img-thumbnail">
+                           <p class="text-muted">https://hug.higherlogic.com/communities/community-home?CommunityKey=a58a6a03-a539-4419-9a59-05265afa3651"</p>
+                           <br><br>
+                        </div>
+                     </div>
+                  </div>
+                  -->
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
-              <div class="panel-body">
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control small" id="" type="">
-                    <div class="text-muted description">Description here that may be longer than the one above. </div>
+            <div class="col-md-3">
+               <div data-spy="affix">
+                  <div class="right-sidebar">
+                     <div class="panel-body">
+                        <h4>Code Bundle</h4>
+                        <p><a href="#" class="btn btn-default btn-sm btn-block">Download Zip</a></p>
+                        <br>
+                        <h4>Product Locations</h4>
+                        <ul>
+                           <li>N/A</li>
+                        </ul>
+                        <br>
+                        <h4>Resources</h4>
+                        <p><a href="http://getbootstrap.com/javascript/#collapse">getbootstrap.com</a></p>
+                     </div>
                   </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control medium" id="" type="">
-                    <div class="text-muted description">Descirption of how to use this thing.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control large" id="" type="">
-                    <div class="text-muted description">Description here that may be longer than the one above. In fact, it could even this long and it still looks alright and wraps a line.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control extra-large" id="" type="">
-                    <div class="text-muted description">Description here that may be longer than the one above. </div>
-                  </div>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-          <div class="panel panel-default" id="panel2">
-            <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseTwo" 
-           href="#collapseTwo" class="collapsed"> Filters </a> </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
-              <div class="panel-body">
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control small" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control medium" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control extra-large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default" id="panel3">
-            <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseThree"
-           href="#collapseThree" class="collapsed"> Content Inclusion</a> </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-              <div class="panel-body">
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control small" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control medium" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control extra-large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default" id="panel4">
-            <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseFour"
-           href="#collapseFour" class="collapsed"> Element On/Off</a> </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse">
-              <div class="panel-body">
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control small" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control medium" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control extra-large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default" id="panel5">
-            <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-target="#collapseFive"
-           href="#collapseFive" class="collapsed"> Experience States</a> </h4>
-            </div>
-            <div id="collapseFive" class="panel-collapse collapse">
-              <div class="panel-body">
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control small" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control medium" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> More Button: Page to Open </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-                <div class="row form-group">
-                  <label class="control-label col-sm-3 col-xs-5" for=""> Poster Label </label>
-                  <div class="col-sm-9 col-xs-7">
-                    <input class="form-control extra-large" id="" type="">
-                    <div class="text-muted description">Used in these cases always.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </div>
-  </div>
-<br>
-<br>
-</body>
+      <br>
+      <br>
+   </body>
 </html>
+

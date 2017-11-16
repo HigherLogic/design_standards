@@ -1,0 +1,1240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Higher Logic Styles & Patterns - Beta</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/sb-admin.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="css/prism.css" rel="stylesheet"/>
+<script type="text/javascript"  src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="js/prism.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<!-- <script type="text/javascript" src="js/clipboard.js"></script>
+      <script type="text/javascript" src="js/clipboard.min.js"></script> -->
+</head>
+<body>
+<div id="wrapper">
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <img src="img/icon-cms-higherlogic.png" style="height:45px; float: left; padding: 5px; margin-left:5px; margin-top: 5px;"> <a class="navbar-brand" href="index.html">Higher Logic Styles & Patterns - Beta</a> </div>
+    <!-- Top Menu Items -->
+    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav side-nav">
+        <li> <a href="index.html">Home</a>
+          <ul id="">
+            <li> <a href="design-principles.html">UX Design</a> </li>
+            <li><a href="interaction-design.html">Interaction Design</a> </li>
+            <li> <a href="labeling.html">Labeling & Terminology</a> </li>
+            <!-- <li> <a href="resources.html">UX Design Resources</a> </li> -->
+          </ul>
+        </li>
+        <li> <a href="#">Frameworks & Tech</a>
+          <ul id="">
+            <li> <a href="bootstrap.html">Bootstrap 3.0.1</a> </li>
+            <li> <a href="jquery.html">JQuery 1.12</a> </li>
+            <li> <a href="widgets.html">Widgets</a> </li>
+            <li> <a href="css.html">CSS</a> </li>
+            <!-- <li> <a href="framework-resources.html">Resources</a> </li> -->
+          </ul>
+        </li>
+        <li> <a href="#">Patterns</a>
+          <ul id="">
+            <li> <a href="pattern-activity-feed.html">Activity Feed</a> </li>
+            <li> <a href="pattern-admin-pages.html">Admin Pages</a> </li>
+            <li> <a href="pattern-content-designer.html">Content Designer</a> </li>
+            <li><a href="filtration_options.html">Filter & Sort Options</a></li>
+            <li class="active"> <a href="pattern-forms.html">Forms</a> </li>
+            <li> <a href="pattern-list.html">Lists</a> </li>
+            <li> <a href="pattern-modals.html">Modals</a> </li>
+            <li> <a href="pattern-search-results.html">Search Results</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#"data-target="#">Components </a>
+          <ul id="">
+            <!-- <li><a href="admin_controls.html">Admin Controls</a></li> -->
+            <li><a href="help-text.html">Alerts and Help Text</a></li>
+            <li><a href="biobubble.html">Biobubble</a></li>
+            <!-- <li><a href="breadcrumb.html">Breadcrumb</a></li>-->
+            <li><a href="buttons.html">Buttons</a></li>
+            <!-- <li><a href="dropdowns.html">Dropdowns</a></li> -->
+            <!-- <li><a href="comments.html">Comments</a></li>-->
+            <!-- <li><a href="demographics.html">Demographics</a></li>-->
+            <li><a href="expand-collapse.html">Expand/Collapse</a></li>
+            <li><a href="forms.html">Form Controls</a></li>
+            <!-- <li><a href="filtration_options.html">Filter & Sort Options</a></li> -->
+            <li><a href="headings.html">Headings</a></li>
+            <!-- <li><a href="hl-landing.html">HL Landing Controls</a></li> -->
+            <li><a href="images.html">Images</a></li>
+            <li><a href="labels.html">Labels</a></li>
+            <!--  <li><a href="lists.html">Lists</a></li> -->
+            <!--  <li><a href="multiselectdropdown.html">Multi-select Dropdown</a></li> -->
+            <!--  <li><a href="modals.html">Modals</a></li> -->
+            <!-- <li><a href="navbar.html">Navbar</a></li> -->
+            <!-- <li><a href="tags.html">Tags</a></li> -->
+            <!-- <li><a href="related_links.html">Related Links</a></li> -->
+            <li><a href="pagination.html">Pagination</a></li>
+            <!-- <li><a href="permalinks.html">Permalinks</a></li> -->
+            <li><a href="ribbons.html">Ribbons</a></li>
+            <!--<li><a href="sort_options.html">Sort & Filter Options</a></li>-->
+            <li><a href="tabs.html">Tabs</a></li>
+            <li><a href="type-ahead.html">Type-ahead (filter and search)</a></li>
+          </ul>
+        </li>
+        <li> <a href="accessibility.html"> Accessibility</a> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+  <div id="page-wrapper">
+    <div class="HLdocs-container">
+      <!-- Page Heading -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header"> Forms</h1>
+        </div>
+      </div>
+      <!-- put content here -->
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Forms are the face of system functionality. Users encounter forms when they create/edit content and configure features. There are a few ways to present forms in our system: in a modal, on a page and as part of a flyout. Based on where they appear, they may require different orientations: there is a horizontal alignment, where the label is to the left of the form control; and there is is a vertical aligment, where the labels are stacked on top of the form control.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Types</h3>
+              <ul>
+                <li>Horizontal - form label and the form element are displayed side by side, inline.</li>
+                <li>Vertical - form label is immediately above the form element, stacked.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Guidelines</h3>
+              <ul>
+                <li>Use the orientation (vertical or horizontal) shown in the wireframes, there is never a case where a form</li>
+                <li>There is never a case where a single form with present both types of orientation - either all vertical or all horizontal.</li>
+                <li>All form elements must have a corresponding label.</li>
+                <li>All labels must be coupled to their corresponding form element by using the - for="ID" attribute pair associating the form element ID with label.</li>
+                <li>All required fields must be indicated bb setting the "required" class on the form-group. </li>
+                <li>All required fields must be validated before form is committed to the database. </li>
+                <li>Do not mix form groups or grid column classes directly with input groups. Instead, nest the input group inside of the form group or grid-related element.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Structure</h3>
+              <ul>
+                <li>Descriptive label - with required indicator if form element is required.</li>
+                <li>Form element.</li>
+                <li>Help text - if needed (see <a href="help-text.html">alerts and help text</a> for more details).</li>
+                <li>Validation text - instruction to user to correct failed validation.</li>
+                <li>Action buttons - "Save" submits form for processing and "Cancel" aborts any/all changes and does not submit changes.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Examples</h3>
+              <p class="lead"> Vertically Aligned Form</p>
+              <div class="live-example">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Example of help text.</p>
+                  </div>
+                </form>
+              </div>
+              <div>
+                <pre><code class="language-markup">&lt;form&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputEmail1&quot;&gt;Email address&lt;/label&gt;<br>
+      &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;exampleInputEmail1&quot; placeholder=&quot;Email&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputPassword1&quot;&gt;Password&lt;/label&gt;<br>
+      &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleInputPassword1&quot; placeholder=&quot;Password&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputFile&quot;&gt;File input&lt;/label&gt;<br>
+      &lt;input type=&quot;file&quot; id=&quot;exampleInputFile&quot;&gt;<br>
+      &lt;p class=&quot;help-block&quot;&gt;Example of help text.&lt;/p&gt;<br>
+   &lt;/div&gt;<br>
+&lt;/form&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead"> Vertically Centered Inline Form</p>
+              <p>See the "note" help block formatting below. Notes can be added where needed to help the user understand proper input and use.</p>
+              <div class="live-example">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="putIDhere" class="col-sm-2 control-label">Qualifications</label>
+                    <div class="col-sm-10">
+                      <select class="selectpicker" multiple data-max-options="6" data-live-search="true" width="auto" data-width="auto" title="Choose applicable qualities ... ">
+                        <optgroup label="Education" data-max-options="3">
+                        <option>High School</option>
+                        <option>College</option>
+                        <option>Graducate School</option>
+                        </optgroup>
+                        <optgroup label="Security" data-max-options="3">
+                        <option>Classified</option>
+                        <option>Secret</option>
+                        <option>Top Secret</option>
+                        </optgroup>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="inputPassword3">Posted</label>
+                    <div class="col-sm-10">
+                      <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                      <div class="help-block">Instructional text to be put here if needed.</div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="dropdownMenu1">Invitation</label>
+                    <div class="col-sm-10">
+                      <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                      <div class="help-block"><span class="alert-info note-alert">Note:</span>&nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.</div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="dropdownMenu1">Opportunity Type</label>
+                    <div class="col-sm-10">
+                      <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="putIDhere">Switch Label</label>
+                    <div class="col-sm-10">
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="start">Start Date</label>
+                    <div class="col-md-3">
+                      <div class="input-group date" id="start">
+                        <input type="text" class="form-control" />
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span> </span> </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="stop">End Date</label>
+                    <div class="col-md-3">
+                      <div class="input-group date" id="stop">
+                        <input type="text" class="form-control" />
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span> </span> </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div>
+                <pre><code class="language-markup">&lt;form class=&quot;form-horizontal&quot;&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;putIDhere&quot; class=&quot;col-sm-2 control-label&quot;&gt;Qualifications&lt;/label&gt;<br>
+      &lt;div class=&quot;col-sm-10&quot;&gt;<br>
+         &lt;select class=&quot;selectpicker&quot; multiple data-max-options=&quot;6&quot; data-live-search=&quot;true&quot; width=&quot;auto&quot; data-width=&quot;auto&quot; title=&quot;Choose applicable qualities ... &quot;&gt;<br>
+         &lt;optgroup label=&quot;Education&quot; data-max-options=&quot;3&quot;&gt;<br>
+            &lt;option&gt;High School&lt;/option&gt;<br>
+            &lt;option&gt;College&lt;/option&gt;<br>
+            &lt;option&gt;Graducate School&lt;/option&gt;<br>
+         &lt;/optgroup&gt;<br>
+         &lt;optgroup label=&quot;Security&quot; data-max-options=&quot;3&quot;&gt;<br>
+            &lt;option&gt;Classified&lt;/option&gt;<br>
+            &lt;option&gt;Secret&lt;/option&gt;<br>
+            &lt;option&gt;Top Secret&lt;/option&gt;<br>
+         &lt;/optgroup&gt;<br>
+         &lt;/select&gt;<br>
+      &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;inputPassword3&quot;&gt;Posted&lt;/label&gt;<br>
+      &lt;div class=&quot;col-sm-10&quot;&gt;<br>
+         &lt;select class=&quot;form-control&quot;&gt;<br>
+            &lt;option&gt;1&lt;/option&gt;<br>
+            &lt;option&gt;2&lt;/option&gt;<br>
+            &lt;option&gt;3&lt;/option&gt;<br>
+            &lt;option&gt;4&lt;/option&gt;<br>
+            &lt;option&gt;5&lt;/option&gt;<br>
+         &lt;/select&gt;<br>
+         &lt;div class=&quot;help-block&quot;&gt;Instructional text to be put here if needed.&lt;/div&gt;<br>
+      &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;dropdownMenu1&quot;&gt;Invitation&lt;/label&gt;<br>
+      &lt;div class=&quot;col-sm-10&quot;&gt;<br>
+         &lt;select class=&quot;form-control&quot;&gt;<br>
+            &lt;option&gt;1&lt;/option&gt;<br>
+            &lt;option&gt;2&lt;/option&gt;<br>
+            &lt;option&gt;3&lt;/option&gt;<br>
+            &lt;option&gt;4&lt;/option&gt;<br>
+            &lt;option&gt;5&lt;/option&gt;<br>
+         &lt;/select&gt;<br>
+         &lt;div class=&quot;help-block&quot;&gt;&lt;span class=&quot;alert-info note-alert&quot;&gt;Note:&lt;/span&gt;&amp;nbsp; Instructional text with the NOTE emphasis can be used to give it more priority. This should be used only when emphasis is truly needed.&lt;/div&gt;<br>
+      &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;dropdownMenu1&quot;&gt;Opportunity Type&lt;/label&gt;<br>
+      &lt;div class=&quot;col-sm-10&quot;&gt;<br>
+         &lt;select class=&quot;form-control&quot;&gt;<br>
+            &lt;option&gt;1&lt;/option&gt;<br>
+            &lt;option&gt;2&lt;/option&gt;<br>
+            &lt;option&gt;3&lt;/option&gt;<br>
+            &lt;option&gt;4&lt;/option&gt;<br>
+            &lt;option&gt;5&lt;/option&gt;<br>
+         &lt;/select&gt;<br>
+      &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;putIDhere&quot;&gt;Switch Label&lt;/label&gt;<br>
+      &lt;div class=&quot;col-sm-10&quot;&gt;<br>
+         &lt;div class=&quot;bootstrap-switch-container&quot;&gt;<br>
+            &lt;input type=&quot;checkbox&quot; data-size=&quot;small&quot; data-off-text=&quot;No&quot; data-on-text=&quot;Yes&quot; data-off-color=&quot;warning&quot; id=&quot;switch-offColor&quot;&gt;<br>
+         &lt;/div&gt;<br>
+      &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;start&quot;&gt;Start Date&lt;/label&gt;<br>
+      &lt;div class=&quot;col-md-3&quot;&gt;<br>
+         &lt;div class=&quot;input-group date&quot; id=&quot;start&quot;&gt;<br>
+            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; /&gt;<br>
+            &lt;span class=&quot;input-group-addon&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-calendar&quot;&gt;&lt;/span&gt; &lt;/span&gt; <br>
+         &lt;/div&gt;<br>
+      &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label class=&quot;col-sm-2 control-label&quot; for=&quot;stop&quot;&gt;End Date&lt;/label&gt;<br>
+      &lt;div class=&quot;col-md-3&quot;&gt;<br>
+         &lt;div class=&quot;input-group date&quot; id=&quot;stop&quot;&gt;<br>
+            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; /&gt;<br>
+            &lt;span class=&quot;input-group-addon&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-calendar&quot;&gt;&lt;/span&gt; &lt;/span&gt; <br>
+         &lt;/div&gt;<br>
+      &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+&lt;/form&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12"><br>
+              <p class="lead"> Horizontal / Inline Example</p>
+              <div class="live-example">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label for="exampleInputName2">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInput2">Email</label>
+                    <input type="email" class="form-control" id="exampleInput2" placeholder="jane.doe@example.com">
+                  </div>
+                  <button type="submit" class="btn btn-default">Send invitation</button>
+                </form>
+              </div>
+              <div>
+                <pre><code class="language-markup">&lt;form class=&quot;form-inline&quot;&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputName2&quot;&gt;Name&lt;/label&gt;<br>
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;exampleInputName2&quot; placeholder=&quot;Jane Doe&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInput2&quot;&gt;Email&lt;/label&gt;<br>
+      &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;exampleInput2&quot; placeholder=&quot;jane.doe@example.com&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Send invitation&lt;/button&gt;<br>
+&lt;/form&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+            </div>
+          </div>
+           <div class="row">
+          <div class="col-md-12">
+            <h3>Error Handling</h3>
+            <ul>
+              <li>Add the "required" class to all form-groups containing a required field. This adds the red asterisk to the label indicating that the input is required. </li>
+              <li>Validate all required form fields on "Save" and add the "has-error" class to form-groups that fail validation. This highlights the failed field.</li>
+              <li>On reload after failed validation, scroll the page to the first error - so it is at the top of the page. </li>
+              <li>Provide help text guidance to the user so they may correct the mistake. </li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="lead"> Error Handling - Normal State</p>
+            <div class="live-example">
+              <div class="form-horizontal" role="form">
+                <div class="form-group required row">
+                  <label id="helpBlock2" for="putIDhere" class="col-sm-2 control-label">First Name</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" id="putIDhere" aria-required="true" aria-describedby="helpBlock2">
+                  </div>
+                </div>
+                <div class="form-group required row">
+                  <label id="helpBlock2" for="putIDhere" class="col-sm-2 control-label">Last Name</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" id="putIDhere" aria-required="true" aria-describedby="helpBlock2">
+                  </div>
+                </div>
+                <div class="form-group required row">
+                  <label id="helpBlock2" for="putIDhere" class="col-sm-2 control-label">Company</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" id="putIDhere" aria-required="true" aria-describedby="helpBlock2">
+                    <span id="help" class="help-block" style="display: none;">Company name is a required field. Please enter a company name.</span> </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <pre><code class="language-markup">&lt;form&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputEmail1&quot;&gt;Email address&lt;/label&gt;<br>
+      &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;exampleInputEmail1&quot; placeholder=&quot;Email&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputPassword1&quot;&gt;Password&lt;/label&gt;<br>
+      &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleInputPassword1&quot; placeholder=&quot;Password&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputFile&quot;&gt;File input&lt;/label&gt;<br>
+      &lt;input type=&quot;file&quot; id=&quot;exampleInputFile&quot;&gt;<br>
+      &lt;p class=&quot;help-block&quot;&gt;Example of help text.&lt;/p&gt;<br>
+   &lt;/div&gt;<br>
+&lt;/form&gt;</code></pre>
+              <!-- Trigger -->
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="lead"> Error State</p>
+            <div class="live-example">
+              <div class="form-horizontal" role="form">
+                <div class="form-group required row">
+                  <label id="helpBlock2" for="putIDhere" class="col-sm-2 control-label">First Name</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" id="putIDhere" aria-required="true" aria-describedby="helpBlock2">
+                  </div>
+                </div>
+                <div class="form-group required row">
+                  <label id="helpBlock2" for="putIDhere" class="col-sm-2 control-label">Last Name</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" id="putIDhere" aria-required="true" aria-describedby="helpBlock2">
+                  </div>
+                </div>
+                <div class="form-group required has-error row">
+                  <label id="helpBlock2" for="putIDhere" class="col-sm-2 control-label">Company</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" id="putIDhere" aria-required="true"  aria-describedby="helpBlock2" aria-invalid="true">
+                    <span id="" class="help-block">Company name is a required field. Please enter a company name.</span> </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <pre><code class="language-markup">&lt;form&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputEmail1&quot;&gt;Email address&lt;/label&gt;<br>
+      &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;exampleInputEmail1&quot; placeholder=&quot;Email&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputPassword1&quot;&gt;Password&lt;/label&gt;<br>
+      &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleInputPassword1&quot; placeholder=&quot;Password&quot;&gt;<br>
+   &lt;/div&gt;<br>
+   &lt;div class=&quot;form-group&quot;&gt;<br>
+      &lt;label for=&quot;exampleInputFile&quot;&gt;File input&lt;/label&gt;<br>
+      &lt;input type=&quot;file&quot; id=&quot;exampleInputFile&quot;&gt;<br>
+      &lt;p class=&quot;help-block&quot;&gt;Example of help text.&lt;/p&gt;<br>
+   &lt;/div&gt;<br>
+&lt;/form&gt;</code></pre>
+              <!-- Trigger -->
+            </div>
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-md-12"><br>
+              <p class="lead"> Form Pages</p>
+              <div class="live-example">
+                <div class=" cms site-name">
+                  <h3 style=" color:#000; border-bottom: 1px solid #666; background-color:#ebebeb; padding:10px;"> &nbsp;&nbsp;Site Name Configuration </h3>
+                  <br>
+                  <div class="row margin-bottom-md">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="#" class="control-label"> Site Name </label>
+                        <p>What would you like to call your Website? This is the title that appears at the top of the page.</p>
+                        <input class="form-control input-md" id="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="#" class="control-label"> Slogan </label>
+                        <p>If your site has a slogan or mission statement, that would appear in the masthead, please enter it here.</p>
+                        <input class="form-control input-md" id="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="#" class="control-label"> Path Name </label>
+                        <p> What would you like the path to your site to be? This path name would appear like (http://anthony.connectedcommunity.org/pathname).</p>
+                        <input class="form-control input-md" id="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="#" class="control-label"> Copyright </label>
+                        <p>If you would like to add a copyright notice, to appear at the bottom of every page, please enter it here.</p>
+                        <input class="form-control" id="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="#" class="control-label"> Domain Name </label>
+                      <p>Super admins may manage global domains here - <a href="anthony.connectedcommunity.org/HigherLogic/Admin/Configuration/DomainAdmin.aspx" target="_blank">Global Domain Administration <span class="glyphicon glyphicon-new-window"></span></a> </p>
+                    </div>
+                  </div>
+                  <div class="row margin-bottom-md">
+                    <div class="col-sm-11 col-sm-offset-1">
+                      <p>If you already have your own domain name and would like to point it to this site, please enter the domain(s) here like www.higherlogic.com</p>
+                      <div class="form-inline">
+                        <div class="form-group">
+                          <label class="sr-only" for="exampleInputPassword3">Enter New Domain Name</label>
+                          <input type="password" class="form-control input-md-fixed" id="" placeholder="Enter New Domain Name" />
+                        </div>
+                        <a type="submit" class="btn btn-success">Add</a> <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row margin-bottom-md">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="#" class="control-label">Google Tag Manager Code </label>
+                        <p>If you use Google Tag Manager to embed Google Analytics and other 3rd party Javascript or CSS, please enter the GTM code here. The global administrator has not configured a Google Tag Manager Account for use across all sites.
+                        <p>
+                          <input class="form-control input-md" id="" placeholder="Example: GTM-KFFVR2" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             
+              <br>
+              <br>
+              <br>
+              <br>
+              <div class="cms admin">
+                <h3 style=" color:#000; border-bottom: 1px solid #666; background-color:#ebebeb; padding:10px;"> &nbsp;&nbsp;Admin</h3>
+                <div class="row section">
+                  <div class="col-md-12">
+                    <h4> Allow Layout Changes? </h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Main Menu Bar</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Main Menu Bar</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Side Menu Content</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Side Menu Content</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Footer Area</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Footer Area</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Footer Area Content</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Footer Area Content</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Welcome Box</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Welcome Box</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Site Search</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Site Search</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Breadcrumb</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Breadcrumb</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Bio-bubble</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Bio-bubble</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Additional Site-wide Content</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control">
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Additional Site-wide Content</label>
+                        &nbsp;&nbsp;
+                        <!-- If toggle is YES, enable this selection -->
+                        <select class="selectpicker" multiple data-max-options="5" width="auto" data-width="auto" title="Choose..." disabled>
+                          <optgroup label="" data-max-options="4">
+                          <option>Header</option>
+                          <option>Content </option>
+                          <option>Footer</option>
+                          </optgroup>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row section">
+                  <div class="col-md-12">
+                    <h4> Allow Local Design? </h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Enable Local Theme Options?</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Enable Local Theme Options?</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Allow Import Theme CSS</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Allow Import Theme CSS</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Allow Color Picker</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Allow Color Picker</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Allow Override CSS</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Allow Override CSS</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row section">
+                  <div class="col-md-12">
+                    <h4> Allow Images? </h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Logo</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Logo</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Header (Masthead)</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Header (Masthead)</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Menu Bar Background</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Menu Bar Background</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Page Background</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Page Background</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Content Background</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Content Background</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Footer Background</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Footer Background</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Favicon (icon in the browser address bar)</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Favicon</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Printer-friendly Icon</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Printer-friendly Icon</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row section">
+                  <div class="col-md-12">
+                    <h4> Model Microsite?</h4>
+                    <p>Is this the model site, upon which all others will be built? </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Model Microsite</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Model Microsite</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <div class="cms layout">
+                <h3 style=" color:#000; border-bottom: 1px solid #666; background-color:#ebebeb; padding:10px;"> &nbsp;&nbsp;Layout</h3>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Site Frame </label>
+                      <p>What would you like to call your Website? This is the title that appears at the top of the page.</p>
+                      <select aria-label="" id="" class="form-control input-md">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Main Menu Bar Type </label>
+                      <p>How would you like your main menu bar on your home page to look and work? </p>
+                      <select aria-label="" id="" class="form-control input-md">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label">Site Search</label>
+                      <p>Would you like to show the Site Search in the main menu bar? </p>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Side Content </label>
+                      <p>If you would like to include content under the interior side menu, select the page containing the content to show. </p>
+                      <select aria-label="" id="" class="form-control input-md">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Footer Type </label>
+                      <p>Which type of footer would you like to use on your site? </p>
+                      <select aria-label="" id="" class="form-control input-md">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Footer Content </label>
+                      <p>If you would like to include content in the footer of your site, select the page containing the content to show. </p>
+                      <select aria-label="" id="" class="form-control input-md">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label">Welcome Box</label>
+                      <p>Would you like to show the "Welcome Box" in the header of your site? </p>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Compleness Bar</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Compleness Bar</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Communities Link</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Communities Link</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Profile Link</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Profile Link</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label sr-only">Login / Logout</label>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                        <label for="putIDhere" class="control-label" aria-hidden="true" >Menu Bar Background</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-11 col-md-offset-1">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Login Text</label>
+                      <p>What would you like to display as login text? (Limit of 35 characters)</p>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label">Bread Crumb</label>
+                      <p>Would you like to show the "Welcome Box" in the header of your site? </p>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label">Bio-bubble</label>
+                      <p>Would you like to show the "Welcome Box" in the header of your site? </p>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="putIDhere" class="control-label">Printer Friendly Icon</label>
+                      <p>Would you like to show the "Welcome Box" in the header of your site? </p>
+                      <div class="bootstrap-switch-container">
+                        <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="warning" id="switch-offColor" class=" form-control" checked>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <h4>Additional Site-wide Content</h4>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Header</label>
+                      <p>Inserted at the top of the header. </p>
+                      <select aria-label="" id="" class="form-control ">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Content</label>
+                      <p>Inserted at the top of the content. </p>
+                      <select aria-label="" id="" class="form-control ">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="#" class="control-label"> Footer</label>
+                      <p>Inserted at the top of the footer. </p>
+                      <select aria-label="" id="" class="form-control">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="#" class="control-label sr-only"> Header</label>
+                      <p>Inserted at the bottom of the header. </p>
+                      <select aria-label="" id="" class="form-control ">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="#" class="control-label sr-only"> Content</label>
+                      <p>Inserted at the bottom of the content. </p>
+                      <select aria-label="" id="" class="form-control ">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="#" class="control-label sr-only"> Footer</label>
+                      <p>Inserted at the bottom of the footer. </p>
+                      <select aria-label="" id="" class="form-control">
+                        <option selected value="">option</option>
+                        <option value="">option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <div class="cms layout">
+                <h3 style=" color:#000; border-bottom: 1px solid #666; background-color:#ebebeb; padding:10px;"> &nbsp;&nbsp;Contact Us</h3>
+                <p>The information that you enter below will appear on the site's "Contact Us" page. Feel free to enter as much or as little information as you are comfortable sharing with the world.</p>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Name</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Email Address</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Address 1</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Address 2</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> City</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> State / Region / Province</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Postal Code</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Country</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Phone</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Toll Free</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row margin-bottom-md">
+                  <div class="col-md-12">
+                    <div class="form-group indent">
+                      <label for="#" class="control-label"> Fax</label>
+                      <input class="form-control input-md" id="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+       
+      </div>
+      <div class="col-md-3">
+        <div class="link-container">
+          <div class="right-sidebar">
+            <h4>Product Locations</h4>
+            <ul>
+              <li><a href="https://hug.higherlogic.com" target="_blank">Anywhere there is an action.</a></li>
+            </ul>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="http://getbootstrap.com/javascript/#forms">bootstrapdocs.com/forms</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end - content -->
+</div>
+<!-- /.container-fluid -->
+</div>
+<!-- /#page-wrapper -->
+</div>
+</body>
+</html>

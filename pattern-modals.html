@@ -1,0 +1,1397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Higher Logic Styles & Patterns - Beta</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/sb-admin.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="css/prism.css" rel="stylesheet"/>
+<script type="text/javascript"  src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="js/prism.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<!-- <script type="text/javascript" src="js/clipboard.js"></script>
+      <script type="text/javascript" src="js/clipboard.min.js"></script> -->
+</head>
+<body>
+<div id="wrapper">
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <img src="img/icon-cms-higherlogic.png" style="height:45px; float: left; padding: 5px; margin-left:5px; margin-top: 5px;"> <a class="navbar-brand" href="index.html">Higher Logic Styles & Patterns - Beta</a> </div>
+    <!-- Top Menu Items -->
+    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav side-nav">
+        <li> <a href="index.html">Home</a>
+          <ul id="">
+            <li> <a href="design-principles.html">UX Design</a> </li>
+            <li><a href="interaction-design.html">Interaction Design</a> </li>
+            <li> <a href="labeling.html">Labeling & Terminology</a> </li>
+            <!-- <li> <a href="resources.html">UX Design Resources</a> </li> -->
+          </ul>
+        </li>
+        <li> <a href="#">Frameworks & Tech</a>
+          <ul id="">
+            <li> <a href="bootstrap.html">Bootstrap 3.0.1</a> </li>
+            <li> <a href="jquery.html">JQuery 1.12</a> </li>
+            <li> <a href="widgets.html">Widgets</a> </li>
+            <li> <a href="css.html">CSS</a> </li>
+            <!-- <li> <a href="framework-resources.html">Resources</a> </li> -->
+          </ul>
+        </li>
+        <li> <a href="#">Patterns</a>
+          <ul id="">
+            <li> <a href="pattern-activity-feed.html">Activity Feed</a> </li>
+            <li> <a href="pattern-admin-pages.html">Admin Pages</a> </li>
+            <li> <a href="pattern-content-designer.html">Content Designer</a> </li>
+            <li><a href="filtration_options.html">Filter & Sort Options</a></li>
+            <li> <a href="pattern-forms.html">Forms</a> </li>
+            <li> <a href="pattern-list.html">Lists</a> </li>
+            <li class="active"> <a href="pattern-modals.html">Modals</a> </li>
+            <li> <a href="pattern-search-results.html">Search Results</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#"data-target="#">Components </a>
+          <ul id="">
+            <!-- <li><a href="admin_controls.html">Admin Controls</a></li> -->
+            <li><a href="help-text.html">Alerts and Help Text</a></li>
+            <li><a href="biobubble.html">Biobubble</a></li>
+            <!-- <li><a href="breadcrumb.html">Breadcrumb</a></li>-->
+            <li><a href="buttons.html">Buttons</a></li>
+            <!-- <li><a href="dropdowns.html">Dropdowns</a></li> -->
+            <!-- <li><a href="comments.html">Comments</a></li>-->
+            <!-- <li><a href="demographics.html">Demographics</a></li>-->
+            <li><a href="expand-collapse.html">Expand/Collapse</a></li>
+            <li><a href="forms.html">Form Controls</a></li>
+            <!-- <li><a href="filtration_options.html">Filter & Sort Options</a></li> -->
+            <li><a href="headings.html">Headings</a></li>
+            <!-- <li><a href="hl-landing.html">HL Landing Controls</a></li> -->
+            <li><a href="images.html">Images</a></li>
+            <li><a href="labels.html">Labels</a></li>
+            <!--  <li><a href="lists.html">Lists</a></li> -->
+            <!--  <li><a href="multiselectdropdown.html">Multi-select Dropdown</a></li> -->
+            <!--  <li><a href="modals.html">Modals</a></li> -->
+            <!-- <li><a href="navbar.html">Navbar</a></li> -->
+            <!-- <li><a href="tags.html">Tags</a></li> -->
+            <!-- <li><a href="related_links.html">Related Links</a></li> -->
+            <li><a href="pagination.html">Pagination</a></li>
+            <!-- <li><a href="permalinks.html">Permalinks</a></li> -->
+            <li><a href="ribbons.html">Ribbons</a></li>
+            <!--<li><a href="sort_options.html">Sort & Filter Options</a></li>-->
+            <li><a href="tabs.html">Tabs</a></li>
+            <li><a href="type-ahead.html">Type-ahead (filter and search)</a></li>
+          </ul>
+        </li>
+        <li> <a href="accessibility.html"> Accessibility</a> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+  <div id="page-wrapper">
+    <div class="HLdocs-container">
+      <!-- Page Heading -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Modals</h1>
+        </div>
+      </div>
+      <!-- put content here -->
+      <div class="row">
+        <div class="col-md-9">
+          <p>There are two types of modals: action modals and information modals.  Action modals present form inputs for content creation and configuration and require a save or cancel action. Information modals present explanations, instructions or help text and no other action except closing the modal. </p>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Types of Modals</h3>
+              <ul>
+                <li>Action modal - presents form elements and requires a Save or Cancel action.</li>
+                <li>Information modal - presents information, explanation or help text and requires a Close action.</li>
+                <li>Confirmation Prompt modal - prompts user for confirmation before executing the action.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Modal Sizes</h3>
+              <ul>
+                <li>Default size (bootstrap native), 650px wide.</li>
+                <li>Wide size, 800px wide. Class "modal-wide" can be added to the modal-content div.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Guidelines</h3>
+              <ul>
+                <li>When a modal is open, there is no user access to any action or information behind it. The user must use the action buttons in the modal to close it.</li>
+                <li>All modals should have the "X" close action in the upper right.
+                  <ul>
+                    <li>For action modals, the "X" has the exact same behavior as the cancel action.</li>
+                    <li>For information modals, the "X" has the exact same action as the close action.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Structure</h3>
+              <ul>
+                <li>Background layer.</li>
+                <li>Header - displays the title and the "X" cancel/close action.</li>
+                <li>Body - displays the modal content.</li>
+                <li>Footer - displays the action buttons.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Examples</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Action Modal</p>
+              <div class="live-example">
+                <p>Launch Modal</p>
+                <a id="modal-login-1" href="#modal-authenticate" role="button" data-toggle="modal" class="btn btn-primary"> Edit </a> &nbsp;&nbsp; <a id="modal-login-1" href="#modal-add" role="button" data-toggle="modal" class="btn btn-success"> Add </a> &nbsp;&nbsp;<a id="modal-add-2" href="#modal-email-com-5" role="button" class="btn btn-primary" data-toggle="modal">Emailer</a>&nbsp;&nbsp; <a id="modal-contact-1" href="#modal-create" class="btn btn-success" data-toggle="modal">Add Event</a> <br>
+                <br>
+                <p>Visuals</p>
+                <div class="modal-content">
+                  <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                    <h4 class="modal-title" id="myModalLabel"> Edit </h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-horizontal" role="form"> <br>
+                      <div class="form-group row">
+                        <label for="putIDhere" class="col-sm-3 control-label">Email Address</label>
+                        <div class="col-sm-6">
+                          <input class="form-control" id="putIDhere">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="putIDhere" class="col-sm-3 control-label">Password</label>
+                        <div class="col-sm-6">
+                          <input class="form-control" id="putIDhere" type="password">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="text-left"> <a type="button" class="btn btn-primary" href="#">Save</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="modal-content">
+                  <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                    <h4 class="modal-title" id="myModalLabel"> Add </h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-horizontal" role="form"> <br>
+                      <div class="form-group row">
+                        <label for="putIDhere" class="col-sm-3 control-label">Email Address</label>
+                        <div class="col-sm-6">
+                          <input class="form-control" id="putIDhere">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="putIDhere" class="col-sm-3 control-label">Password</label>
+                        <div class="col-sm-6">
+                          <input class="form-control" id="putIDhere" type="password">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="text-left"> <a type="button" class="btn btn-primary" href="#">Save</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="modal-content">
+                  <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                    <h4 class="modal-title" id=""> Email Community Members </h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="#" class="control-label"> To</label>
+                          <p class="to-fixed"><a href="#">231 members selected</a> to receive this email, <a href="#">5 members were excluded</a>.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group required">
+                          <label for="#" class="control-label"> Subject </label>
+                          <input type="text" class="form-control" id="" value="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group required">
+                          <label for="#" class="control-label"> Message </label>
+                          <textarea class="form-control" id="text" name="text" placeholder="Enter message..." rows="5"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row margin-bottom-md">
+                      <div class="col-md-12"> <a id="" href="#" class="btn btn-success"><span class="glyphicon glyphicon-calendar small"></span> Add  Meeting Invitation</a> </div>
+                    </div>
+                    <div class="row margin-bottom-md">
+                      <div class="col-md-12"> <a id="" href="#" class="btn btn-success"><span class="glyphicon glyphicon-paperclip small"></span> Attach</a> </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="text-left"><a href="#"  type="button" class="btn btn-primary">Send Email</a>&nbsp;&nbsp; <a href="#"  type="button" class="btn btn-default" data-dismiss="modal">Cancel</a>&nbsp;&nbsp; <a id="" href="#" class="btn btn-info pull-right">Preview Email</a> </div>
+                  </div>
+                </div>
+                <br></br>
+                <div class="modal-content">
+      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+        <h4 class="modal-title" id="myModalLabel">Add Event</h4>
+      </div>
+      <div class="modal-body add-edit-event">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group pull-right">
+              <label for="putIDhere" class="sr-only control-label">Put event on hold?</label>
+              <div class="bootstrap-switch-container">
+                <input type="checkbox" data-size="small" data-off-text="Event on Hold" data-on-text="Active Event" data-off-color="warning" data-on-color="success" id="switch-offColor" checked>
+                <span class="glyphicon glyphicon-question-sign text-muted small"></span> </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-muted" style="margin-top: 0;">Details</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Title</label>
+            <input class="form-control" id="putIDhere">
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Event Type</label>
+            <select class="form-control">
+              <option selected> Choose... </option>
+              <option> Client Showcase </option>
+              <option> Executive Committee </option>
+              <option> Learning Series </option>
+              <option> Partner Events </option>
+              <option> Public Registration Allowed </option>
+              <option> Save the Date </option>
+              <option> Self Register </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Community</label>
+            <select class="form-control">
+              <option selected> Choose... </option>
+              <option> Annual Meeting </option>
+              <option> Board of Directors </option>
+              <option> Fun Events </option>
+              <option> Open Discussion </option>
+            </select>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Display in events list?</label>
+                <select class="form-control">
+                  <option selected> Display until event end date</option>
+                  <option> Do not display</option>
+                  <option> Always display </option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Display in search results?</label>
+                <select class="form-control">
+                  <option selected> Display until event end date</option>
+                  <option> Do not display</option>
+                  <option> Always display </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Event Description</label>
+            <img src="img/tinyMCE.png" style="margin-top:5px" class="img-responsive"> </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Optional link for an external website with more details about this event.</label>
+            <input class="form-control" id="putIDhere" value="" placeholder="http://www.externalsite.com OR https://www.externalsite.com">
+          </div>
+          <div class="form-group row">
+            <div class="col-md-8">
+              <label class="control-label" for="exampleInputFile">Event Image</label>
+              <div class="well">
+                <input type="file" id="exampleInputFile">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Maximum number of registrants?</label>
+            <div class="inline">
+              <input class="form-control short inline" id="putIDhere" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Include an "Additional Information" input? </label>
+            <div class="bootstrap-switch-container inline">
+              <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="default" data-on-color="success" id="switch-offColor" selected>
+              <!--<a href="#">Change lable name.</a>-->
+            </div>
+          </div>
+         
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Include input for registrant to state special needs? </label>
+            <div class="bootstrap-switch-container inline">
+              <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="default" data-on-color="success" id="switch-offColor">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Include badge name input for registrant? </label>
+            <div class="bootstrap-switch-container inline">
+              <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="default" data-on-color="success" id="switch-offColor">
+            </div>
+          </div>
+          <br>
+          <p class=""><span class="alert-info"> Note:</span>&nbsp; <strong>Registration Options</strong>, <strong>Event Sessions </strong>and <strong>Event Presenters</strong> may be added after this event has been saved, accessed from the Manage Events page actions button dropdown. </p>
+        </div>
+        <br>
+        <h3 class="text-muted">Date & Time</h3>
+        <div class="event-section">
+          <div class="row form-group">
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> Start Date</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-calendar glyphicon"></span> </span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> Start Time</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <form class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-time glyphicon"></span> </span> </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> End Date</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-calendar glyphicon"></span> </span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> End Time</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <form class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-time glyphicon"></span> </span> </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Timezone</label>
+                <select class="form-control">
+                  <option selected> Eastern US</option>
+                  <option>sdf </option>
+                  <option>zxc</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <h3 class="text-muted">Location</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">How will people attend this event?</label>
+            <select class="form-control">
+              <option selected>Choose...</option>
+              <option> Conference Call</option>
+              <option> Physical Address</option>
+              <option> Online</option>
+            </select>
+          </div>
+         
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Country</label>
+            <select class="form-control">
+              <option selected> Display until event end date</option>
+              <option> Do not display</option>
+              <option> Always display </option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <h3 class="text-muted">Contact Information</h3>
+        <div class="event-section">
+          <div class="row margin-bottom-medium">
+            <div class="col-md-12 text-right"> <a href="#" class="btn btn-sm btn-success">Insert My Contact Information</a> </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">First Name</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Last Name</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Phone</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Email</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  Nate, in the case where the type has an external registration, include this block.
+        <br>
+        <h3 class="text-muted">External Registration</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">What is the external registration website URL? </label>
+            <div class="inline">
+            <input class="form-control" id="putIDhere" value="" placeholder="http://www.externalsite.com OR https://www.externalsite.com">
+            
+            </div>
+          </div>
+        </div>-->
+        <br>
+        <h3 class="text-muted">Pricing Options</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label class="control-label" for="">Pricing may include different rates for <strong>early</strong>, <strong>regular</strong> and <strong>late </strong> registrations. </label>
+            <select class="selectpicker" multiple data-max-options="3" data-width="100%" title="Choose..." data-size="10" data-live-search="false">
+              <option>Early </option>
+              <option selected>Regular </option>
+              <option>Late </option>
+            </select>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Early &nbsp; </label>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">Begin </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">End </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Regular &nbsp; </label>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">Begin </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">End </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Late &nbsp; </label>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">Begin </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">End </label>
+              <div class="input-group">
+
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="control-label">Pricing</label>
+            <select class="selectpicker" multiple data-width="100%" title="Choose..." data-size="6" data-selected-text-format="count > 1" data-live-search="false">
+              <optgroup label="" data-max-options="1">
+              <option selected>Simple</option>
+              <option>Member / Non-member</option>
+              </optgroup>
+              <optgroup label="Registrant Classes">
+              <option>Public Registrations Allowed</option>
+              <option>Learning Series</option>
+              <option>Executive Committee</option>
+              <option>Save the Date</option>
+              <option>Public Registrations Allowed</option>
+              <option>Learning Series</option>
+              <option>Executive Committee</option>
+              <option>Save the Date</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Registrants</label>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Early </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Regular </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Late </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Member</label>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Early </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Regular </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Late </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Non-member</label>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Early </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Regular </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Late </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Price Currency </label>
+            <select class="form-control">
+              <option selected> Choose...</option>
+              <option> Dollars</option>
+              <option> Bottle Caps</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <h3 class="text-muted">Email Templates</h3>
+        <div class="event-section"> put email templates here if the pass through via type. </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-left"> <a type="button" class="btn btn-primary">Save</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
+      </div>
+    </div>
+                
+                
+              </div>
+              <div>
+                <pre><code class="language-markup">needs code
+                </code></pre>
+                <!-- Trigger -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Information Modal</p>
+              <div class="live-example">
+                <p>Launch Modal</p>
+                <a id="modal-login-1" href="#modal-info" role="button" data-toggle="modal" class="btn btn-default"> Info</a> with <strong>btn-default class</strong>. &nbsp;&nbsp; or &nbsp;&nbsp; <a id="modal-login-1" href="#modal-info" role="button" data-toggle="modal" class="btn btn-info"> Info</a> alternate with <strong>btn-info class</strong>. <br>
+                <br>
+                <p>Visual</p>
+                <div class="modal-content">
+                  <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                    <h4 class="modal-title" id="myModalLabel"> Information</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Here is some information for the user. This type of modal has only one action - Close.  If should be used to communicate important information to the user.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="text-left"> <a type="button" class="btn btn-default" data-dismiss="modal">Close</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <pre><code class="language-markup">needs code
+                </code></pre>
+                <!-- Trigger -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Prompt Modals</p>
+              <div class="live-example">
+                <p>Launch Modal</p>
+                <a id="modal-310376" href="#modal-container-310376" role="button" class="btn btn-primary" data-toggle="modal">Cancel Commitment</a><br>
+                <br>
+                <p>Visual</p>
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> × </button>
+                    <h4 class="modal-title" id="myModalLabel"> Cancel Volunteer Commitment </h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>We hope that you will consider applying for other opportunities in the future. </p>
+                    <p> Are you sure you’d like to withdraw?</p>
+                  </div>
+                  <div class="modal-footer text-left">
+                    <div class="text-left">
+                      <button type="button" class="btn btn-primary"> Yes, cancel my commitment. </button>
+                      <button type="button" class="btn btn-default" data-dismiss="modal"> Cancel </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <pre><code class="language-markup">needs code
+                </code></pre>
+                <!-- Trigger -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="link-container">
+            <div class="right-sidebar">
+              <h4>Product Locations</h4>
+              <ul>
+                <li><a href="https://hug.higherlogic.com" target="_blank">Most admin and user actions.</a></li>
+              </ul>
+              <h4>Resources</h4>
+              <ul>
+                <li><span class="text-muted small"><em>none</em></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end - content -->
+    </div>
+    <!-- /.container-fluid -->
+  </div>
+  <!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+<div class="modal fade" id="modal-authenticate" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+        <h4 class="modal-title" id="myModalLabel"> Edit </h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-horizontal" role="form"> <br>
+          <div class="form-group row">
+            <label for="putIDhere" class="col-sm-3 control-label">Email Address</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="putIDhere">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="putIDhere" class="col-sm-3 control-label">Password</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="putIDhere" type="password">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-left"> <a type="button" class="btn btn-primary" href="#">Save</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-add" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+        <h4 class="modal-title" id="myModalLabel"> Add </h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-horizontal" role="form"> <br>
+          <div class="form-group row">
+            <label for="putIDhere" class="col-sm-3 control-label">Email Address</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="putIDhere">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="putIDhere" class="col-sm-3 control-label">Password</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="putIDhere" type="password">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-left"> <a type="button" class="btn btn-primary" href="#">Save</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-info" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+        <h4 class="modal-title" id="myModalLabel"> Information</h4>
+      </div>
+      <div class="modal-body">
+        <p>Here is some information for the user. This type of modal has only one action - Close.  If should be used to communicate important information to the user.</p>
+      </div>
+      <div class="modal-footer">
+        <div class="text-left"> <a type="button" class="btn btn-default" data-dismiss="modal">Close</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-container-310376" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> × </button>
+        <h4 class="modal-title" id="myModalLabel"> Cancel Volunteer Commitment </h4>
+      </div>
+      <div class="modal-body">
+        <p>We hope that you will consider applying for other opportunities in the future. </p>
+        <p> Are you sure you’d like to withdraw?</p>
+      </div>
+      <div class="modal-footer text-left">
+        <div class="text-left">
+          <button type="button" class="btn btn-primary"> Yes, cancel my commitment. </button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"> Cancel </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-email-com-5" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog community-email">
+    <div class="modal-content">
+      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+        <h4 class="modal-title" id=""> Email Community Members </h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="#" class="control-label"> To</label>
+              <p class="to-fixed"><a href="#">231 members selected</a> to receive this email, <a href="#">5 members were excluded</a>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group required">
+              <label for="#" class="control-label"> Subject </label>
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group required">
+              <label for="#" class="control-label"> Message </label>
+              <textarea class="form-control" id="text" name="text" placeholder="Enter message..." rows="5"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row margin-bottom-md">
+          <div class="col-md-12"> <a id="" href="#" class="btn btn-success"><span class="glyphicon glyphicon-calendar small"></span> Add  Meeting Invitation</a> </div>
+        </div>
+        <div class="row margin-bottom-md">
+          <div class="col-md-12"> <a id="" href="#" class="btn btn-success"><span class="glyphicon glyphicon-paperclip small"></span> Attach</a> </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-left"><a href="#"  type="button" class="btn btn-primary">Send Email</a>&nbsp;&nbsp; <a href="#"  type="button" class="btn btn-default" data-dismiss="modal">Cancel</a>&nbsp;&nbsp; <a id="" href="#" class="btn btn-info pull-right">Preview Email</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-create" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-wide event">
+    <div class="modal-content">
+      <div class="modal-header"> <a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+        <h4 class="modal-title" id="myModalLabel">Add Event</h4>
+      </div>
+      <div class="modal-body add-edit-event">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group pull-right">
+              <label for="putIDhere" class="sr-only control-label">Put event on hold?</label>
+              <div class="bootstrap-switch-container">
+                <input type="checkbox" data-size="small" data-off-text="Event on Hold" data-on-text="Active Event" data-off-color="warning" data-on-color="success" id="switch-offColor" checked>
+                <span class="glyphicon glyphicon-question-sign text-muted small"></span> </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-muted" style="margin-top: 0;">Details</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Title</label>
+            <input class="form-control" id="putIDhere">
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Event Type</label>
+            <select class="form-control">
+              <option selected> Choose... </option>
+              <option> Client Showcase </option>
+              <option> Executive Committee </option>
+              <option> Learning Series </option>
+              <option> Partner Events </option>
+              <option> Public Registration Allowed </option>
+              <option> Save the Date </option>
+              <option> Self Register </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Community</label>
+            <select class="form-control">
+              <option selected> Choose... </option>
+              <option> Annual Meeting </option>
+              <option> Board of Directors </option>
+              <option> Fun Events </option>
+              <option> Open Discussion </option>
+            </select>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Display in events list?</label>
+                <select class="form-control">
+                  <option selected> Display until event end date</option>
+                  <option> Do not display</option>
+                  <option> Always display </option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Display in search results?</label>
+                <select class="form-control">
+                  <option selected> Display until event end date</option>
+                  <option> Do not display</option>
+                  <option> Always display </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Event Description</label>
+            <img src="img/tinyMCE.png" style="margin-top:5px" class="img-responsive"> </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Optional link for an external website with more details about this event.</label>
+            <input class="form-control" id="putIDhere" value="" placeholder="http://www.externalsite.com OR https://www.externalsite.com">
+          </div>
+          <div class="form-group row">
+            <div class="col-md-8">
+              <label class="control-label" for="exampleInputFile">Event Image</label>
+              <div class="well">
+                <input type="file" id="exampleInputFile">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Maximum number of registrants?</label>
+            <div class="inline">
+              <input class="form-control short inline" id="putIDhere" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Include an "Additional Information" input? </label>
+            <div class="bootstrap-switch-container inline">
+              <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="default" data-on-color="success" id="switch-offColor" selected>
+              <!--<a href="#">Change lable name.</a>-->
+            </div>
+          </div>
+         
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Include input for registrant to state special needs? </label>
+            <div class="bootstrap-switch-container inline">
+              <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="default" data-on-color="success" id="switch-offColor">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Include badge name input for registrant? </label>
+            <div class="bootstrap-switch-container inline">
+              <input type="checkbox" data-size="small" data-off-text="No" data-on-text="Yes" data-off-color="default" data-on-color="success" id="switch-offColor">
+            </div>
+          </div>
+          <br>
+          <p class=""><span class="alert-info"> Note:</span>&nbsp; <strong>Registration Options</strong>, <strong>Event Sessions </strong>and <strong>Event Presenters</strong> may be added after this event has been saved, accessed from the Manage Events page actions button dropdown. </p>
+        </div>
+        <br>
+        <h3 class="text-muted">Date & Time</h3>
+        <div class="event-section">
+          <div class="row form-group">
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> Start Date</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-calendar glyphicon"></span> </span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> Start Time</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <form class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-time glyphicon"></span> </span> </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> End Date</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-calendar glyphicon"></span> </span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-md-12 control-label"> End Time</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <form class="form-inline" role="form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control short" id="exampleInputEmail1" placeholder="08/01/2015"  value="08/01/2015"/>
+                        <span class="input-group-addon"> <span class="glyphicon-time glyphicon"></span> </span> </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Timezone</label>
+                <select class="form-control">
+                  <option selected> Eastern US</option>
+                  <option>sdf </option>
+                  <option>zxc</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <h3 class="text-muted">Location</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">How will people attend this event?</label>
+            <select class="form-control">
+              <option selected>Choose...</option>
+              <option> Conference Call</option>
+              <option> Physical Address</option>
+              <option> Online</option>
+            </select>
+          </div>
+         
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Country</label>
+            <select class="form-control">
+              <option selected> Display until event end date</option>
+              <option> Do not display</option>
+              <option> Always display </option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <h3 class="text-muted">Contact Information</h3>
+        <div class="event-section">
+          <div class="row margin-bottom-medium">
+            <div class="col-md-12 text-right"> <a href="#" class="btn btn-sm btn-success">Insert My Contact Information</a> </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">First Name</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Last Name</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Phone</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="putIDhere" class="control-label">Email</label>
+                <input class="form-control" id="putIDhere" value="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  Nate, in the case where the type has an external registration, include this block.
+        <br>
+        <h3 class="text-muted">External Registration</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">What is the external registration website URL? </label>
+            <div class="inline">
+            <input class="form-control" id="putIDhere" value="" placeholder="http://www.externalsite.com OR https://www.externalsite.com">
+            
+            </div>
+          </div>
+        </div>-->
+        <br>
+        <h3 class="text-muted">Pricing Options</h3>
+        <div class="event-section">
+          <div class="form-group">
+            <label class="control-label" for="">Pricing may include different rates for <strong>early</strong>, <strong>regular</strong> and <strong>late </strong> registrations. </label>
+            <select class="selectpicker" multiple data-max-options="3" data-width="100%" title="Choose..." data-size="10" data-live-search="false">
+              <option>Early </option>
+              <option selected>Regular </option>
+              <option>Late </option>
+            </select>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Early &nbsp; </label>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">Begin </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">End </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Regular &nbsp; </label>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">Begin </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">End </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Late &nbsp; </label>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">Begin </label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+            <div class="col-sm-4">
+              <label for="putIDhere" class="control-label small text-muted">End </label>
+              <div class="input-group">
+
+                <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="control-label">Pricing</label>
+            <select class="selectpicker" multiple data-width="100%" title="Choose..." data-size="6" data-selected-text-format="count > 1" data-live-search="false">
+              <optgroup label="" data-max-options="1">
+              <option selected>Simple</option>
+              <option>Member / Non-member</option>
+              </optgroup>
+              <optgroup label="Registrant Classes">
+              <option>Public Registrations Allowed</option>
+              <option>Learning Series</option>
+              <option>Executive Committee</option>
+              <option>Save the Date</option>
+              <option>Public Registrations Allowed</option>
+              <option>Learning Series</option>
+              <option>Executive Committee</option>
+              <option>Save the Date</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Registrants</label>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Early </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Regular </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Late </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Member</label>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Early </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Regular </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Late </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+          </div>
+          <div class="row margin-bottom-large">
+            <div class="col-sm-2 col-sm-offset-1">
+              <div class="form-group bottom">
+                <label for="putIDhere" class="control-label">Non-member</label>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Early </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Regular </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <label for="putIDhere" class="control-label small text-muted">Late </label>
+              <div class="input-group"> <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="putIDhere" class="control-label">Price Currency </label>
+            <select class="form-control">
+              <option selected> Choose...</option>
+              <option> Dollars</option>
+              <option> Bottle Caps</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <h3 class="text-muted">Email Templates</h3>
+        <div class="event-section"> put email templates here if the pass through via type. </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-left"> <a type="button" class="btn btn-primary">Save</a> <a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

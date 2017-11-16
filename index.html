@@ -1,145 +1,151 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Higher Logic Styles & Patterns - Beta</title>
+<!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/sb-admin.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
 <link href="css/style.css" rel="stylesheet">
-<link href="css/bootstrap-switch.css" rel="stylesheet">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<!--<link href="css/prism.css" rel="stylesheet"/>-->
+<script type="text/javascript"  src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="js/bootstrap-switch.js"></script>
-<title>Hihger Logic Developer Style Guide</title>
+<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<!--<script type="text/javascript" src="js/prism.js"></script>-->
+<!--<script type="text/javascript" src="js/scripts.js"></script>-->
+<!-- <script type="text/javascript" src="js/clipboard.js"></script>
+      <script type="text/javascript" src="js/clipboard.min.js"></script> -->
 </head>
 <body>
-<div class="container HLdocs-container"> <br>
-  <h1>Higher Logic Developer Style Guide - V2</h1>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Master Page, CMS and Bootstrap Overview</h2>
-      <ul>
-        <li><a href="productOverview_clientFacing.html">overview of bootstrap masterpage structure and themes</a></li>
-        <!--<li>bootstrap overview</li>-->
-        <!--<li><a href="bs-layouts.html">bootstrap page layouts in CMS</a></li>-->
-        <li><a href="bs-resources.html" >bootstrap resources</a> </li>
+<div id="wrapper">
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <img src="img/icon-cms-higherlogic.png" style="height:45px; float: left; padding: 5px; margin-left:5px; margin-top: 5px;"> <a class="navbar-brand" href="index.html">Higher Logic Styles & Patterns - Beta</a> </div>
+    <!-- Top Menu Items -->
+    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav side-nav">
+        <li class="active"> <a href="index.html">Home</a>
+          <ul id=""> <li> <a href="design-principles.html">UX Design</a> </li>
+            <li><a href="interaction-design.html">Interaction Design</a> </li>
+            <li> <a href="labeling.html">Labeling & Terminology</a> </li><!-- <li> <a href="resources.html">UX Design Resources</a> </li> -->
+          </ul>
+        </li>
+        <li> <a href="#">Frameworks & Tech</a>
+          <ul id="">
+            <li> <a href="bootstrap.html">Bootstrap 3.0.1</a> </li>
+            <li> <a href="jquery.html">JQuery 1.12</a> </li>
+            <li> <a href="widgets.html">Widgets</a> </li>
+            <li> <a href="css.html">CSS</a> </li>
+            <!-- <li> <a href="framework-resources.html">Resources</a> </li> -->
+          </ul>
+        </li>
+         <li> <a href="#">Patterns</a>
+           <ul id="">
+           <li> <a href="pattern-activity-feed.html">Activity Feed</a> </li>
+           <li> <a href="pattern-admin-pages.html">Admin Pages</a> </li>
+            <li> <a href="pattern-content-designer.html">Content Designer</a> </li>
+            <li><a href="filtration_options.html">Filter & Sort Options</a></li>
+            <li> <a href="pattern-forms.html">Forms</a> </li>
+            <li> <a href="pattern-list.html">Lists</a> </li>
+            <li> <a href="pattern-modals.html">Modals</a> </li>
+            <li> <a href="pattern-search-results.html">Search Results</a> </li>
+          </ul>
+        <li> <a href="#"data-target="#">Components </a>
+          <ul id="">
+            <!-- <li><a href="admin_controls.html">Admin Controls</a></li> -->
+            <li><a href="help-text.html">Alerts and Help Text</a></li>
+            <li><a href="biobubble.html">Biobubble</a></li>
+            <!-- <li><a href="breadcrumb.html">Breadcrumb</a></li>-->
+            <li><a href="buttons.html">Buttons</a></li>
+            <!-- <li><a href="dropdowns.html">Dropdowns</a></li> -->
+            <!-- <li><a href="comments.html">Comments</a></li>-->
+            <!-- <li><a href="demographics.html">Demographics</a></li>-->
+            <li><a href="expand-collapse.html">Expand/Collapse</a></li><li><a href="forms.html">Form Controls</a></li>
+             <!-- <li><a href="filtration_options.html">Filter & Sort Options</a></li> -->
+            <li><a href="headings.html">Headings</a></li>
+            <!-- <li><a href="hl-landing.html">HL Landing Controls</a></li> -->
+            <li><a href="images.html">Images</a></li>
+            <li><a href="labels.html">Labels</a></li>
+            <!--  <li><a href="lists.html">Lists</a></li> --><!--  <li><a href="multiselectdropdown.html">Multi-select Dropdown</a></li> -->
+            <!--  <li><a href="modals.html">Modals</a></li> -->
+            <!-- <li><a href="navbar.html">Navbar</a></li> -->
+            <!-- <li><a href="tags.html">Tags</a></li> -->
+            <!-- <li><a href="related_links.html">Related Links</a></li> -->
+            <li><a href="pagination.html">Pagination</a></li>
+            <!-- <li><a href="permalinks.html">Permalinks</a></li> -->
+            <li><a href="ribbons.html">Ribbons</a></li>
+            <!--<li><a href="sort_options.html">Sort & Filter Options</a></li>-->
+            <li><a href="tabs.html">Tabs</a></li>
+            <li><a href="type-ahead.html">Type-ahead (filter and search)</a></li>
+          </ul>
+        </li>
+        <!--<li> <a href="interaction-design.html">Interaction Design</a>-->
+        <!-- <ul id="">
+            <li> <a href="interaction-design.html#">Bootstrap 3.0.1</a> </li>
+            <li> <a href="interaction-design.html#">JQuery 1.12</a> </li>
+            <li> <a href="interaction-design.html#">Widgets</a> </li>
+            <li> <a href="interaction-design.html#">Resources</a> </li>
+          </ul>-->
+        </li>
+        <li> <a href="accessibility.html"> Accessibility</a> </li>
       </ul>
-      <h2>CSS</h2>
-      <ul>
-        <li><a href="css-solution.html">how its structured in our project solutions</a></li>
-        <li><a href="css-rules.html">rules for adding new definitions</a></li>
-        <li><a href="css-formatting.html">formatting and targeting CSS for specific application</a></li>
-       <!-- <li>our theme color picker and style inheritance</li>-->
-        <li><a href="css-resources.html">CSS resources </a></li>
-      </ul>
-       <h2>Accessibility</h2>
-      <ul>
-      <li><a href="accessiblity-overview.html">accessibility overview</a></li>
-        <li><a href="accessibility-dev-process.html">WCAG 2.0, the development process & tools</a></li>
-        <li><a href="accessibility-tools.html">accessibility resources </a></li>
-      </ul>
-      <h2>Interaction and Feedback</h2>
-      <ul>
-        <li><a href="forms-and-crud.html">forms and CRUD states</a></li>
-        <li><a href="help-text.html">help and assistive text</a></li>
-        <li><a href="error-handling.html">error handling</a></li>
-        <li><a href="system-processing.html">system processing</a></li>
-<!--        <li>warning prompts</li>-->
-        <li><a href="instant-update.html">instant update</a></li>
-        <li><a href="circular-processes.html">circular processes</a></li>
-        <li><a href="visual-transitions.html">visual transitions (in/out fading)</a></li>
-        <!--<li><a href="wizards.html">wizards</a></li>-->
-      </ul>
-       <h2>Responsiveness</h2>
-      <ul>
-        <li><a href="responsive-grid.html">bootstrap's responsive grid</a></li>
-        <li><a href="media-queries.html">media queries</a></li>
-        <!--<li>developer guidelines and checklist</li>
-        <li>responsive resources <i class="glyphicon glyphicon-new-window small"></i></li>-->
-      </ul>
-      <h2>Styles and Patterns</h2>
-      <div class="indent-no-top">
-      <h3 style="margin: 0px;">Content</h3>
-      <ul>
-        <li><a href="buttons.html">buttons</a></li>
-        <li><a href="comments.html">comments</a></li>
-        <li><a href="headings.html">headings</a></li>
-        <!--<li><a href="share.html">share</a></li>-->
-        <li><a href="tags.html">tags</a></li>
-        <li><a href="related_links.html">related links</a></li>
-        <li><a href="permalinks.html">permalinks</a></li>
-        <li><a href="demographics.html">demographics</a></li>
-        <li><a href="ribbons.html">ribbons</a></li>
-        <!--        <li><a href="badges.html">badges</a></li>-->
-        <li><a href="forms.html">form controls</a></li>
-        <li><a href="breadcrumb.html">breadcrumb</a></li>
-        <li><a href="pagination.html">pagination</a></li>
-        <li><a href="sort_options.html">sort options</a></li>
-        <li><a href="filtration_options.html">filtration options</a></li>
-        <li><a href="modals.html">modals</a></li>
-        <li><a href="labels.html">labels</a></li>
-        <li><a href="tabs.html">tabs</a></li>
-        <li><a href="navbar.html">navbar</a></li>
-        <li><a href="admin_controls.html">admin controls</a></li>
-        <li><a href="biobubble.html">biobubble</a></li>
-        <li><a href="help-text.html">alerts and help text</a></li>
-        <!--<li>HL Landing Controls</li>-->
-        <li>type-ahead (filter and search)</li>
-        <li><a href="multiselectdropdown.html">multi-select dropdown</a></li>
-        <li><a href="expand-collapse.html">expand/collapse</a></li>
-        <!--<li>panels</li>
-        <li>text</li>
-        <li>images</li>-->
-      </ul>
-      <h3>List Patterns</h3>
-      <ul>
-        <li><a href="data.html">data tables</a></li>
-        <li><a href="search_results.html">search results</a></li>
-        <li><a href="communities.html">communities</a></li>
-        <li><a href="discussion_thread.html">discussion thread</a></li>
-        <li><a href="libraries.html">libraries</a></li>
-        <!--        <li><a href="discussions.html">discussions</a></li>-->
-        <li><a href="member_directory.html">member directory</a></li>
-        <li><a href="blogs.html">blogs</a></li>
-        <li><a href="events.html">events</a></li>
-        <li><a href="glossary.html">glossary</a></li>
-        <li><a href="volunteer-opportunity-list.html">volunteer opportunities list</a></li>
-        <li><a href="web_service_controls.html">web service controls</a></li>
-      </ul>
-      <h3>Detail Pages</h3>
-      <ul>
-        <li><a href="discussion_thread_view.html">discussion thread view</a></li>
-        <li><a href="library_entry.html">library entry</a></li>
-        <li><a href="blog.html">blog</a></li>
-        <li><a href="glossary_term.html">glossary term</a></li>
-        <li><a href="event.html">event</a></li>
-        <li><a href="volunteer-opportunity.html">volunteer opportunity</a></li>
-      </ul>
-      <h3>Aggregate Pages</h3>
-      <ul>
-        <li><a href="community_landing.html">community home</a></li>
-        <li><a href="home.html">home</a></li>
-        <li><a href="member_profile.html">member profile</a></li>
-      </ul>
-     <!-- <h3>Widgets and 3rd Party Integration</h3>
-      <ul>
-        <li>JQuery</li>
-        <li>bootstrap select</li>
-        <li>tiny MCE</li>
-        <li>RAD editor</li>
-        <li>Galleria</li>
-        <li>bootstrap toggle</li>
-      </ul>
-       <h3>MVC</h3>
-      <ul>
-        <li>control parameters - hiding HLStaffOnly parameters</li>
+    </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+  <div id="page-wrapper">
+    <div class="HLdocs-container">
+      <!-- Page Heading -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header"> Home</h1>
+        </div>
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-lg-12"> 
+        <p>Welcome to the Beta version of the Higher Logic Styles and Patterns guide. The information within outlines proper use guidelines for the patterns, components and elements of our product offering. We're in the process of updating all the information within and expect to post the first full version soon.</p>
         
-      </ul>-->
+        </div>
+      </div>
+      <!-- /.row -->
     </div>
-    </div>
+    <!-- /.container-fluid -->
   </div>
-  <br>
-  <br>
-  <br>
+  <!-- /#page-wrapper -->
 </div>
+<!-- /#wrapper -->
+
+
+<!-- Script by Ross to make the menu dynamic 
+<script>
+$(function(){
+$('.a-render').click(function(){
+
+$('#page-wrapper').load($(this).data('href'));
+
+});
+    });
+</script>-->
 </body>
 </html>

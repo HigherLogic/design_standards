@@ -1,165 +1,378 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Higher Logic Pattern Portfolio - Buttons</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-<!--script src="js/less-1.3.3.min.js"></script-->
-<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+<title>Higher Logic Styles & Patterns - Beta</title>
+<!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!-- Custom CSS -->
+<link href="css/sb-admin.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="img/favicon.png">
-<script type="text/javascript" src="js/jquery.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="css/prism.css" rel="stylesheet"/>
+<script type="text/javascript"  src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="js/prism.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<!-- <script type="text/javascript" src="js/clipboard.js"></script>
+      <script type="text/javascript" src="js/clipboard.min.js"></script> -->
 </head>
 <body>
-<div class="container HLdocs-container"> <br>
-  <h1>Higher Logic Pattern Portfolio</h1>
-  <ol class="breadcrumb">
-    <li><a href="index_patternPortfolio.html">Home</a></li>
-    <li class="active">Buttons</li>
-  </ol>
-  <div class="row">
-    <div class="col-md-12">
-      <h2> Buttons </h2>
-      <p>Use the bootstrap anchor buttons and apply the appropriate button color for its action.  Grey state buttons (btn-default) can be used for all actions when their information priority is low enough and the design requires less visibility.  All buttons should have <strong>role="button"</strong> and <strong> title="what action does" </strong> attributes for accessibilty compliance.</p>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Button Colors </h3>
-          <p>Button colors provide visual cues for users. In general, all buttons should adhere to the rules below.</p>
-          <div class="indent1"> <a href="#" role="button" class="btn btn-primary" title="save">Save</a> - blue for core system funcitonality: save, edit, submit, reply, etc.<br>
-            <br>
-            <a href="#" role="button" class="btn btn-success" title="add">Add</a> - green for adding content, accepting an action, etc. <br>
-            <br>
-            <a href="#" role="button" class="btn btn-danger" title="delete">Delete</a> - red for negative or delete actions. <br>
-            <br>
-            <a href="#" role="button" class="btn btn-default" title="cancel">Cancel</a> - white or light grey for cancel and in cases where actions need to be visually minimized. </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Single-action Button Order </h3>
-          <p>For forms and modals, buttons are left aligned starting with the most dominant action with Cancel always the right most button.</p>
-          <div class="indent1"> <span class="text-muted-orange">example 1:</span> <a href="#" role="button" class="btn btn-primary">Save</a> <a href="#" role="button" class="btn btn-default">Cancel</a><br />
-            <br />
-            <span class="text-muted-orange">example 2:</span> <a href="#" role="button" class="btn btn-danger">Delete</a> <a href="#" role="button" class="btn btn-default">Cancel</a><br />
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-md-12">
-          <h3> Multi-action Buttons </h3>
-          <p>For cases where there is a dominant action and one or more subordinate actions.</p>
-          <div class="indent1">
-            <div class="btn-group">
-              <button class="btn btn-primary" type="button">Primary</button>
-              <button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
-              <ul class="dropdown-menu" role="menu">
-                <li> <a href="#">Secondary Action</a> </li>
-                <li> <a href="#">Tertiary Action</a> </li>
-              </ul>
-            </div>
-          </div>
-          <br>
-          <p>For cases where it's a multi-action button and the dominant action isn't available, do not show it as disabled but rather move the next dominant action to the primary position.</p>
-          <div class="indent1"> <span class="text-muted-orange">proper:</span>
-            <div class="btn-group">
-              <button class="btn btn-primary" type="button">Secondary</button>
-              <button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
-              <ul class="dropdown-menu" role="menu">
-                <li> <a href="#">Tertiary Action</a> </li>
-              </ul>
-            </div>
-          </div>
-          <br />
-          <div class="indent1"> <span class="text-muted-orange">improper:</span>
-            <div class="btn-group">
-              <button class="btn btn-primary" type="button" disabled>Primary</button>
-              <button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
-              <ul class="dropdown-menu" role="menu">
-                <li> <a href="#">Secondary Action</a> </li>
-                <li> <a href="#">Tertiary Action</a> </li>
-              </ul>
-            </div>
-            <br />
-          </div>
-          <br>
-          <br>
-          <div class="row">
-            <div class="col-md-12">
-              <h3> Icon Buttons</h3>
-              <p>Icon buttons can be used for a specific use case: when there are CRUD actions for list controls like those found in the user profile or HLLanding controls. Make sure to add the <strong>title="what it does"</strong> attribute to make them accessibility compliant. </p>
-              <div class="indent1"> <span class="text-muted-orange">CRUD examples, icons only:</span>  
-              <a href="#" role="button" class="btn btn-sm btn-success" title="add"><i class="glyphicon glyphicon-plus"></i></a>
-              <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-remove"></i></a>
-              <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-trash"></i></a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i></a>
-              <br />
-              </div><br />
-               <div class="indent1"> <span class="text-muted-orange">CRUD examples, icons & text:</span>  
-              <a href="#" role="button" class="btn btn-sm btn-success" title="add"><i class="glyphicon glyphicon-plus"></i> Add</a>
-              <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-remove"></i> Delete</a>
-              <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-trash"></i> Delete</a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
-              <br />
-              </div><br />
-               <div class="indent1"> <span class="text-muted-orange">CRUD examples, diminished state:</span>
-               <a href="#" role="button" class="btn btn-sm btn-default" title="add"><i class="glyphicon glyphicon-plus"></i></a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-remove"></i></a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-trash"></i></a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i></a> &nbsp;&nbsp;&nbsp; 
-              <a href="#" role="button" class="btn btn-sm btn-default" title="add"><i class="glyphicon glyphicon-plus"></i> Add</a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-remove"></i> Delete</a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-trash"></i> Delete</a>
-              <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
-              <br />
-              </div>
-              <br>
-              <div class="indent1"> <span class="text-muted-orange">profile example:</span> <br> 
-              <img src="img/iconButtonListPattern.jpg" alt="example of icon buttons on profile control" title=""example of icon buttons on profile control">
-              <br />
-              </div>
-              <br>
-            </div>
-          </div>
-          <br>
-          <br>
-          <div class="row">
-            <div class="col-md-12">
-              <h3> Disabled State </h3>
-              <p>For cases where the action is not available or ready, use the disabled state to indicate the presence of the action. This is common for forms and actions that require user input. An example is a login form that requires both a UID and Password. Until both fields are "dirty", the button is disabled. Once the user has entered something in both fields, the button is enabled.</p>
-              <div class="indent1"> <span class="text-muted-orange">example 1:</span> <a href="#" role="button" class="btn btn-primary disabled">Save</a> <a href="#" role="button" class="btn btn-default">Cancel</a><br />
-                <br />
-                <span class="text-muted-orange">example 2:</span> <a href="#" role="button" class="btn btn-danger disabled">Delete</a> <a href="#" role="button" class="btn btn-default">Cancel</a><br />
-              </div>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
+<div id="wrapper">
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <img src="img/icon-cms-higherlogic.png" style="height:45px; float: left; padding: 5px; margin-left:5px; margin-top: 5px;"> <a class="navbar-brand" href="index.html">Higher Logic Styles & Patterns - Beta</a> </div>
+    <!-- Top Menu Items -->
+    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav side-nav">
+        <li> <a href="index.html">Home</a>
+          <ul id=""> <li> <a href="design-principles.html">UX Design</a> </li>
+            <li><a href="interaction-design.html">Interaction Design</a> </li>
+            <li> <a href="labeling.html">Labeling & Terminology</a> </li>
+            <!-- <li> <a href="resources.html">UX Design Resources</a> </li> -->
+          </ul>
+        </li>
+        <li> <a href="#">Frameworks & Tech</a>
+          <ul id="">
+            <li> <a href="bootstrap.html">Bootstrap 3.0.1</a> </li>
+            <li> <a href="jquery.html">JQuery 1.12</a> </li>
+            <li> <a href="widgets.html">Widgets</a> </li>
+            <li> <a href="css.html">CSS</a> </li>
+            <!-- <li> <a href="framework-resources.html">Resources</a> </li> -->
+          </ul>
+        </li>
+        <li> <a href="#">Patterns</a>
+           <ul id="">
+           <li> <a href="pattern-activity-feed.html">Activity Feed</a> </li>
+           <li> <a href="pattern-admin-pages.html">Admin Pages</a> </li>
+            <li> <a href="pattern-content-designer.html">Content Designer</a> </li>
+            <li><a href="filtration_options.html">Filter & Sort Options</a></li>
+            <li> <a href="pattern-forms.html">Forms</a> </li>
+            <li> <a href="pattern-list.html">Lists</a> </li>
+            <li> <a href="pattern-modals.html">Modals</a> </li>
+            <li> <a href="pattern-search-results.html">Search Results</a> </li>
+          </ul>
+        <li> <a href="#"data-target="#">Components </a>
+          <ul id="">
+            <!-- <li><a href="admin_controls.html">Admin Controls</a></li> -->
+            <li><a href="help-text.html">Alerts and Help Text</a></li>
+            <li><a href="biobubble.html">Biobubble</a></li>
+            <!-- <li><a href="breadcrumb.html">Breadcrumb</a></li>-->
+            <li class="active"><a href="buttons.html">Buttons</a></li>
+            <!-- <li><a href="dropdowns.html">Dropdowns</a></li> -->
+            <!-- <li><a href="comments.html">Comments</a></li>-->
+            <!-- <li><a href="demographics.html">Demographics</a></li>-->
+            <li><a href="expand-collapse.html">Expand/Collapse</a></li><li><a href="forms.html">Form Controls</a></li>
+             <!-- <li><a href="filtration_options.html">Filter & Sort Options</a></li> -->
+            <li><a href="headings.html">Headings</a></li>
+            <!-- <li><a href="hl-landing.html">HL Landing Controls</a></li> -->
+            <li><a href="images.html">Images</a></li>
+            <li><a href="labels.html">Labels</a></li>
+            <!--  <li><a href="lists.html">Lists</a></li> --><!--  <li><a href="multiselectdropdown.html">Multi-select Dropdown</a></li> -->
+            <!--  <li><a href="modals.html">Modals</a></li> -->
+            <!-- <li><a href="navbar.html">Navbar</a></li> -->
+            <!-- <li><a href="tags.html">Tags</a></li> -->
+            <!-- <li><a href="related_links.html">Related Links</a></li> -->
+            <li><a href="pagination.html">Pagination</a></li>
+            <!-- <li><a href="permalinks.html">Permalinks</a></li> -->
+            <li><a href="ribbons.html">Ribbons</a></li>
+            <!--<li><a href="sort_options.html">Sort & Filter Options</a></li>-->
+            <li><a href="tabs.html">Tabs</a></li>
+            <li><a href="type-ahead.html">Type-ahead (filter and search)</a></li>
+          </ul>
+        </li>
+        <li> <a href="accessibility.html"> Accessibility</a> </li>
+      </ul>
     </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+  <div id="page-wrapper">
+    <div class="HLdocs-container">
+      <!-- Page Heading -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Buttons</h1>
+        </div>
+      </div>
+      <!-- put content here -->
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Buttons indicate actions a user may take.  Their consistent display, position and labeling is essential to a positive user experience. </p>
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-md-12">
+              <h3>Guidelines</h3>
+              <ul>
+                <li>Use appropriate color for a given action, shown below</li>
+                <li>Button Text should be concise and state explicitly the action the button represents: 
+                <ul>
+                <li>"<strong>Save</strong>" - universal system submit action text. Always use "Save" for action modals unless task documentation/requires say otherwise</li>
+                <li>"<strong>Cancel</strong>" - universal system abort text. Always use "Cancel" for action modals unless task documentation/requires say otherwise.</li>
+                <li>"<strong>Close</strong>" - universal system close text for non-action modals. Always use "Close" for non-action modals (informational modals) unless task documentation/requires say otherwise.</li>
+                </ul>
+                </li>
+                <li>Button placement depends on the type of action container is at play:
+                 <ul>
+                <li>For modals and form pages, action buttons are always aligned left, with the positive action in the left most position.</li>
+                <li>For list pages, list-level action buttons (Add, Export, etc) always appear above the sort & filter option, right justified. </li>
+                </ul>
+                </li>
+                <li>Multi-action buttons (split buttons) are where multiple actions exists for a given item. In this case, the dominant action is the the button and the secondary, tertiary actions, etc. are stacked up in the dropdown.</li>
+                <li>Display of profile photo honors user configurations.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Examples</h3>
+              <p class="lead">Button Colors</p>
+              <p>Button colors provide visual cues for users. In general, all buttons should adhere to the rules below.</p>
+              <div class="live-example"><a href="#" role="button" class="btn btn-primary" title="save">Save</a> - blue for core system funcitonality: save, edit, submit, reply, etc.<br>
+                <br>
+                <a href="#" role="button" class="btn btn-success" title="add">Add</a> - green for adding content, accepting an action, etc. <br>
+                <br>
+                <a href="#" role="button" class="btn btn-danger" title="delete">Delete</a> - red for negative or delete actions. <br>
+                <br>
+                <a href="#" role="button" class="btn btn-default" title="cancel">Cancel</a> - white or light grey for cancel and in cases where actions need to be visually minimized. <br>
+                <br>
+                <a href="#" role="button" class="btn btn-primary disabled" title="cancel">Save</a> - disabled button. 
+                </div>
+              <div>
+                <pre><code class="language-markup">&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-primary&quot; title=&quot;save&quot;&gt;Save&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-success&quot; title=&quot;add&quot;&gt;Add&lt;/a&gt; <br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-danger&quot; title=&quot;delete&quot;&gt;Delete&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot; title=&quot;cancel&quot;&gt;Cancel&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-prmary disabled&quot; title=&quot;delete&quot;&gt;Save&lt;/a&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Single-action Button Order </p>
+              <p>For forms and modals, buttons are left aligned starting with the most dominant action with Cancel always the right most button.</p>
+              <div class="live-example"><span class="text-ex-l">example 1:</span> <a href="#" role="button" class="btn btn-primary">Save</a> <a href="#" role="button" class="btn btn-default">Cancel</a><br />
+                <br />
+                <span class="text-ex-l">example 2:</span> <a href="#" role="button" class="btn btn-danger">Delete</a> <a href="#" role="button" class="btn btn-default">Cancel</a> </div>
+              <div>
+                <pre><code class="language-markup">&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save&lt;/a&gt; &lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Cancel&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Delete&lt;/a&gt; &lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Cancel&lt;/a&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Multi-action Buttons </p>
+              <p>For cases where there is a dominant action and one or more subordinate actions.</p>
+              <div class="live-example">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+              </div>
+              <div>
+                <pre><code class="language-markup">&lt;div class=&quot;btn-group&quot;&gt;<br>
+   &lt;button class=&quot;btn btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;<br>
+   &lt;button class=&quot;btn btn-primary dropdown-toggle&quot; aria-expanded=&quot;false&quot; data-toggle=&quot;dropdown&quot; type=&quot;button&quot;&gt; &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt; &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropdown&lt;/span&gt; &lt;/button&gt;<br>
+   &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;<br>
+      &lt;li&gt; &lt;a href=&quot;#&quot;&gt;Secondary Action&lt;/a&gt; &lt;/li&gt;<br>
+      &lt;li&gt; &lt;a href=&quot;#&quot;&gt;Tertiary Action&lt;/a&gt; &lt;/li&gt;<br>
+   &lt;/ul&gt;<br>
+&lt;/div&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+              <p class="lead">Note</p>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <p>For cases where it's a multi-action button and the dominant action isn't available, do not show it as disabled but rather move the next dominant action to the primary position.</p>
+                  <br>
+                  <div class="indent1"> <span class="text-ex-l">proper:</span>
+                    <div class="btn-group">
+                      <button class="btn btn-primary" type="button">Secondary</button>
+                      <button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li> <a href="#">Tertiary Action</a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="indent1"> <span class="text-ex-l">improper:</span>
+                    <div class="btn-group">
+                      <button class="btn btn-primary" type="button" disabled>Primary</button>
+                      <button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li> <a href="#">Secondary Action</a> </li>
+                        <li> <a href="#">Tertiary Action</a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Icon Buttons</p>
+              <p>Icon buttons can be used for a specific use case: when there are CRUD actions for list controls like those found in the user profile or HLLanding controls. Make sure to add the <strong>title="what it does"</strong> attribute to make them accessibility compliant. </p>
+              <span class="text-ex-l">CRUD examples, icons only:</span>
+              <div class="live-example"><a href="#" role="button" class="btn btn-sm btn-success" title="add"><i class="glyphicon glyphicon-plus"></i></a> <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-remove"></i></a> <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-trash"></i></a> <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i></a> </div>
+              <div>
+                <pre><code class="language-markup">&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-success&quot; title=&quot;add&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-danger&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-danger&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-trash&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;edit&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-pencil&quot;&gt;&lt;/i&gt;&lt;/a&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+              <span class="lead">CRUD examples, icons &amp; text:</span>
+              <div class="live-example"><a href="#" role="button" class="btn btn-sm btn-success" title="add"><i class="glyphicon glyphicon-plus"></i> Add</a> <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-remove"></i> Delete</a> <a href="#" role="button" class="btn btn-sm btn-danger" title="delete"><i class="glyphicon glyphicon-trash"></i> Delete</a> <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i> Edit</a> </div>
+              <div>
+                <pre><code class="language-markup">&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-success&quot; title=&quot;add&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-plus&quot;&gt;&lt;/i&gt; Add&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-danger&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-remove&quot;&gt;&lt;/i&gt; Delete&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-danger&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-trash&quot;&gt;&lt;/i&gt; Delete&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;edit&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-pencil&quot;&gt;&lt;/i&gt; Edit&lt;/a&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+              <span class="lead">CRUD examples, diminished state:</span>
+              <div class="live-example"><a href="#" role="button" class="btn btn-sm btn-default" title="add"><i class="glyphicon glyphicon-plus"></i></a> <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-remove"></i></a> <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-trash"></i></a> <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i></a> &nbsp;&nbsp;&nbsp; <a href="#" role="button" class="btn btn-sm btn-default" title="add"><i class="glyphicon glyphicon-plus"></i> Add</a> <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-remove"></i> Delete</a> <a href="#" role="button" class="btn btn-sm btn-default" title="delete"><i class="glyphicon glyphicon-trash"></i> Delete</a> <a href="#" role="button" class="btn btn-sm btn-default" title="edit"><i class="glyphicon glyphicon-pencil"></i> Edit</a> </div>
+              <div>
+                <pre><code class="language-markup">&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;add&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-trash&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;edit&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-pencil&quot;&gt;&lt;/i&gt;&lt;/a&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; <br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;add&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-plus&quot;&gt;&lt;/i&gt; Add&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-remove&quot;&gt;&lt;/i&gt; Delete&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;delete&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-trash&quot;&gt;&lt;/i&gt; Delete&lt;/a&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot; title=&quot;edit&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-pencil&quot;&gt;&lt;/i&gt; Edit&lt;/a&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Disabled State </p>
+              <p>For cases where the action is not available or ready, use the disabled state to indicate the presence of the action. This is common for forms and actions that require user input. An example is a login form that requires both a UID and Password. Until both fields are "dirty", the button is disabled. Once the user has entered something in both fields, the button is enabled.</p>
+              <div class="live-example"><span class="text-ex-l">example 1:</span> <a href="#" role="button" class="btn btn-primary disabled">Save</a> <a href="#" role="button" class="btn btn-default">Cancel</a><br />
+                <br />
+                <span class="text-ex-l">example 2:</span> <a href="#" role="button" class="btn btn-danger disabled">Delete</a> <a href="#" role="button" class="btn btn-default">Cancel</a> </div>
+              <div>
+                <pre><code class="language-markup">&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-primary disabled&quot;&gt;Save&lt;/a&gt; &lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Cancel&lt;/a&gt;&lt;br /&gt;<br>
+&lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-danger disabled&quot;&gt;Delete&lt;/a&gt; &lt;a href=&quot;#&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Cancel&lt;/a&gt;</code></pre>
+                <!-- Trigger -->
+              </div>
+              <br>
+            </div>
+            <div class="row">
+          <div class="col-md-12">
+            <p class="lead">More on CRUD Buttons (create, read, updated and delete).</p>
+            <p> Consistent actions and feedback on forms and form actions are essential to maintain the application's usability. When users perform CRUD actions, they should understand what is happening and anticipate change resulting from thier action. For all each of the states below, please follow instructions and design information in the task definition for more granular instructions.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul>
+              <li><strong>Create </strong>: button (create, add, etc.) that either flips a div, navigates to a form page or spawns a modal - depends on the use case.
+                <ul class="extra-space">
+                  <li>Use bootstrap class="btn btn-success" for create actions. </li>
+                  <li>Example: <a href="javascript:(void);" class="btn btn-success">Add</a></li>
+                </ul>
+              </li>
+              <li><strong>Save </strong>: button should be present a disabled state (add "disabled" class to anchor) until required form fields have been populated with data.  This keeps the user from submitting an incomplete form.
+                <ul class="extra-space">
+                  <li>Use bootstrap class="btn btn-primary" for Save actions. </li>
+                  <li>Example, live button: <a href="javascript:(void);" class="btn btn-primary">Save</a></li>
+                  <li>Example, disabled button: <a href="javascript:(void);" class="btn btn-primary disabled">Save</a></li>
+                </ul>
+              </li>
+              <li><strong>Edit </strong>: button (edit, change, icon, etc.) that either flips a div, navigates to the form page or spawns a modal.
+                <ul class="extra-space">
+                  <li>Example: <a href="javascript:(void);" class="btn btn-primary">Edit</a> </li>
+                </ul>
+              </li>
+              <li><strong>Delete</strong>: button (delete, remove, icon, etc.) that deletes an item from the system (a least from the user’s perspective).  There are two delete interactions possible:
+                <ul class="extra-space">
+                  <li>Example: <a href="javascript:(void);" class="btn btn-danger">Delete</a> </li>
+                  <li><u>Non-prompted, unconfirmed delete</u> – where clicking button instantaneously removes the content. This type of delete interaction is best for “low cost” items – content that is easily replicated by the user.
+                    <ul class="extra-space">
+                      <li>Examples: demographics, comments, tags, announcements, etc. </li>
+                    </ul>
+                  </li>
+                  <li><u>Prompted delete confirmation</u> – where an alert is thrown to confirm this action is what was intended. A delete confirmation should be used for “high cost” item – content that is more difficult to replicate.
+                    <ul class="extra-space">
+                      <li>Examples: admin configuration pages, events, volunteer opportunities, communities, libraries, blogs, etc. </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>Cancel</strong>: button is used for all process forms and modals.   There are two delete interactions possible:
+                <ul class="extra-space">
+                  <li>Example: <a href="javascript:(void);" class="btn btn-default">Cancel</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div> </div>
+        
+         
+        </div>
+        <div class="col-md-3">
+          <div class="link-container">
+            <div class="right-sidebar">
+              <h4>Product Locations</h4>
+              <ul>
+                <li><a href="https://hug.higherlogic.com/" target="_blank">Everywhere an action exists</a></li>
+              </ul>
+              <h4>Resources</h4>
+              <ul>
+                <li><a href="http://bootstrapdocs.com/v3.0.1/docs/css/#buttons">bootstrapdocs.com/buttons</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end - content -->
+    </div>
+    <!-- /.container-fluid -->
   </div>
+  <!-- /#page-wrapper -->
 </div>
-<br>
-<br>
+<!-- /#wrapper -->
 </body>
 </html>
